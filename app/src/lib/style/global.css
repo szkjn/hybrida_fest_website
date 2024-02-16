@@ -1,0 +1,58 @@
+:root {
+	--font-primary: 'Vazirmatn', sans-serif;
+	--font-secondary: 'Azeret Mono', monospace;
+	--font-tertiary: 'Lexend Deca', sans-serif;
+	--font-color-1: #000;
+	--font-size-1: 101px;
+	--font-size-2: 14px;
+}
+
+body {
+	height: 200vh;
+	padding: 13px 20px;
+	margin: 0%;
+}
+/*
+.layer-exclusion-white {
+	color: var(--font-color-1);
+	mix-blend-mode: exclusion;
+}
+*/
+
+/* utilities */
+
+.f {
+	display: flex;
+}
+
+.f-d-column {
+	flex-direction: column;
+}
+
+.f-j-c-space-between {
+	justify-content: space-between;
+}
+
+.f-a-items-start {
+	align-items: flex-start;
+}
+
+.f-a-items-center {
+	align-items: center;
+}
+
+.f-a-self-start {
+	align-self: flex-start;
+}
+
+.f-w-wrap {
+	flex-wrap: wrap;
+}
+
+.m-0 {
+	margin: 0;
+}
+
+.p-0 {
+	padding: 0;
+}

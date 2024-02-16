@@ -3,6 +3,7 @@
 	<meta name="description" content="Hybrida Fest home page" />
 </svelte:head>
 
-<style>
 
+<style>
+	
 </style>
