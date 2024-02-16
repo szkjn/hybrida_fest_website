@@ -5,6 +5,7 @@
 	--font-color-1: #000;
 	--font-size-1: 101px;
 	--font-size-2: 14px;
+	--font-size-3: 12px;
 }
 
 body {
@@ -51,6 +52,10 @@ body {
 
 .m-0 {
 	margin: 0;
+}
+
+.m-b-0 {
+	margin-bottom: 0;
 }
 
 .p-0 {
