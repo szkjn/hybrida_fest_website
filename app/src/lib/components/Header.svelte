@@ -12,22 +12,18 @@
 			</a>
 		</div>
 		<ul class="f f-d-column f-w-wrap m-0 p-0">
-					<ul class="f f-d-column m-0 p-0">
-						<li>
-							<a href="/volunteers">VOLUNTEERS</a>
-						</li>
-						<li>
-							<a href="/tickets">TICKETS</a>
-						</li>
-					</ul>
-					<ul class="f f-d-column m-0 p-0">
-						<li aria-current="false">
-							<a href="https://www.instagram.com/hybrida.space/">INSTAGRAM</a>
-						</li>
-						<li>
-							<a href="/about">ABOUT</a>
-						</li>
-					</ul>
+			<li>
+					<a href="/volunteers">VOLUNTEERS</a>
+			</li>
+			<li>
+					<a href="/tickets">TICKETS</a>
+			</li>
+			<li aria-current="false">
+					<a href="https://www.instagram.com/hybrida.space/">INSTAGRAM</a>
+			</li>
+			<li>
+					<a href="/about">ABOUT</a>
+			</li>
 		</ul>
 	</nav>
 </header>
@@ -42,11 +38,9 @@
 	nav > div {
 		padding-right: 10px;
 	}
-	nav > ul {
+	ul {
 		height: 40px;
     width: 285px;
-	}
-	ul {
 		list-style: none;
 	}
 	a, span, h1 {
