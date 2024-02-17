@@ -39,7 +39,7 @@
 		padding-right: 10px;
 	}
 	ul {
-		height: 40px;
+		height: 42px;
     width: 285px;
 		list-style: none;
 	}

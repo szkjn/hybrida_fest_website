@@ -4,7 +4,7 @@
 	import '$lib/style/global.css';
 </script>
 
-<div class="app">
+<div class="app f f-d-column">
 	<Header />
 
 	<main>
@@ -21,6 +21,6 @@
 	}
 	main {
 		width: 100%;
-		height: 500px;
+		height: 100%;
 	}
 </style>
