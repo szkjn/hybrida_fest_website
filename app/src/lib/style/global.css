@@ -20,12 +20,13 @@ body {
 a {
 	text-decoration: none;
 }
-/*
+
 .layer-exclusion-white {
-	color: var(--font-color-1);
-	mix-blend-mode: exclusion;
+	/* color: var(--font-color-1); */
+	/* mix-blend-mode: exclusion; */
+	mix-blend-mode: difference;
 }
-*/
+
 
 /* utilities */
 
@@ -79,4 +80,12 @@ a {
 
 .p-0 {
 	padding: 0;
+}
+
+.debug-red {
+	border: 1px solid red;
+}
+
+.debug-green {
+	border: 1px solid green;
 }
