@@ -16,6 +16,10 @@ body {
 	padding: 13px 20px;
 	margin: 0%;
 }
+
+a {
+	text-decoration: none;
+}
 /*
 .layer-exclusion-white {
 	color: var(--font-color-1);
