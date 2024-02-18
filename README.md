@@ -1,31 +1,41 @@
-# hybrida_fest_website
+# Hybrida Fest Website
 
-# clone project
+Contributors : Jimmy Pez & Jun Suzuki
+
+## Usage
+
+### Clone project
 
 ```bash
 git clone https://github.com/szkjn/hybrida_fest_website.git
 ```
 
-# install
+### Install packages
 
 ```bash
 cd app
 npm i
 ```
 
-## start the server and open the app in a new browser tab
+### Update npm packages
+
+```bash
+npm update
+```
+
+### Start the server and open the app in a new browser tab
 
 ```bash
 npm run dev -- --open
 ```
 
-## building for production
+### Build for production
 
 ```bash
 npm run build
 ```
 
-## preview the production build
+### Preview the production build
 
 ```bash
 npm run preview
