@@ -5,8 +5,9 @@
 	--font-color-1: #000;
 	--font-size-1: clamp(16px, 7vw, 125px);
 	--font-size-2: 18px;
-	--font-size-3: 16px;
+	--font-size-3: 14px;
 	--font-size-4: clamp(16px, 6vw, 115px);
+	--font-size-5: 10px;
 	--font-line-heignt: clamp(16px, 8vw, 150px);
 }
 
@@ -76,6 +77,10 @@ a {
 
 .m-b-0 {
 	margin-bottom: 0;
+}
+
+.m-b-2 {
+	margin-bottom: 4rem;
 }
 
 .p-0 {

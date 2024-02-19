@@ -11,7 +11,8 @@
 
 <section>
 	<h2 class="mt-2">
-		&nbsp;&nbsp;&nbsp; Hybrida Fest is an intimate experimental art x
+		<!-- &nbsp;&nbsp;&nbsp;  -->
+		Hybrida Fest is an intimate experimental art x
 		<!-- <svg width="148" height="78" viewBox="0 0 148 78" fill="none" xmlns="http://www.w3.org/2000/svg"
 			><g style="mix-blend-mode:exclusion"
 				><line
@@ -91,7 +92,7 @@
 <section>
 	<p>We can’t wait to create Hybrida Fest 2024 with you !</p>
 	<div class="f f-j-c-end">
-		<p class="m-0">
+		<p class="">
 			June 27-<br />
 			June &nbsp;&nbsp;-28-<br />
 			June &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-29
@@ -135,13 +136,13 @@
 		>
 	</div>
 	<div>
-		<p class="m-0">Join us.</p>
+		<p class="">Join us.</p>
 	</div>
 </section>
 <section>
 	<div>
 		<p class="m-0">Become a <a href="/volunteers"><span>volunteer</span></a>.</p>
-		<p class="m-0">Get your <a href="/tickets"><span>tickets</span></a>.</p>
+		<!-- <p class="m-0">Get your <a href="/tickets"><span>tickets</span></a>.</p> -->
 	</div>
 	<div></div>
 </section>
