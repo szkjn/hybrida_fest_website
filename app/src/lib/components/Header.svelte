@@ -33,6 +33,8 @@
 		top: 13px;
 		z-index: 1000;
 		width: 100%;
+		/* color: #000;
+		mix-blend-mode: exclusion; */
 	}
 	nav > div {
 		padding-right: 10px;
@@ -47,7 +49,7 @@
 	h1 {
 		font-family: var(--font-secondary);
 		font-size: var(--font-size-3);
-		text-decoration: none;
+		/* text-decoration: none; */
 		/* TODO: penser à faire fonctionner la classe layer-exclusion-white (voir global.css)*/
 		color: var(--font-color-1);
 	}
@@ -69,8 +71,5 @@
 
 	ul {
 		width: 200px;
-	}
-	li {
-		/* width: 40%; */
 	}
 </style>

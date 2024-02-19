@@ -48,7 +48,7 @@
 				/></g
 			></svg
 		> -->
-		music festival shaped by people coming together, new connections, and dissolving the boundaries between
+		music festival shaped by a growing community, dissolving the boundaries between
 		artist, audience and organiser.
 	</h2>
 </section>
