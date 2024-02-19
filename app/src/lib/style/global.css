@@ -16,7 +16,7 @@ body {
 	padding: 13px 20px;
 	margin: 0%;
 	color: var(--font-color-1);
-	background-color: #ddd;
+	background-color: #fff;
 }
 
 
@@ -24,10 +24,9 @@ a {
 	text-decoration: none;
 }
 
-.layer-exclusion-white {
-	/* color: var(--font-color-1); */
-	/* mix-blend-mode: exclusion; */
-	/* mix-blend-mode: difference; */
+a:hover {
+	color:#000;
+	text-decoration: underline;
 }
 
 

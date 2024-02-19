@@ -48,8 +48,8 @@
 				/></g
 			></svg
 		> -->
-		music festival shaped by a growing community, dissolving the boundaries between
-		artist, audience and organiser.
+		music festival shaped by a growing community, dissolving the boundaries between artist, audience
+		and organiser.
 	</h2>
 </section>
 <section>
@@ -195,7 +195,5 @@
 		color: var(--font-color-1);
 		font-size: var(--font-size-4);
 	}
-	section:nth-last-child(2) > div > p > a > span:hover {
-		text-decoration: underline;
-	}
+
 </style>

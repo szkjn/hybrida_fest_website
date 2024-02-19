@@ -33,8 +33,7 @@
 		top: 13px;
 		z-index: 1000;
 		width: 100%;
-		background-color: transparent;
-		mix-blend-mode: exclusion;
+		mix-blend-mode: difference;
 	}
 	header a {
 		color: #fff;
@@ -44,7 +43,7 @@
 	}
 	ul {
 		height: 42px;
-		width: 285px;
+		width: 220px;
 		list-style: none;
 	}
 	a,
@@ -52,8 +51,6 @@
 	h1 {
 		font-family: var(--font-secondary);
 		font-size: var(--font-size-3);
-		/* TODO: penser à faire fonctionner la classe layer-exclusion-white (voir global.css)*/
-		/* color: var(--font-color-1); */
 	}
 	h1,
 	span {
@@ -62,15 +59,12 @@
 	a {
 		font-weight: 300;
 	}
+	.deactivated {
+		text-decoration: line-through;
+	}
 	@media screen and (max-width: 399px) {
 		nav > ul {
 			height: auto;
 		}
-	}
-	.deactivated {
-		text-decoration: line-through;
-	}
-	ul {
-		width: 200px;
 	}
 </style>
