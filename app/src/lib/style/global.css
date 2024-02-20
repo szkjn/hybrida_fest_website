@@ -1,7 +1,6 @@
 :root {
 	--font-primary: 'Vazirmatn', sans-serif;
 	--font-secondary: 'Azeret Mono', monospace;
-	--font-tertiary: 'Lexend Deca', sans-serif;
 	--font-color-1: #000;
 	--font-size-1: clamp(16px, 7vw, 125px);
 	--font-size-2: 18px;
@@ -17,10 +16,14 @@ body {
 	margin: 0%;
 	color: var(--font-color-1);
 	background-color: #fff;
+	overflow-x: hidden;
+	scrollbar-width:none;
+	/* font-family: var(--font-primary); */
 }
 
 
-a {
+a, a:visited {
+	color: var(--font-color-1);
 	text-decoration: none;
 }
 
@@ -28,6 +31,17 @@ a:hover {
 	color:#000;
 	text-decoration: underline;
 }
+
+span {
+	font-family: var(--font-secondary);
+	font-weight: 300;
+}
+
+span:hover {
+	color:#3f3;
+	/* text-decoration: underline; */
+}
+
 
 
 /* utilities */
@@ -74,6 +88,14 @@ a:hover {
 
 .m-0 {
 	margin: 0;
+}
+
+.m-t-0 {
+	margin-top: 0rem;
+}
+
+.m-t-2 {
+	margin-top: 4rem;
 }
 
 .m-b-0 {

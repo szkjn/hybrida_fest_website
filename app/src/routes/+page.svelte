@@ -7,49 +7,18 @@
 	import live_03 from '$lib/assets/photos/720p/live_03.jpg';
 	import people_04 from '$lib/assets/photos/1280p/people_04.jpg';
 	import people_03 from '$lib/assets/photos/1280p/people_03b.jpg';
+	import thumb_live_01 from '$lib/assets/photos/360p/live_01.jpg';
+	import thumb_live_02 from '$lib/assets/photos/360p/live_02.jpg';
+	import thumb_live_03 from '$lib/assets/photos/360p/live_03.jpg';
+	import thumb_live_04 from '$lib/assets/photos/360p/live_04.jpg';
+
+	import RevealImage from '$lib/components/RevealImage.svelte';
 </script>
 
 <section>
-	<h2 class="mt-2">
-		<!-- &nbsp;&nbsp;&nbsp;  -->
-		Hybrida Fest is an intimate experimental art x
-		<!-- <svg width="148" height="78" viewBox="0 0 148 78" fill="none" xmlns="http://www.w3.org/2000/svg"
-			><g style="mix-blend-mode:exclusion"
-				><line
-					x1="37.0009"
-					y1="75.8918"
-					x2="75.8918"
-					y2="37.0009"
-					stroke="black"
-					stroke-width="5.5"
-				/><line
-					x1="36.89"
-					y1="2.00089"
-					x2="75.7808"
-					y2="40.8918"
-					stroke="black"
-					stroke-width="5.5"
-				/></g
-			><g style="mix-blend-mode:exclusion"
-				><line
-					x1="110.835"
-					y1="1.94454"
-					x2="71.9445"
-					y2="40.8354"
-					stroke="black"
-					stroke-width="5.5"
-				/><line
-					x1="110.946"
-					y1="75.8354"
-					x2="72.0555"
-					y2="36.9445"
-					stroke="black"
-					stroke-width="5.5"
-				/></g
-			></svg
-		> -->
-		music festival shaped by a growing community, dissolving the boundaries between artist, audience
-		and organiser.
+	<h2 class="m-0">
+		Hybrida Fest is an intimate experimental art x music festival shaped by people coming together,
+		new connections, and dissolving the boundaries between artist, audience and organiser.
 	</h2>
 </section>
 <section>
@@ -59,8 +28,10 @@
 	<p class="m-0">
 		An exhibition by this year's visual artists in Hybrida’s international artist residency program,
 		alongside a lovingly selected program of
-		<span>live performances</span>, <span>workshops</span>, <span>installations</span>
-		and <span>DJ sets</span> to let it all go.
+		<RevealImage keyword="live performances" imageUrl={thumb_live_02} />,
+		<RevealImage keyword="workshops" imageUrl={thumb_live_03} />,
+		<RevealImage keyword="installations" imageUrl={thumb_live_04} />
+		and <RevealImage keyword="DJ sets" imageUrl={thumb_live_01} /> to let it all go.
 	</p>
 </section>
 <section>
@@ -135,9 +106,6 @@
 			></svg
 		>
 	</div>
-	<div>
-		<p class="">Join us.</p>
-	</div>
 </section>
 <section>
 	<div>
@@ -163,12 +131,9 @@
 	h2,
 	p,
 	span {
-		/* display: inline-block; */
+		display: inline-block;
 		line-height: var(--font-line-heignt);
 		text-align: justify;
-		font-family: var(--font-secondary);
-		font-size: var(--font-size-4);
-		font-weight: 300;
 	}
 	h2,
 	p {
@@ -182,18 +147,13 @@
 	img {
 		object-fit: cover;
 		object-position: 50% 50%;
+		pointer-events: none; /* Ensures the mouse events are not interfered by the image */
+		transition: opacity 0.2s ease; /* Optional: for smooth appearance and disappearance */
 	}
 	.inline-photos > img {
 		width: 13%;
 	}
 	.photo-w100 {
 		width: 100%;
-		/* height: 100vh; */
 	}
-	section:nth-last-child(2) > div > p > a > span {
-		cursor: pointer;
-		color: var(--font-color-1);
-		font-size: var(--font-size-4);
-	}
-
 </style>

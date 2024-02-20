@@ -6,7 +6,7 @@
 		<div>
 			<a class="f f-a-items-center" href="/">
 				<h1 class="m-0" id="test">HYBRIDA FEST 2024</h1>
-				&nbsp;<span>></span>&nbsp;
+				&nbsp;>&nbsp;
 				<h1 class="m-0">JUNE 27—29</h1>
 			</a>
 		</div>
