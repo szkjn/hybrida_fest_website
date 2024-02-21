@@ -7,12 +7,35 @@
 	import live_03 from '$lib/assets/photos/720p/live_03.jpg';
 	import people_04 from '$lib/assets/photos/1280p/people_04.jpg';
 	import people_03 from '$lib/assets/photos/1280p/people_03b.jpg';
+
 	import thumb_live_01 from '$lib/assets/photos/360p/live_01.jpg';
 	import thumb_live_02 from '$lib/assets/photos/360p/live_02.jpg';
 	import thumb_live_03 from '$lib/assets/photos/360p/live_03.jpg';
 	import thumb_live_04 from '$lib/assets/photos/360p/live_04.jpg';
+	import thumb_install_01 from '$lib/assets/photos/360p/install_01.jpg';
+	import thumb_install_02 from '$lib/assets/photos/360p/install_02.jpg';
+	import thumb_install_03 from '$lib/assets/photos/360p/install_03.jpg';
+	import thumb_install_04 from '$lib/assets/photos/360p/install_04.jpg';
+	import thumb_workshop_01 from '$lib/assets/photos/360p/workshop_01.jpg';
+	import thumb_workshop_02 from '$lib/assets/photos/360p/workshop_02.jpg';
+	import thumb_workshop_03 from '$lib/assets/photos/360p/workshop_03.jpg';
+	import thumb_workshop_04 from '$lib/assets/photos/360p/workshop_04.jpg';
+	import thumb_dj_01 from '$lib/assets/photos/360p/dj_01.jpg';
+	import thumb_dj_02 from '$lib/assets/photos/360p/dj_02.jpg';
+	import thumb_dj_03 from '$lib/assets/photos/360p/dj_03.jpg';
+	import thumb_dj_04 from '$lib/assets/photos/360p/dj_04.jpg';
 
 	import RevealImage from '$lib/components/RevealImage.svelte';
+
+	const live_images = [thumb_live_01, thumb_live_02, thumb_live_03, thumb_live_04];
+	const install_images = [thumb_install_01, thumb_install_02, thumb_install_03, thumb_install_04];
+	const workshop_images = [
+		thumb_workshop_01,
+		thumb_workshop_02,
+		thumb_workshop_03,
+		thumb_workshop_04
+	];
+	const dj_images = [thumb_dj_01, thumb_dj_02, thumb_dj_03, thumb_dj_04];
 </script>
 
 <section>
@@ -28,10 +51,10 @@
 	<p class="m-0">
 		An exhibition by this year's visual artists in Hybrida’s international artist residency program,
 		alongside a lovingly selected program of
-		<RevealImage keyword="live performances" imageUrl={thumb_live_02} />,
-		<RevealImage keyword="workshops" imageUrl={thumb_live_03} />,
-		<RevealImage keyword="installations" imageUrl={thumb_live_04} />
-		and <RevealImage keyword="DJ sets" imageUrl={thumb_live_01} /> to let it all go.
+		<RevealImage keyword="live performances" imageUrls={live_images} />,
+		<RevealImage keyword="workshops" imageUrls={workshop_images} />,
+		<RevealImage keyword="installations" imageUrls={install_images} />
+		and <RevealImage keyword="DJ sets" imageUrls={dj_images} /> to let it all go.
 	</p>
 </section>
 <section>

@@ -18,7 +18,6 @@ body {
 	background-color: #fff;
 	overflow-x: hidden;
 	scrollbar-width:none;
-	/* font-family: var(--font-primary); */
 }
 
 
@@ -39,7 +38,6 @@ span {
 
 span:hover {
 	color:#3f3;
-	/* text-decoration: underline; */
 }
 
 
