@@ -88,8 +88,17 @@ span:hover {
 	margin: 0;
 }
 
+.m-y-1 {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
 .m-t-0 {
 	margin-top: 0rem;
+}
+
+.m-t-1 {
+	margin-top: 2rem;
 }
 
 .m-t-2 {
@@ -98,6 +107,10 @@ span:hover {
 
 .m-b-0 {
 	margin-bottom: 0;
+}
+
+.m-b-0 {
+	margin-bottom: 2rem;
 }
 
 .m-b-2 {

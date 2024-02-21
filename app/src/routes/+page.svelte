@@ -24,6 +24,10 @@
 	import thumb_dj_02 from '$lib/assets/photos/360p/dj_02.jpg';
 	import thumb_dj_03 from '$lib/assets/photos/360p/dj_03.jpg';
 	import thumb_dj_04 from '$lib/assets/photos/360p/dj_04.jpg';
+	import thumb_nature_01 from '$lib/assets/photos/360p/nature_01.jpg';
+	import thumb_nature_02 from '$lib/assets/photos/360p/nature_02.jpg';
+	import thumb_nature_03 from '$lib/assets/photos/360p/nature_04.jpg';
+	import thumb_nature_04 from '$lib/assets/photos/360p/nature_05.jpg';
 
 	import RevealImage from '$lib/components/RevealImage.svelte';
 
@@ -36,32 +40,36 @@
 		thumb_workshop_04
 	];
 	const dj_images = [thumb_dj_01, thumb_dj_02, thumb_dj_03, thumb_dj_04];
+	const nature_images = [thumb_nature_01, thumb_nature_02, thumb_nature_03, thumb_nature_04];
 </script>
 
 <section>
-	<h2 class="m-0">
-		Hybrida Fest is an intimate experimental art x music festival shaped by people coming together,
-		new connections, and dissolving the boundaries between artist, audience and organiser.
+	<h2 class="m-0 m-b-2">
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hybrida Fest is an intimate
+		experimental art x music festival in the midst of the
+		<RevealImage keyword="Swedish forest" imageUrls={nature_images} />.
 	</h2>
 </section>
 <section>
 	<img class="photo-w100" alt="friendly moment between festival-goers" src={people_01} />
 </section>
 <section>
-	<p class="m-0">
-		An exhibition by this year's visual artists in Hybrida’s international artist residency program,
-		alongside a lovingly selected program of
+	<p class="m-0 m-y-1">
+		This year's festival showcases Hybrida's
+		<RevealImage keyword="international resident artists work" imageUrls={install_images} />,
+		alongside
 		<RevealImage keyword="live performances" imageUrls={live_images} />,
-		<RevealImage keyword="workshops" imageUrls={workshop_images} />,
-		<RevealImage keyword="installations" imageUrls={install_images} />
-		and <RevealImage keyword="DJ sets" imageUrls={dj_images} /> to let it all go.
+		<RevealImage keyword="workshops" imageUrls={workshop_images} />, and <RevealImage
+			keyword="DJ sets"
+			imageUrls={dj_images}
+		/>.
 	</p>
 </section>
 <section>
 	<img class="photo-w100" alt="singing performance" src={live_04} />
 </section>
 <section>
-	<p class="m-0">
+	<p class="m-0 m-y-1">
 		On the edge of the lake, not far from the sauna, is the campsite. Amongst the buildings is the
 		dining hall with home-cooked food, the exhibition space and the stage. Enveloping us are forests
 		inviting you to explore.
@@ -74,7 +82,7 @@
 	<img class="f-g-1" alt="" src={live_03} />
 </section>
 <section>
-	<p class="m-0">
+	<p class="m-0 m-y-1">
 		Hybrida Fest is ca. 3 hours from Gothenburg, Stockholm & Oslo in the little village of Älvsbacka
 		in Värmland, Sweden. We have just 200 tickets which cost XXX. Your ticket includes camping,
 		breakfast & lunch from Thursday to Saturday, and the festival bus from Karlstad to the festival.
@@ -84,15 +92,15 @@
 	<img class="photo-w100" alt="" src={people_04} />
 </section>
 <section>
-	<p>We can’t wait to create Hybrida Fest 2024 with you !</p>
-	<div class="f f-j-c-end">
+	<p class="m-0 m-t-1">We can’t wait to create Hybrida Fest 2024 with you !</p>
+	<div class="m-0 f f-j-c-end">
 		<p class="">
 			June 27-<br />
 			June &nbsp;&nbsp;-28-<br />
 			June &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-29
 		</p>
 	</div>
-	<div class="f f-j-c-center">
+	<!-- <div class="f f-j-c-center">
 		<svg width="148" height="78" viewBox="0 0 148 78" fill="none" xmlns="http://www.w3.org/2000/svg"
 			><g style="mix-blend-mode:exclusion"
 				><line
@@ -128,11 +136,11 @@
 				/></g
 			></svg
 		>
-	</div>
+	</div> -->
 </section>
 <section>
 	<div>
-		<p class="m-0">Become a <a href="/volunteers"><span>volunteer</span></a>.</p>
+		<p class="m-0 m-b-1">Become a <a href="/volunteers"><span>volunteer</span></a>.</p>
 		<!-- <p class="m-0">Get your <a href="/tickets"><span>tickets</span></a>.</p> -->
 	</div>
 	<div></div>
@@ -142,15 +150,15 @@
 </section>
 
 <style>
-	section {
+	/* section {
 		width: 100%;
 		margin: 100px 0 100px 0;
-	}
-	section:nth-child(1),
+	} */
+	/* section:nth-child(1),
 	section:nth-child(2),
 	section:last-child {
 		margin: 0;
-	}
+	} */
 	h2,
 	p,
 	span {
