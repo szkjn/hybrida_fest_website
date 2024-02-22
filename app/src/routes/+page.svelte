@@ -73,11 +73,46 @@
 		friends.
 	</p>
 </section>
-<section class="f f-d-row inline-photos f-row-gap-15">
+<section class="f f-d-row f-j-c-center inline-photos f-row-gap-15">
 	<img class="f-g-1" alt="" src={texture_01} />
 	<img class="f-g-1" alt="" src={texture_02} />
 	<img class="f-g-1" alt="" src={live_01} />
 	<img class="f-g-1" alt="" src={live_03} />
+	<svg width="148" height="78" viewBox="0 0 148 78" fill="none" xmlns="http://www.w3.org/2000/svg"
+	><g style="mix-blend-mode:exclusion"
+		><line
+		x1="37.0009"
+		y1="75.8918"
+		x2="75.8918"
+		y2="37.0009"
+		stroke="black"
+		stroke-width="5.5"
+	/><line
+		x1="36.89"
+		y1="2.00089"
+		x2="75.7808"
+		y2="40.8918"
+		stroke="black"
+		stroke-width="5.5"
+	/></g
+><g style="mix-blend-mode:exclusion"
+	><line
+		x1="110.835"
+		y1="1.94454"
+		x2="71.9445"
+		y2="40.8354"
+		stroke="black"
+		stroke-width="5.5"
+	/><line
+		x1="110.946"
+		y1="75.8354"
+		x2="72.0555"
+		y2="36.9445"
+		stroke="black"
+		stroke-width="5.5"
+	/></g
+></svg
+	>
 </section>
 <section>
 	<p class="m-0 m-y-1">Ca. 3 hrs from Gothenburg, Stockholm & Oslo in Värmland.</p>
@@ -140,15 +175,9 @@
 </section>
 
 <style>
-	/* section {
-		width: 100%;
-		margin: 100px 0 100px 0;
-	} */
-	/* section:nth-child(1),
-	section:nth-child(2),
-	section:last-child {
-		margin: 0;
-	} */
+	section {
+		margin: 5em 0 5em 0;
+	}
 	h2,
 	p,
 	span {
@@ -176,5 +205,33 @@
 	}
 	.photo-w100 {
 		width: 100%;
+	}
+	.inline-photos > svg {
+		display: none;
+	}
+	@media screen and (max-width: 768px) {
+		.inline-photos > svg {
+			display: block;
+			width: clamp(80px, 25vw, 148px);
+		}
+		.inline-photos > img {
+			display: none;
+		}
+		section {
+		/* margin: clamp(30px, 2vw, 100px) 0 clamp(30px, 2vw, 100px) 0; */
+		/* margin: 2em 0 2em 0; */
+		}
+	}
+	@media screen and (max-width: 820px) {
+		section {
+		/* margin: clamp(30px, 2vw, 100px) 0 clamp(30px, 2vw, 100px) 0; */
+		margin: 3em 0 3em 0;
+	}
+	}
+	@media screen and (max-width: 820px) {
+		section {
+		/* margin: clamp(30px, 2vw, 100px) 0 clamp(30px, 2vw, 100px) 0; */
+		margin: 1.6em 0 1.6em 0;
+	}
 	}
 </style>
