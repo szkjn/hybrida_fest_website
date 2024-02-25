@@ -1,15 +1,58 @@
 <script lang="ts">
+	import { onMount } from 'svelte';
+	import gsap from 'gsap';
+	import { TextPlugin } from "gsap/dist/TextPlugin";
+
+	export const links: Array<string> = ['ABOUT', 'TICKETS', 'VOLUNTEERS', 'INSTAGRAM'];
 	const onClickItem = () => toggle = false;
 	export let toggle: Boolean;
+
+	function getRandom(arr: string[], n: number) {
+		var result = new Array(n),
+			len = arr.length,
+			taken = new Array(len);
+		if (n > len)
+			throw new RangeError("getRandom: more elements taken than available");
+		while (n--) {
+			var x = Math.floor(Math.random() * len);
+			result[n] = arr[x in taken ? taken[x] : x];
+			taken[x] = --len in taken ? taken[len] : len;
+		}
+    	return result;
+	}
+
+	onMount(() => {
+		gsap.registerPlugin(TextPlugin);
+
+		let randomChars: HTMLElement[] = getRandom(gsap.utils.toArray('.char'), 4);
+		randomChars.forEach((r, i) => {
+			gsap.timeline({delay: i/3})
+			.to(r, {
+				duration: 0.2, 
+				text: {
+					value: "1",
+				}
+			})
+			.to(r, {
+				duration: 0.1,
+				text: {
+					value: r.innerText,
+				}
+			})
+			.play()
+		})
+	});
 </script>
 
 {#if toggle}
     <div class="f f-d-column f-j-c-center">
-        {#each ['ABOUT', 'TICKETS', 'VOLUNTEERS', 'INSTAGRAM'] as link}
-            <p on:click={onClickItem}>
-                {link}
-            </p>
-        {/each}
+		{#each links as link}
+		<a class="link f f-j-c-space-between f-a-items-center" href="/" role="menu" aria-labelledby="menubutton" on:click={onClickItem}>
+			{#each link as char}
+				<span class="char f-g-1">{char}</span>
+			{/each}
+		</a>
+		{/each}
     </div>
 {/if}
 
@@ -30,14 +73,29 @@
 		font-family: var(--font-secondary);
 		background-color: #FFF;
     }
-    p {
-        cursor: pointer;
-        width: max-content;
-        margin: 2rem auto;
-		font-size: clamp(1em, 6vw , 2em);
+    a {
+		color: var(--font-color-1);
+		cursor: pointer;
+        width: 100%;
+		/* height: 20%; */
+		height: calc(2em + 5vw);
+		text-align: justify;
+		font-size: calc(0.9em + 9vw);
     }
-	p:nth-child(1), p:nth-child(2){
+	a:hover {
+		text-decoration: none;
+    }
+	a:nth-child(1), a:nth-child(2){
 		text-decoration: line-through;
-		cursor: none;
+		cursor: auto;
+	}
+	.char{
+		text-align: center;
+	}
+	@media screen and (max-width: 279px) {
+		a {
+			font-size: calc(0.9em + 4vw);
+			/* height: 10%; */
+		}
 	}
 </style>
