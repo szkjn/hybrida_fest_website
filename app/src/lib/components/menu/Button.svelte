@@ -1,10 +1,16 @@
 <script lang="ts">
 	import gsap from 'gsap';
 
-	const onHoverMenu = () => toggle ? null : gsap.to(".menu-line", {duration: 0.2, text: "1"});
+	const onHoverMenu = () => toggle ? null : gsap.to(".menu-line", {duration: 0.2, text: ":"});
 	const onOutHoverMenu = () => toggle ? null : gsap.to(".menu-line", {duration: 0.2, text: "-"});
 	const onClickMenu = () => {
-		gsap.to(".menu-line", {duration: 0.2, text: "1111"});
+		// gsap.to(".menu-line", {duration: 0.2, text: "1111"});
+		if (!toggle) {
+			gsap.timeline({repeat: 3})
+			.to(".menu-line", {duration: 0.2, text: " "})
+			.to(".menu-line", {duration: 0.2, text: ":"})
+		.play();
+		} 
 		toggle = !toggle;
 	}
 	export let toggle = false;
