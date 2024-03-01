@@ -76,4 +76,7 @@
 	span {
 		font-size: var(--font-size-4);
 	}
+	span:hover {
+		color:#3f3;
+	}
 </style>
