@@ -23,4 +23,9 @@
 		width: 100%;
 		height: 100%;
 	}
+	@media screen and (max-width: 600px) {
+		main {
+			padding-top: 13px;
+		}
+	}
 </style>

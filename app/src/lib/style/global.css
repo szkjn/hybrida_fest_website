@@ -1,27 +1,48 @@
 :root {
 	--font-primary: 'Vazirmatn', sans-serif;
 	--font-secondary: 'Azeret Mono', monospace;
-	--font-tertiary: 'Lexend Deca', sans-serif;
 	--font-color-1: #000;
-	--font-size-1: clamp(16px, 7vw, 125px);
+	--font-size-1: clamp(16px, 7vw, 100px);
 	--font-size-2: 18px;
-	--font-size-3: 16px;
-	--font-size-4: clamp(16px, 6vw, 115px);
-	--font-line-heignt: clamp(16px, 8vw, 150px);
+	--font-size-3: 14px;
+	--font-size-4: clamp(16px, 6vw, 90px);
+	--font-size-5: 10px;
+	--font-line-heignt: clamp(16px, 8vw, 100px);
 }
 
 body {
 	height: auto;
-
 	padding: 13px 20px;
-	margin: 0%;
-}
-/*
-.layer-exclusion-white {
+	margin: 0 auto;
 	color: var(--font-color-1);
-	mix-blend-mode: exclusion;
+	background-color: #fff;
+	overflow-x: hidden;
+	scrollbar-width:none;
+	/* max-width: 1200px; */
 }
-*/
+@media screen and (max-width: 412px) {
+	body {
+		padding: 13px 10px;
+	}
+}
+
+
+a, a:visited {
+	color: var(--font-color-1);
+	text-decoration: none;
+}
+
+a:hover {
+	color:#000;
+	text-decoration: underline;
+}
+
+span {
+	font-family: var(--font-secondary);
+	font-weight: 300;
+}
+
+
 
 /* utilities */
 
@@ -69,10 +90,43 @@ body {
 	margin: 0;
 }
 
+.m-y-1 {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.m-t-0 {
+	margin-top: 0rem;
+}
+
+.m-t-1 {
+	margin-top: 2rem;
+}
+
+.m-t-2 {
+	margin-top: 4rem;
+}
+
 .m-b-0 {
 	margin-bottom: 0;
 }
 
+.m-b-0 {
+	margin-bottom: 2rem;
+}
+
+.m-b-2 {
+	margin-bottom: 4rem;
+}
+
 .p-0 {
 	padding: 0;
+}
+
+.debug-red {
+	border: 1px solid red;
+}
+
+.debug-green {
+	border: 1px solid green;
 }
