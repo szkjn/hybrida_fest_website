@@ -7,7 +7,7 @@
 	--font-size-3: 14px;
 	--font-size-4: clamp(16px, 6vw, 90px);
 	--font-size-5: 10px;
-	--font-line-heignt: clamp(16px, 8vw, 150px);
+	--font-line-heignt: clamp(16px, 8vw, 100px);
 }
 
 body {
@@ -19,6 +19,11 @@ body {
 	overflow-x: hidden;
 	scrollbar-width:none;
 	/* max-width: 1200px; */
+}
+@media screen and (max-width: 412px) {
+	body {
+		padding: 13px 10px;
+	}
 }
 
 
