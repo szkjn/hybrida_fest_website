@@ -44,17 +44,20 @@
 </script>
 
 <section>
-	<h2 class="m-0 m-b-2">
+	<h2 class="m-0">
 		<!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
 		Hybrida Fest is an intimate experimental art x music festival in the Swedish
 		<RevealImage keyword="forests" imageUrls={nature_images} />.
+		<br/>
+		<br/>
 	</h2>
 </section>
 <section>
 	<img class="photo-w100" alt="friendly moment between festival-goers" src={people_01} />
 </section>
 <section>
-	<p class="m-0 m-y-1">
+	<p class="m-0">
+		<br/>
 		<RevealImage keyword="Residency exhibition" imageUrls={install_images} /> in a rambling ironworks.
 		Alongside
 		<RevealImage keyword="performances" imageUrls={live_images} />,
@@ -68,7 +71,8 @@
 	<img class="photo-w100" alt="singing performance" src={live_04} />
 </section>
 <section>
-	<p class="m-0 m-y-1">
+	<p class="m-0">
+		<br/>
 		Eat home cooked meals together. Jump in the lake still sweaty from the sauna. Toast to new
 		friends.
 	</p>
@@ -115,13 +119,19 @@
 	>
 </section>
 <section>
-	<p class="m-0 m-y-1">Ca. 3 hrs from Gothenburg, Stockholm & Oslo in Värmland.</p>
+	<p class="m-0">
+		<br/>
+		Ca. 3 hrs from Gothenburg, Stockholm & Oslo in Värmland.
+	</p>
 </section>
 <section>
 	<img class="photo-w100" alt="" src={people_04} />
 </section>
 <section>
-	<p class="m-0 m-t-1">Come and take part in Hybrida Fest 2024 with us !</p>
+	<p class="m-0">
+		<br/>
+		Come and take part in Hybrida Fest 2024 with us !
+	</p>
 	<div class="m-0 f">
 		<p class="">June 27—29</p>
 	</div>
@@ -175,9 +185,6 @@
 </section>
 
 <style>
-	section {
-		margin: 5em 0 5em 0;
-	}
 	h2,
 	p,
 	span {
@@ -217,21 +224,5 @@
 		.inline-photos > img {
 			display: none;
 		}
-		section {
-		/* margin: clamp(30px, 2vw, 100px) 0 clamp(30px, 2vw, 100px) 0; */
-		/* margin: 2em 0 2em 0; */
-		}
-	}
-	@media screen and (max-width: 820px) {
-		section {
-		/* margin: clamp(30px, 2vw, 100px) 0 clamp(30px, 2vw, 100px) 0; */
-		margin: 3em 0 3em 0;
-	}
-	}
-	@media screen and (max-width: 820px) {
-		section {
-		/* margin: clamp(30px, 2vw, 100px) 0 clamp(30px, 2vw, 100px) 0; */
-		margin: 1.6em 0 1.6em 0;
-	}
 	}
 </style>
