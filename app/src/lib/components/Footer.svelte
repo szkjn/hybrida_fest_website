@@ -11,4 +11,12 @@
 		font-family: var(--font-secondary);
 		font-size: var(--font-size-5);
 	}
+	@media screen and (max-width: 600px) {
+		footer {
+			flex-direction: column;
+		}
+		p {
+			margin: 1px 0 1px 0;
+		}
+	}
 </style>

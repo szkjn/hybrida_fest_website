@@ -217,12 +217,15 @@
 		display: none;
 	}
 	@media screen and (max-width: 768px) {
-		.inline-photos > svg {
+		.inline-photos {
+			display: none
+		}
+		/* .inline-photos > svg {
 			display: block;
 			width: clamp(80px, 25vw, 148px);
 		}
 		.inline-photos > img {
 			display: none;
-		}
+		} */
 	}
 </style>
