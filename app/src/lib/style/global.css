@@ -2,10 +2,10 @@
 	--font-primary: 'Vazirmatn', sans-serif;
 	--font-secondary: 'Azeret Mono', monospace;
 	--font-color-1: #000;
-	--font-size-1: clamp(16px, 7vw, 125px);
+	--font-size-1: clamp(16px, 7vw, 100px);
 	--font-size-2: 18px;
 	--font-size-3: 14px;
-	--font-size-4: clamp(16px, 6vw, 115px);
+	--font-size-4: clamp(16px, 6vw, 90px);
 	--font-size-5: 10px;
 	--font-line-heignt: clamp(16px, 8vw, 150px);
 }
@@ -13,11 +13,12 @@
 body {
 	height: auto;
 	padding: 13px 20px;
-	margin: 0%;
+	margin: 0 auto;
 	color: var(--font-color-1);
 	background-color: #fff;
 	overflow-x: hidden;
 	scrollbar-width:none;
+	/* max-width: 1200px; */
 }
 
 
