@@ -5,49 +5,6 @@
 	import ButtonMenu from '$lib/components/menu/Button.svelte';
 	import DropMenu from '$lib/components/menu/Drop.svelte';
 
-	let onHoverLinkTl: GSAPTimeline;
-
-	const onHoverLink = (e: MouseEvent) => {
-		let target: HTMLTextAreaElement | string ;
-		switch ((<HTMLTextAreaElement>e?.target)?.tagName) {
-			case 'SPAN':
-				target = <HTMLTextAreaElement>e?.target
-				break;
-			case 'A':
-				target = <HTMLTextAreaElement>(<HTMLTextAreaElement>e?.target)?.firstElementChild
-				break;
-			default:
-				target = '.fest'
-				break;
-		}
-		return gsap.timeline({ repeat: -1 })
-			.to(target, { duration: 0, text: "11:11" })
-			.to(target, { duration: 0.5, text: "11 11" })
-			.play()
-	};
-
-	const onOutHoverLink = (e: MouseEvent) => {
-		const target = onHoverLinkTl._first._targets[0];
-		onHoverLinkTl.kill()
-		switch (target?.classList[0]) {
-			case 'volunteers':
-				gsap.to(target, { duration: 0, text: 'NTEERS' });
-				break;
-			case 'instagram':
-				gsap.to(target, { duration: 0, text: 'NSTAG' });
-				break;
-			case 'tickets':
-				gsap.to(target, { duration: 0, text: 'ICKET' });
-				break;
-			case 'about':
-				gsap.to(target, { duration: 0, text: 'ABOU' });
-				break;
-			default:
-				gsap.to(target, { duration: 0, text: 'XXXXX' });
-				break;
-		}
-	};
-
 	onMount(() => {
 		gsap.registerPlugin(TextPlugin);
 		let mm = gsap.matchMedia();
@@ -61,7 +18,7 @@
 		// Animation Fest => 11:11
 		mm.add("(min-width: 602px)", () => {
 			gsap.timeline({ repeat: -1 })
-			.to(".fest", {duration: 2, text: "11:11"})
+			.to(".fest", {duration: 2, text: "1111"})
 			.to(".fest", {duration: 2, text: "FEST"})
 			.play()
 		});
@@ -84,16 +41,16 @@
 		</div>
 		<ul class="f f-j-c-space-between f-w-wrap m-0 p-0 none">
 			<li>
-				<a href="/volunteers" on:mouseover={(e) => { return onHoverLinkTl = onHoverLink(e)}} on:mouseout={onOutHoverLink}>VOLU<span class="volunteers">NTEERS</span></a>
+				<a href="/volunteers" >VOLUNTEERS</a>
 			</li>
 			<li aria-current="false">
-				<a href="https://www.instagram.com/hybrida.space/" target="_blank" on:mouseover={(e) => { return onHoverLinkTl = onHoverLink(e)}} on:mouseout={onOutHoverLink}>I<span class="instagram">NSTAG</span>RAM</a>
+				<a href="https://www.instagram.com/hybrida.space/" target="_blank">INSTAGRAM</a>
 			</li>
 			<li>
-				<a class="deactivated" on:mouseover={(e) => { return onHoverLinkTl = onHoverLink(e)}} on:mouseout={onOutHoverLink}>T<span class="tickets">ICKET</span>S</a>
+				<a class="deactivated">TICKETS</a>
 			</li>
 			<li>
-				<a class="deactivated" on:mouseover={(e) => { return onHoverLinkTl = onHoverLink(e)}} on:mouseout={onOutHoverLink}><span class="about">ABOU</span>T</a>
+				<a class="deactivated">ABOUT</a>
 			</li>
 		</ul>
 	</nav>
@@ -137,9 +94,6 @@
 	}
 	a {
 		font-weight: 300;
-	}
-	a:hover {
-		text-decoration: none;
 	}
 	.deactivated {
 		text-decoration: line-through;
