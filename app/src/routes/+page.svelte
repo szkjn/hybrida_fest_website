@@ -45,9 +45,9 @@
 
 <section>
 	<h2 class="m-0 m-b-2">
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hybrida Fest is an intimate
-		experimental art x music festival in the midst of the
-		<RevealImage keyword="Swedish forest" imageUrls={nature_images} />.
+		<!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+		Hybrida Fest is an intimate experimental art x music festival in the Swedish
+		<RevealImage keyword="forests" imageUrls={nature_images} />.
 	</h2>
 </section>
 <section>
@@ -55,10 +55,9 @@
 </section>
 <section>
 	<p class="m-0 m-y-1">
-		This year's festival showcases Hybrida's
-		<RevealImage keyword="international resident artists work" imageUrls={install_images} />,
-		alongside
-		<RevealImage keyword="live performances" imageUrls={live_images} />,
+		<RevealImage keyword="Residency exhibition" imageUrls={install_images} /> in a rambling ironworks.
+		Alongside
+		<RevealImage keyword="performances" imageUrls={live_images} />,
 		<RevealImage keyword="workshops" imageUrls={workshop_images} />, and <RevealImage
 			keyword="DJ sets"
 			imageUrls={dj_images}
@@ -70,9 +69,8 @@
 </section>
 <section>
 	<p class="m-0 m-y-1">
-		On the edge of the lake, not far from the sauna, is the campsite. Amongst the buildings is the
-		dining hall with home-cooked food, the exhibition space and the stage. Enveloping us are forests
-		inviting you to explore.
+		Eat home cooked meals together. Jump in the lake still sweaty from the sauna. Toast to new
+		friends.
 	</p>
 </section>
 <section class="f f-d-row inline-photos f-row-gap-15">
@@ -82,23 +80,15 @@
 	<img class="f-g-1" alt="" src={live_03} />
 </section>
 <section>
-	<p class="m-0 m-y-1">
-		Hybrida Fest is ca. 3 hours from Gothenburg, Stockholm & Oslo in the little village of Älvsbacka
-		in Värmland, Sweden. We have just 200 tickets which cost XXX. Your ticket includes camping,
-		breakfast & lunch from Thursday to Saturday, and the festival bus from Karlstad to the festival.
-	</p>
+	<p class="m-0 m-y-1">Ca. 3 hrs from Gothenburg, Stockholm & Oslo in Värmland.</p>
 </section>
 <section>
 	<img class="photo-w100" alt="" src={people_04} />
 </section>
 <section>
-	<p class="m-0 m-t-1">We can’t wait to create Hybrida Fest 2024 with you !</p>
-	<div class="m-0 f f-j-c-end">
-		<p class="">
-			June 27-<br />
-			June &nbsp;&nbsp;-28-<br />
-			June &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-29
-		</p>
+	<p class="m-0 m-t-1">Come and take part in Hybrida Fest 2024 with us !</p>
+	<div class="m-0 f">
+		<p class="">June 27—29</p>
 	</div>
 	<!-- <div class="f f-j-c-center">
 		<svg width="148" height="78" viewBox="0 0 148 78" fill="none" xmlns="http://www.w3.org/2000/svg"
