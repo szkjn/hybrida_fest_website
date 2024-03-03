@@ -216,6 +216,8 @@
 		<RevealImage keyword="performances" imageUrls={thumb_live} />,
 		<RevealImage keyword="workshops" imageUrls={thumb_workshop} />, and
 		<RevealImage keyword="DJ sets" imageUrls={thumb_djset} />.
+		<br />
+		<br />
 	</p>
 </section>
 <section>
@@ -224,58 +226,19 @@
 <section>
 	<p class="m-0">
 		<br />
-		Eat home cooked
-		<RevealImage keyword="meals" imageUrls={thumb_meals} /> together. Jump in the lake still sweaty from
-		the
-		<RevealImage keyword="sauna" imageUrls={thumb_sauna} />. Toast to new
-		<RevealImage keyword="friends" imageUrls={thumb_friends} />.
+		Eat
+		<RevealImage keyword="home-cooked meals" imageUrls={thumb_meals} /> together. Jump in the lake still
+		sweaty from the
+		<RevealImage keyword="sauna" imageUrls={thumb_sauna} />. Toast to
+		<RevealImage keyword="new friends" imageUrls={thumb_friends} />.
 	</p>
 </section>
-<!-- <section class="f f-d-row f-j-c-center inline-photos f-row-gap-15">
-	<img class="f-g-1" alt="" src={texture_01} />
-	<img class="f-g-1" alt="" src={texture_02} />
-	<img class="f-g-1" alt="" src={live_01} />
-	<img class="f-g-1" alt="" src={live_03} />
-	<svg width="148" height="78" viewBox="0 0 148 78" fill="none" xmlns="http://www.w3.org/2000/svg"
-	><g style="mix-blend-mode:exclusion"
-		><line
-		x1="37.0009"
-		y1="75.8918"
-		x2="75.8918"
-		y2="37.0009"
-		stroke="black"
-		stroke-width="5.5"
-	/><line
-		x1="36.89"
-		y1="2.00089"
-		x2="75.7808"
-		y2="40.8918"
-		stroke="black"
-		stroke-width="5.5"
-	/></g
-><g style="mix-blend-mode:exclusion"
-	><line
-		x1="110.835"
-		y1="1.94454"
-		x2="71.9445"
-		y2="40.8354"
-		stroke="black"
-		stroke-width="5.5"
-	/><line
-		x1="110.946"
-		y1="75.8354"
-		x2="72.0555"
-		y2="36.9445"
-		stroke="black"
-		stroke-width="5.5"
-	/></g
-></svg
-	>
-</section> -->
 <section>
 	<p class="m-0">
 		<br />
 		Ca. 3 hrs from Gothenburg, Stockholm & Oslo in Värmland.
+		<br />
+		<br />
 	</p>
 </section>
 <section>
@@ -289,50 +252,13 @@
 	<div class="m-0 f">
 		<p class="">June 27—29</p>
 	</div>
-	<!-- <div class="f f-j-c-center">
-		<svg width="148" height="78" viewBox="0 0 148 78" fill="none" xmlns="http://www.w3.org/2000/svg"
-			><g style="mix-blend-mode:exclusion"
-				><line
-					x1="37.0009"
-					y1="75.8918"
-					x2="75.8918"
-					y2="37.0009"
-					stroke="black"
-					stroke-width="5.5"
-				/><line
-					x1="36.89"
-					y1="2.00089"
-					x2="75.7808"
-					y2="40.8918"
-					stroke="black"
-					stroke-width="5.5"
-				/></g
-			><g style="mix-blend-mode:exclusion"
-				><line
-					x1="110.835"
-					y1="1.94454"
-					x2="71.9445"
-					y2="40.8354"
-					stroke="black"
-					stroke-width="5.5"
-				/><line
-					x1="110.946"
-					y1="75.8354"
-					x2="72.0555"
-					y2="36.9445"
-					stroke="black"
-					stroke-width="5.5"
-				/></g
-			></svg
-		>
-	</div> -->
 </section>
 <section>
-	<div>
-		<p class="m-0 m-b-1">Become a <a href="/volunteers"><span>volunteer</span></a>.</p>
-		<!-- <p class="m-0">Get your <a href="/tickets"><span>tickets</span></a>.</p> -->
-	</div>
-	<div></div>
+	<p class="m-0 m-b-1">
+		Become a <a href="/volunteers"><span>volunteer</span></a>.
+		<br />
+		<br />
+	</p>
 </section>
 <section>
 	<img class="photo-w100" alt="" src={people_03} />
