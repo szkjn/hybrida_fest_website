@@ -41,8 +41,4 @@
 </div>
 
 <style>
-	span {
-		font-family: var(--font-secondary);
-    	font-size: var(--font-size-3);
-	}
 </style>

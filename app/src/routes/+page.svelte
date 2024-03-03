@@ -92,6 +92,7 @@
 	import thumb_friends_07 from '$lib/assets/photos/360p/friends_07.jpg';
 
 	import RevealImage from '$lib/components/RevealImage.svelte';
+	import ElevenOnHover from '$lib/components/ElevenOnHover.svelte';
 
 	const thumb_exp_art = [
 		thumb_exp_art_01,
@@ -251,7 +252,8 @@
 </section>
 <section>
 	<p class="m-0 m-b-1">
-		Become a <a href="/volunteers"><span>volunteer</span></a>.
+		<!-- Become a <a href="/volunteers"><span>volunteer</span></a>. -->
+		Become a <a class="volunteerLink" href="/volunteers"><ElevenOnHover text='volunteer'/></a>.
 		<br />
 		<br />
 	</p>
@@ -273,6 +275,12 @@
 		font-family: var(--font-primary);
 		font-size: var(--font-size-1);
 		font-weight: 400;
+	}
+	.volunteerLink {
+		display:inline-table;
+	}
+	.volunteerLink:hover {
+		text-decoration: none;
 	}
 	.inline-photos {
 		gap: 0 15px;
