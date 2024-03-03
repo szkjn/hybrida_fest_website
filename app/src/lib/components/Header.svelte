@@ -4,6 +4,7 @@
 	import { onMount } from 'svelte';
 	import ButtonMenu from '$lib/components/menu/Button.svelte';
 	import DropMenu from '$lib/components/menu/Drop.svelte';
+	import ElevenOnHover from '$lib/components/ElevenOnHover.svelte';
 
 	onMount(() => {
 		gsap.registerPlugin(TextPlugin);
@@ -41,16 +42,24 @@
 		</div>
 		<ul class="f f-j-c-space-between f-w-wrap m-0 p-0 none">
 			<li>
-				<a href="/volunteers" >VOLUNTEERS</a>
+				<a href="/volunteers">
+					<ElevenOnHover text="VOLUNTEERS"/>
+				</a>
 			</li>
 			<li aria-current="false">
-				<a href="https://www.instagram.com/hybrida.space/" target="_blank">INSTAGRAM</a>
+				<a href="https://www.instagram.com/hybrida.space/" target="_blank">
+					<ElevenOnHover text="INSTAGRAM"/>
+				</a>
 			</li>
 			<li>
-				<a class="deactivated">TICKETS</a>
+				<a class="deactivated">
+					<ElevenOnHover text="TICKETS"/>
+				</a>
 			</li>
 			<li>
-				<a class="deactivated">ABOUT</a>
+				<a class="deactivated">
+					<ElevenOnHover text="ABOUT"/>
+				</a>
 			</li>
 		</ul>
 	</nav>
@@ -94,6 +103,7 @@
 	}
 	a {
 		font-weight: 300;
+		text-decoration: none;
 	}
 	.deactivated {
 		text-decoration: line-through;
