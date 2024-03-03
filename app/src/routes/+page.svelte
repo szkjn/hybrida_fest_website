@@ -94,6 +94,7 @@
 	import thumb_friends_07 from '$lib/assets/photos/360p/friends_07.jpg';
 
 	import RevealImage from '$lib/components/RevealImage.svelte';
+	import ElevenOnHover from '$lib/components/ElevenOnHover.svelte';
 
 	const thumb_exp_art = [
 		thumb_exp_art_01,
@@ -254,7 +255,7 @@
 	<p>
 		June 27—29 <br />
 		Buy a <span class="link deactivated">ticket.</span><br />
-		Become a <a href="/volunteers"><span class="link active">volunteer</span></a>.
+		Become a <a class="link" href="/volunteers"><ElevenOnHover text='volunteer'/></a>.
 		<br />
 	</p>
 </section>
@@ -278,9 +279,8 @@
 	}
 	.link {
 		font-size: var(--font-size-4);
-	}
-	.link.active:hover {
-		text-decoration: underline;
+		text-decoration: none;
+		display: inline-table;
 	}
 	img {
 		object-fit: cover;
