@@ -44,16 +44,7 @@
 		img.src = imageUrl;
 	}
 
-	onMount(() => {
-		// Initialize the blinking animation for the keyword
-		gsap.to(keywordRef, {
-			duration: 0.5, // Duration of each blink
-			opacity: 0.6, // Fade to invisible
-			repeat: -1, // Repeat indefinitely
-			yoyo: true, // Reverse the animation (fade in)
-			ease: 'linear' // Use a linear easing for a consistent blink rate
-		});
-	});
+	onMount(() => {});
 
 	onDestroy(() => {
 		clearInterval(intervalId); // Clear the interval when the component is destroyed
@@ -87,7 +78,11 @@
 	}
 	span {
 		font-size: var(--font-size-4);
+		font-optical-sizing: auto;
+		font-weight: 200;
+		font-style: italic;
 	}
+
 	span:hover {
 		color: #3f3;
 	}
