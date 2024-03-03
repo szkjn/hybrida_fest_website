@@ -21,7 +21,7 @@
 	function startSlideshow() {
 		imageVisible = true;
 		cycleImages(); // Start by showing the first image immediately
-		intervalId = setInterval(cycleImages, 500); // Change image every 0.5 seconds
+		intervalId = setInterval(cycleImages, 800); // Change image every 0.5 seconds
 	}
 
 	// Function to stop the slideshow
