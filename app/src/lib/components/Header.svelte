@@ -105,12 +105,6 @@
 		font-weight: 300;
 		text-decoration: none;
 	}
-	.deactivated {
-		text-decoration: line-through;
-	}
-	.deactivated:hover {
-		text-decoration: line-through;
-	}
 	@media screen and (max-width: 600px) {
 		nav > div > a{
 			flex-direction: column;

@@ -1,11 +1,12 @@
 <script>
-	import people_01 from '$lib/assets/photos/1280p/people_01.jpg';
-	import people_03 from '$lib/assets/photos/1280p/people_03b.jpg';
-	import people_04 from '$lib/assets/photos/1280p/people_04.jpg';
-	import live_04 from '$lib/assets/photos/1280p/live_04.jpg';
+	import home_01 from '$lib/assets/photos/1280p/home_01.jpg';
+	import home_02 from '$lib/assets/photos/1280p/home_02.jpg';
+	import home_03 from '$lib/assets/photos/1280p/home_03.jpg';
+	import home_04 from '$lib/assets/photos/1280p/home_04.jpg';
+	import home_05 from '$lib/assets/photos/1280p/home_05.jpg';
 
 	// Importing preview thumbnails pictures
-	// Keyword: "Experimental art x music"
+	// Keyword: "experimental art x music"
 	import thumb_exp_art_01 from '$lib/assets/photos/360p/exp_art_music_01.jpg';
 	import thumb_exp_art_02 from '$lib/assets/photos/360p/exp_art_music_02.jpg';
 	import thumb_exp_art_03 from '$lib/assets/photos/360p/exp_art_music_03.jpg';
@@ -14,7 +15,7 @@
 	import thumb_exp_art_06 from '$lib/assets/photos/360p/exp_art_music_06.jpg';
 	import thumb_exp_art_07 from '$lib/assets/photos/360p/exp_art_music_07.jpg';
 	import thumb_exp_art_08 from '$lib/assets/photos/360p/exp_art_music_08.jpg';
-	// Keyword: "Swedish forests"
+	// Keyword: "forests"
 	import thumb_nature_01 from '$lib/assets/photos/360p/nature_01.jpg';
 	import thumb_nature_02 from '$lib/assets/photos/360p/nature_02.jpg';
 	import thumb_nature_03 from '$lib/assets/photos/360p/nature_03.jpg';
@@ -22,7 +23,8 @@
 	import thumb_nature_05 from '$lib/assets/photos/360p/nature_05.jpg';
 	import thumb_nature_06 from '$lib/assets/photos/360p/nature_06.jpg';
 	import thumb_nature_07 from '$lib/assets/photos/360p/nature_07.jpg';
-	// Keyword: "Exhibition"
+	import thumb_nature_08 from '$lib/assets/photos/360p/nature_08.jpg';
+	// Keyword: "art exhibition"
 	import thumb_exhib_01 from '$lib/assets/photos/360p/exhib_01.jpg';
 	import thumb_exhib_02 from '$lib/assets/photos/360p/exhib_02.jpg';
 	import thumb_exhib_03 from '$lib/assets/photos/360p/exhib_03.jpg';
@@ -44,7 +46,7 @@
 	import thumb_ironworks_06 from '$lib/assets/photos/360p/ironworks_06.jpg';
 	import thumb_ironworks_07 from '$lib/assets/photos/360p/ironworks_07.jpg';
 	import thumb_ironworks_08 from '$lib/assets/photos/360p/ironworks_08.jpg';
-	// Keyword: "Live performances"
+	// Keyword: "live performances"
 	import thumb_live_01 from '$lib/assets/photos/360p/live_01.jpg';
 	import thumb_live_02 from '$lib/assets/photos/360p/live_02.jpg';
 	import thumb_live_03 from '$lib/assets/photos/360p/live_03.jpg';
@@ -53,7 +55,7 @@
 	import thumb_live_06 from '$lib/assets/photos/360p/live_06.jpg';
 	import thumb_live_07 from '$lib/assets/photos/360p/live_07.jpg';
 	import thumb_live_08 from '$lib/assets/photos/360p/live_08.jpg';
-	// Keyword: "Workshops"
+	// Keyword: "workshops"
 	import thumb_workshop_01 from '$lib/assets/photos/360p/workshop_01.jpg';
 	import thumb_workshop_02 from '$lib/assets/photos/360p/workshop_02.jpg';
 	import thumb_workshop_03 from '$lib/assets/photos/360p/workshop_03.jpg';
@@ -110,7 +112,8 @@
 		thumb_nature_04,
 		thumb_nature_05,
 		thumb_nature_06,
-		thumb_nature_07
+		thumb_nature_07,
+		thumb_nature_08
 	];
 	const thumb_exhib = [
 		thumb_exhib_01,
@@ -194,22 +197,23 @@
 	<h2 class="m-0">
 		<!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
 		Hybrida Fest is an intimate
-		<RevealImage keyword="experimental arts x music" imageUrls={thumb_exp_art} />festival in the
-		Swedish
+		<RevealImage keyword="experimental arts x music" imageUrls={thumb_exp_art} />
+		festival in the midst of the Swedish
 		<RevealImage keyword="forests" imageUrls={thumb_nature} />.
 		<br />
 		<br />
 	</h2>
 </section>
 <section>
-	<img class="photo-w100" alt="friendly moment between festival-goers" src={people_01} />
+	<img class="photo-w100" alt="friendly moment between festival-goers" src={home_01} />
 </section>
 <section>
 	<p class="m-0">
 		<br />
-		<RevealImage keyword="Residency exhibition" imageUrls={thumb_exhib} /> in a rambling
-		<RevealImage keyword="ironworks" imageUrls={thumb_ironworks} />. Alongside
-		<RevealImage keyword="performances" imageUrls={thumb_live} />,
+		With a residency
+		<RevealImage keyword="art exhibition" imageUrls={thumb_exhib} /> in a rambling
+		<RevealImage keyword="ironworks" imageUrls={thumb_ironworks} />. A program of
+		<RevealImage keyword="live performances" imageUrls={thumb_live} />,
 		<RevealImage keyword="workshops" imageUrls={thumb_workshop} />, and
 		<RevealImage keyword="DJ sets" imageUrls={thumb_djset} />.
 		<br />
@@ -217,47 +221,45 @@
 	</p>
 </section>
 <section>
-	<img class="photo-w100" alt="singing performance" src={live_04} />
+	<img class="photo-w100" alt="singing performance" src={home_02} />
 </section>
 <section>
 	<p class="m-0">
 		<br />
-		Eat
-		<RevealImage keyword="home-cooked meals" imageUrls={thumb_meals} /> together. Jump in the lake still
-		sweaty from the
-		<RevealImage keyword="sauna" imageUrls={thumb_sauna} />. Toast to
+		We'll eat
+		<RevealImage keyword="home-cooked meals" imageUrls={thumb_meals} /> together, jump in the lake sweaty
+		from the
+		<RevealImage keyword="sauna" imageUrls={thumb_sauna} /> and toast to
 		<RevealImage keyword="new friends" imageUrls={thumb_friends} />.
+		<br />
+		<br />
 	</p>
+</section>
+<section>
+	<img class="photo-w100" alt="" src={home_03} />
 </section>
 <section>
 	<p class="m-0">
 		<br />
-		Ca. 3 hrs from Gothenburg, Stockholm & Oslo in Värmland.
+		Ca. 3 hrs from Gothenburg, Stockholm & Oslo in Värmland. Come and create Hybrida Fest 2024 with us
+		!
 		<br />
 		<br />
 	</p>
 </section>
 <section>
-	<img class="photo-w100" alt="" src={people_04} />
+	<img class="photo-w100" alt="" src={home_04} />
 </section>
 <section>
-	<p class="m-0">
-		<br />
-		Come and take part in Hybrida Fest 2024 with us !
-	</p>
-	<div class="m-0 f">
-		<p class="">June 27—29</p>
-	</div>
-</section>
-<section>
-	<p class="m-0 m-b-1">
-		Become a <a href="/volunteers"><span>volunteer</span></a>.
-		<br />
+	<p>
+		June 27—29 <br />
+		Buy a <span class="link deactivated">ticket.</span><br />
+		Become a <a href="/volunteers"><span class="link active">volunteer</span></a>.
 		<br />
 	</p>
 </section>
 <section>
-	<img class="photo-w100" alt="" src={people_03} />
+	<img class="photo-w100" alt="" src={home_05} />
 </section>
 
 <style>
@@ -274,8 +276,11 @@
 		font-size: var(--font-size-1);
 		font-weight: 400;
 	}
-	.inline-photos {
-		gap: 0 15px;
+	.link {
+		font-size: var(--font-size-4);
+	}
+	.link.active:hover {
+		text-decoration: underline;
 	}
 	img {
 		object-fit: cover;
@@ -283,25 +288,7 @@
 		pointer-events: none; /* Ensures the mouse events are not interfered by the image */
 		transition: opacity 0.2s ease; /* Optional: for smooth appearance and disappearance */
 	}
-	.inline-photos > img {
-		width: 13%;
-	}
 	.photo-w100 {
 		width: 100%;
-	}
-	.inline-photos > svg {
-		display: none;
-	}
-	@media screen and (max-width: 768px) {
-		.inline-photos {
-			display: none;
-		}
-		/* .inline-photos > svg {
-			display: block;
-			width: clamp(80px, 25vw, 148px);
-		}
-		.inline-photos > img {
-			display: none;
-		} */
 	}
 </style>
