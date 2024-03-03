@@ -1,12 +1,8 @@
 <script>
 	import people_01 from '$lib/assets/photos/1280p/people_01.jpg';
-	import live_04 from '$lib/assets/photos/1280p/live_04.jpg';
-	import texture_01 from '$lib/assets/photos/720p/texture_01.jpg';
-	import texture_02 from '$lib/assets/photos/720p/texture_02.jpg';
-	import live_01 from '$lib/assets/photos/720p/live_01.jpg';
-	import live_03 from '$lib/assets/photos/720p/live_03.jpg';
-	import people_04 from '$lib/assets/photos/1280p/people_04.jpg';
 	import people_03 from '$lib/assets/photos/1280p/people_03b.jpg';
+	import people_04 from '$lib/assets/photos/1280p/people_04.jpg';
+	import live_04 from '$lib/assets/photos/1280p/live_04.jpg';
 
 	// Importing preview thumbnails pictures
 	// Keyword: "Experimental art x music"
