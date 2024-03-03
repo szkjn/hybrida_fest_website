@@ -4,6 +4,7 @@
 	import home_03 from '$lib/assets/photos/1280p/home_03.jpg';
 	import home_04 from '$lib/assets/photos/1280p/home_04.jpg';
 	import home_05 from '$lib/assets/photos/1280p/home_05.jpg';
+	import map from '$lib/assets/photos/360p/map.jpg';
 
 	// Importing preview thumbnails pictures
 	// Keyword: "experimental art x music"
@@ -242,8 +243,9 @@
 <section>
 	<p class="m-0">
 		<br />
-		Ca. 3 hrs from Gothenburg, Stockholm & Oslo in Värmland. Come and create Hybrida Fest 2024 with us
-		!
+		Ca. 3 hrs from
+		<RevealImage keyword="Gothenburg, Stockholm & Oslo" imageUrls={[map]} />
+		in Värmland. Come and create Hybrida Fest 2024 with us !
 		<br />
 		<br />
 	</p>
@@ -255,7 +257,7 @@
 	<p>
 		June 27—29 <br />
 		Buy a <span class="link deactivated">ticket</span>.<br />
-		Become a <a class="link" href="/volunteers"><ElevenOnHover text='volunteer'/></a>.
+		Become a <a class="link" href="/volunteers"><ElevenOnHover text="volunteer" /></a>.
 		<br />
 	</p>
 </section>
