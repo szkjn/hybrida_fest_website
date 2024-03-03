@@ -16,13 +16,6 @@
 			.to(".date", {duration: 2, text: "JUNE 27—29"})
 			.play()
 		});
-		// Animation Fest => 11:11
-		mm.add("(min-width: 602px)", () => {
-			gsap.timeline({ repeat: -1 })
-			.to(".fest", {duration: 2, text: "1111"})
-			.to(".fest", {duration: 2, text: "FEST"})
-			.play()
-		});
 	});
 	let toggle = false;
 </script>
@@ -53,12 +46,12 @@
 			</li>
 			<li>
 				<a class="deactivated">
-					<ElevenOnHover text="TICKETS"/>
+					TICKETS
 				</a>
 			</li>
 			<li>
 				<a class="deactivated">
-					<ElevenOnHover text="ABOUT"/>
+					ABOUT
 				</a>
 			</li>
 		</ul>
@@ -83,8 +76,8 @@
 		padding-right: 10px;
 	}
 	ul {
-		height: 42px;
-		width: 220px;
+		height: 33px;
+		width: 237px;
 		list-style: none;
 	}
 	li:nth-child(1) > a {

@@ -43,7 +43,7 @@ span {
 }
 
 .deactivated {
-	text-decoration: line-through;
+	text-decoration: line-through !important;
 	cursor: default;
 }
 .deactivated:hover {

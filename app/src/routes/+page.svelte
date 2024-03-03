@@ -254,7 +254,7 @@
 <section>
 	<p>
 		June 27—29 <br />
-		Buy a <span class="link deactivated">ticket.</span><br />
+		Buy a <span class="link deactivated">ticket</span>.<br />
 		Become a <a class="link" href="/volunteers"><ElevenOnHover text='volunteer'/></a>.
 		<br />
 	</p>
