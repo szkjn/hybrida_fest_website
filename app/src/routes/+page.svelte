@@ -255,7 +255,7 @@
 	<p>
 		June 27—29 <br />
 		Buy a <span class="link deactivated">ticket</span>.<br />
-		Become a <a class="link" href="/volunteers"><ElevenOnHover text='volunteer'/></a>.
+		Become a <a class="link" href="/volunteers"><ElevenOnHover text="volunteer" /></a>.
 		<br />
 	</p>
 </section>
@@ -279,7 +279,7 @@
 	}
 	.link {
 		font-size: var(--font-size-4);
-		text-decoration: none;
+		/* text-decoration: none; */
 		display: inline-table;
 	}
 	img {

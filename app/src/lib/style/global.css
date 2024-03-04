@@ -29,7 +29,7 @@ body {
 
 a, a:visited {
 	color: var(--font-color-1);
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 a:hover {
