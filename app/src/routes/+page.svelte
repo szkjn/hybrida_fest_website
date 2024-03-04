@@ -281,7 +281,7 @@
 	}
 	.link {
 		font-size: var(--font-size-4);
-		text-decoration: none;
+		/* text-decoration: none; */
 		display: inline-table;
 	}
 	img {
