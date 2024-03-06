@@ -65,7 +65,7 @@
 <style>
 	header {
 		position: sticky;
-		top: 13px;
+		top: 4px;
 		z-index: 1000;
 		width: 100%;
 		mix-blend-mode: difference;

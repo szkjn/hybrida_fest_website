@@ -75,6 +75,7 @@
 		z-index: 999;
 		position: absolute;
 		position: fixed;
+		padding: 0 4px;
 		top: 0;
 		left: 0;
 		width: 100%;
@@ -87,9 +88,9 @@
 	a {
 		color: var(--font-color-1);
 		cursor: pointer;
-		height: calc(2em + 5vw);
+		height: 38px;
 		text-align: left;
-		font-size: var(--font-size-2);
+		font-size: 1.8em;
 		text-decoration: none;
 	}
 	a:hover {
@@ -98,18 +99,4 @@
 	.char {
 		text-align: center;
 	}
-	div {
-		padding: 0 20px;
-	}
-	@media screen and (max-width: 279px) {
-		a {
-			font-size: calc(0.9em + 4vw);
-			/* height: 10%; */
-		}
-	}
-	@media screen and (max-width: 412px) {
-	div {
-		padding: 0 10px;
-	}
-}
 </style>
