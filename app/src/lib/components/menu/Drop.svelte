@@ -52,7 +52,7 @@
 	<div class="f f-d-column f-j-c-center">
 		{#each Object.entries(links) as [key, value]}
 			<a
-				class="link f f-j-c-space-between f-a-items-center debug-red"
+				class="link f f-j-c-space-between f-a-items-center"
 				href={value}
 				role="menu"
 				target="_blank"
@@ -94,11 +94,6 @@
 	}
 	a:hover {
 		text-decoration: none;
-	}
-	a:nth-child(1),
-	a:nth-child(2) {
-		/* text-decoration: line-through; */
-		cursor: auto;
 	}
 	.char {
 		text-align: center;
