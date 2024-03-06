@@ -75,7 +75,7 @@
 		z-index: 999;
 		position: absolute;
 		position: fixed;
-		padding: 0 4px;
+		padding: 0 20px;
 		top: 0;
 		left: 0;
 		width: 100%;
@@ -85,6 +85,11 @@
 		font-family: var(--font-secondary);
 		background-color: #fff;
 	}
+	@media screen and (max-width: 430px) {
+	div {
+		padding: 0 4px;
+	}
+}
 	a {
 		color: var(--font-color-1);
 		cursor: pointer;

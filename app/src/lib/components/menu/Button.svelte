@@ -31,7 +31,7 @@
 			display: none;
 		}
 	}
-	@media screen and (max-width: 412px) {
+	@media screen and (max-width: 430px) {
 		button {
 			padding-top: 4px;
 			padding-right: 4px;

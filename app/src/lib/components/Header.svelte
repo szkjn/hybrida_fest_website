@@ -65,11 +65,16 @@
 <style>
 	header {
 		position: sticky;
-		top: 4px;
+		top: 13px;
 		z-index: 1000;
 		width: 100%;
 		mix-blend-mode: difference;
 	}
+	@media screen and (max-width: 430px) {
+	header {
+		top: 4px
+	}
+}
 	header a {
 		color: #fff;
 	}

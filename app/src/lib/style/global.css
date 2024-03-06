@@ -20,7 +20,7 @@ body {
 	scrollbar-width:none;
 	/* max-width: 1200px; */
 }
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 430px) {
 	body {
 		padding: 4px 4px;
 	}
