@@ -4,7 +4,8 @@
 	import { TextPlugin } from 'gsap/dist/TextPlugin';
 
 	export const links: { [key: string]: string } = {
-		VOLUNTEERS: '/volunteers',
+		VOLUNTEERS: 'https://tally.so/r/wALRR0',
+		TICKETS: 'https://billetto.se/e/hybrida-fest-2024-biljetter-958997',
 		INSTAGRAM: 'https://www.instagram.com/hybrida.space/'
 	};
 	const onClickItem = () => (toggle = false);
@@ -48,17 +49,18 @@
 </script>
 
 {#if toggle}
-	<div class="f f-d-column f-j-c-center">
+	<div class="f f-d-column f-j-c-end">
 		{#each Object.entries(links) as [key, value]}
 			<a
-				class="link f f-j-c-space-between f-a-items-center"
+				class="link f f-j-c-space-center f-a-items-center"
 				href={value}
 				role="menu"
+				target="_blank"
 				aria-labelledby="menubutton"
 				on:click={onClickItem}
 			>
 				{#each key as char}
-					<span class="char f-g-1">{char}</span>
+					<span class="char">{char}</span>
 				{/each}
 			</a>
 		{/each}
@@ -85,22 +87,19 @@
 	a {
 		color: var(--font-color-1);
 		cursor: pointer;
-		width: 100%;
-		/* height: 20%; */
 		height: calc(2em + 5vw);
-		text-align: justify;
-		font-size: var(--font-size-1);
+		text-align: left;
+		font-size: var(--font-size-2);
+		text-decoration: none;
 	}
 	a:hover {
 		text-decoration: none;
 	}
-	a:nth-child(1),
-	a:nth-child(2) {
-		/* text-decoration: line-through; */
-		cursor: auto;
-	}
 	.char {
 		text-align: center;
+	}
+	div {
+		padding: 0 20px;
 	}
 	@media screen and (max-width: 279px) {
 		a {
@@ -108,4 +107,9 @@
 			/* height: 10%; */
 		}
 	}
+	@media screen and (max-width: 412px) {
+	div {
+		padding: 0 10px;
+	}
+}
 </style>
