@@ -4,7 +4,8 @@
 	import { TextPlugin } from 'gsap/dist/TextPlugin';
 
 	export const links: { [key: string]: string } = {
-		VOLUNTEERS: '/volunteers',
+		VOLUNTEERS: 'https://tally.so/r/wALRR0',
+		TICKETS: 'https://billetto.se/e/hybrida-fest-2024-biljetter-958997',
 		INSTAGRAM: 'https://www.instagram.com/hybrida.space/'
 	};
 	const onClickItem = () => (toggle = false);
@@ -51,9 +52,10 @@
 	<div class="f f-d-column f-j-c-center">
 		{#each Object.entries(links) as [key, value]}
 			<a
-				class="link f f-j-c-space-between f-a-items-center"
+				class="link f f-j-c-space-between f-a-items-center debug-red"
 				href={value}
 				role="menu"
+				target="_blank"
 				aria-labelledby="menubutton"
 				on:click={onClickItem}
 			>
@@ -85,11 +87,10 @@
 	a {
 		color: var(--font-color-1);
 		cursor: pointer;
-		width: 100%;
-		/* height: 20%; */
 		height: calc(2em + 5vw);
-		text-align: justify;
-		font-size: var(--font-size-1);
+		text-align: left;
+		font-size: var(--font-size-2);
+		text-decoration: none;
 	}
 	a:hover {
 		text-decoration: none;

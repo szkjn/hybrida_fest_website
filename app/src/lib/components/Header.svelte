@@ -38,7 +38,7 @@
 		</div>
 		<ul class="f f-j-c-space-between f-w-wrap m-0 p-0 none">
 			<li>
-				<a href="/volunteers">
+				<a href="https://tally.so/r/wALRR0" target="_blank">
 					<ElevenOnHover text="VOLUNTEERS" />
 				</a>
 			</li>
@@ -48,10 +48,12 @@
 				</a>
 			</li>
 			<li>
-				<a class="deactivated"> TICKETS </a>
+				<a href="https://billetto.se/e/hybrida-fest-2024-biljetter-958997" target="_blank">
+					<ElevenOnHover text="TICKETS" />
+				</a>
 			</li>
 			<li>
-				<a class="deactivated"> ABOUT </a>
+				<a class="deactivated"> PROGRAM </a>
 			</li>
 		</ul>
 	</nav>
@@ -95,6 +97,7 @@
 	}
 	a {
 		font-weight: 300;
+		text-decoration: none;
 	}
 	@media screen and (max-width: 600px) {
 		nav > div > a {
