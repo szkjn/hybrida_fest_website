@@ -73,9 +73,6 @@
 	header a {
 		color: #fff;
 	}
-	nav > div {
-		padding-right: 10px;
-	}
 	ul {
 		height: 33px;
 		width: 237px;
