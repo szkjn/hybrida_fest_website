@@ -94,6 +94,7 @@
 	}
 	a {
 		font-weight: 300;
+		text-decoration: none;
 	}
 	@media screen and (max-width: 600px) {
 		nav > div > a {
