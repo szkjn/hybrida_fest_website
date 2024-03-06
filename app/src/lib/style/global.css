@@ -62,6 +62,10 @@ span {
 	flex-direction: column;
 }
 
+.f-j-c-start {
+	justify-content: flex-start;
+}
+
 .f-j-c-end {
 	justify-content: flex-end;
 }

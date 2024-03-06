@@ -49,10 +49,10 @@
 </script>
 
 {#if toggle}
-	<div class="f f-d-column f-j-c-center">
+	<div class="f f-d-column f-j-c-end">
 		{#each Object.entries(links) as [key, value]}
 			<a
-				class="link f f-j-c-space-between f-a-items-center"
+				class="link f f-j-c-space-center f-a-items-center"
 				href={value}
 				role="menu"
 				target="_blank"
@@ -60,7 +60,7 @@
 				on:click={onClickItem}
 			>
 				{#each key as char}
-					<span class="char f-g-1">{char}</span>
+					<span class="char">{char}</span>
 				{/each}
 			</a>
 		{/each}
@@ -98,10 +98,18 @@
 	.char {
 		text-align: center;
 	}
+	div {
+		padding: 0 20px;
+	}
 	@media screen and (max-width: 279px) {
 		a {
 			font-size: calc(0.9em + 4vw);
 			/* height: 10%; */
 		}
 	}
+	@media screen and (max-width: 412px) {
+	div {
+		padding: 0 10px;
+	}
+}
 </style>
