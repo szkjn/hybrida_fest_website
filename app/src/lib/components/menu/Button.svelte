@@ -1,23 +1,25 @@
 <script lang="ts">
 	import gsap from 'gsap';
 
-	const onHoverMenu = () => toggle ? null : gsap.to(".menu-line", {duration: 0.2, text: ":"});
-	const onOutHoverMenu = () => toggle ? null : gsap.to(".menu-line", {duration: 0.2, text: "-"});
+	const onHoverMenu = () => (toggle ? null : gsap.to('.menu-line', { duration: 0.2, text: ':' }));
+	const onOutHoverMenu = () =>
+		toggle ? null : gsap.to('.menu-line', { duration: 0.2, text: '-' });
 	const onClickMenu = () => {
 		// gsap.to(".menu-line", {duration: 0.2, text: "1111"});
 		if (!toggle) {
-			gsap.timeline({repeat: 3})
-			.to(".menu-line", {duration: 0.2, text: " "})
-			.to(".menu-line", {duration: 0.2, text: ":"})
-		.play();
-		} 
+			gsap
+				.timeline({ repeat: 3 })
+				.to('.menu-line', { duration: 0.2, text: ' ' })
+				.to('.menu-line', { duration: 0.2, text: ':' })
+				.play();
+		}
 		toggle = !toggle;
-	}
+	};
 	export let toggle = false;
 </script>
 
-<button 
-	class="menu-icon" 
+<button
+	class="menu-icon"
 	on:mouseover={onHoverMenu}
 	on:focus={onHoverMenu}
 	on:mouseout={onOutHoverMenu}
@@ -27,7 +29,6 @@
 	<span class="menu-line">-</span>
 	_
 </button>
-
 
 <style>
 	@media screen and (min-width: 601px) {
@@ -39,7 +40,7 @@
 		z-index: 1000;
 	}
 	.menu-icon {
-		cursor: pointer;	
+		cursor: pointer;
 		background: none;
 		border: none;
 		color: #fff;

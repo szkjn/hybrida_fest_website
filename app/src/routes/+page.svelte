@@ -254,8 +254,14 @@
 <section>
 	<p>
 		June 27—29 <br />
-		Buy a <span class="link deactivated">ticket</span>.<br />
-		Become a <a class="link" href="/volunteers"><ElevenOnHover text="volunteer" /></a>.
+		Buy a
+		<a class="link" href="https://billetto.se/e/hybrida-fest-2024-biljetter-958997" target="_blank"
+			><ElevenOnHover text="ticket" /></a
+		>.<br />
+		Become a
+		<a class="link" href="https://tally.so/r/wALRR0" target="_blank"
+			><ElevenOnHover text="volunteer" /></a
+		>.
 		<br />
 	</p>
 </section>
