@@ -48,7 +48,10 @@
 				</a>
 			</li>
 			<li>
-				<a href="https://billetto.se/e/hybrida-fest-2024-biljetter-958997" target="_blank">
+				<a
+					href="https://billetto.se/ticket_buyer/offers/b4343cf1-0461-4587-86e9-cfd327ca1304"
+					target="_blank"
+				>
 					<ElevenOnHover text="TICKETS" />
 				</a>
 			</li>
@@ -71,10 +74,10 @@
 		mix-blend-mode: difference;
 	}
 	@media screen and (max-width: 430px) {
-	header {
-		top: 4px
+		header {
+			top: 4px;
+		}
 	}
-}
 	header a {
 		color: #fff;
 	}

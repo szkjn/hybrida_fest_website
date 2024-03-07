@@ -5,7 +5,7 @@
 
 	export const links: { [key: string]: string } = {
 		VOLUNTEERS: 'https://tally.so/r/wALRR0',
-		TICKETS: 'https://billetto.se/e/hybrida-fest-2024-biljetter-958997',
+		TICKETS: 'https://billetto.se/ticket_buyer/offers/b4343cf1-0461-4587-86e9-cfd327ca1304',
 		INSTAGRAM: 'https://www.instagram.com/hybrida.space/'
 	};
 	const onClickItem = () => (toggle = false);
@@ -86,10 +86,10 @@
 		background-color: #fff;
 	}
 	@media screen and (max-width: 430px) {
-	div {
-		padding: 0 4px;
+		div {
+			padding: 0 4px;
+		}
 	}
-}
 	a {
 		color: var(--font-color-1);
 		cursor: pointer;
