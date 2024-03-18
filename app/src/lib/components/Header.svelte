@@ -7,6 +7,33 @@
 	import ElevenOnHover from '$lib/components/ElevenOnHover.svelte';
 
 	onMount(() => {
+		const ticketLink = document.querySelector('.ticket-link');
+		// @ts-ignore
+		ticketLink.addEventListener('click', (event) => {
+			// @ts-ignore
+			if (typeof gtag === 'function') {
+				// @ts-ignore
+				gtag('event', 'click', {
+					event_category: 'Ticket Purchase',
+					event_label: 'Hybrida Fest 2024 Tickets',
+					value: 1
+				});
+			}
+		});
+
+		const volunteerLink = document.querySelector('.volunteer-link');
+		volunteerLink?.addEventListener('click', (event) => {
+			// @ts-ignore
+			if (typeof gtag === 'function') {
+				// @ts-ignore
+				gtag('event', 'click', {
+					event_category: 'Volunteer Sign-up',
+					event_label: 'Hybrida Fest 2024 Volunteers',
+					value: 1
+				});
+			}
+		});
+
 		gsap.registerPlugin(TextPlugin);
 		let mm = gsap.matchMedia();
 		// Animation date for device <601px
@@ -38,7 +65,7 @@
 		</div>
 		<ul class="f f-j-c-space-between f-w-wrap m-0 p-0 none">
 			<li>
-				<a href="https://tally.so/r/wALRR0" target="_blank">
+				<a class="volunteer-link" href="https://tally.so/r/wALRR0" target="_blank">
 					<ElevenOnHover text="VOLUNTEERS" />
 				</a>
 			</li>
@@ -49,7 +76,8 @@
 			</li>
 			<li>
 				<a
-					href="https://billetto.se/ticket_buyer/offers/b4343cf1-0461-4587-86e9-cfd327ca1304"
+					class="ticket-link"
+					href="https://billetto.se/e/hybrida-fest-2024-biljetter-958997"
 					target="_blank"
 				>
 					<ElevenOnHover text="TICKETS" />

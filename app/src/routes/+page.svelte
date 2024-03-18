@@ -96,6 +96,36 @@
 
 	import RevealImage from '$lib/components/RevealImage.svelte';
 	import ElevenOnHover from '$lib/components/ElevenOnHover.svelte';
+	import { onMount } from 'svelte';
+
+	onMount(() => {
+		const ticketLink = document.querySelector('.ticket-link');
+		// @ts-ignore
+		ticketLink.addEventListener('click', (event) => {
+			// @ts-ignore
+			if (typeof gtag === 'function') {
+				// @ts-ignore
+				gtag('event', 'click', {
+					event_category: 'Ticket Purchase',
+					event_label: 'Hybrida Fest 2024 Tickets',
+					value: 1
+				});
+			}
+		});
+
+		const volunteerLink = document.querySelector('.volunteer-link');
+		volunteerLink?.addEventListener('click', (event) => {
+			// @ts-ignore
+			if (typeof gtag === 'function') {
+				// @ts-ignore
+				gtag('event', 'click', {
+					event_category: 'Volunteer Sign-up',
+					event_label: 'Hybrida Fest 2024 Volunteers',
+					value: 1
+				});
+			}
+		});
+	});
 
 	const thumb_exp_art = [
 		thumb_exp_art_01,
@@ -258,12 +288,12 @@
 		June 27—29 <br />
 		Buy a
 		<a
-			class="link"
-			href="https://billetto.se/ticket_buyer/offers/b4343cf1-0461-4587-86e9-cfd327ca1304"
+			class="link ticket-link"
+			href="https://billetto.se/e/hybrida-fest-2024-biljetter-958997"
 			target="_blank"><ElevenOnHover text="ticket" /></a
 		>.<br />
 		Become a
-		<a class="link" href="https://tally.so/r/wALRR0" target="_blank"
+		<a class="link volunteer-link" href="https://tally.so/r/wALRR0" target="_blank"
 			><ElevenOnHover text="volunteer" /></a
 		>.
 		<br />
