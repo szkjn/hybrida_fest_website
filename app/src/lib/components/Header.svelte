@@ -21,6 +21,19 @@
 			}
 		});
 
+		const volunteerLink = document.querySelector('.volunteer-link');
+		volunteerLink?.addEventListener('click', (event) => {
+			// @ts-ignore
+			if (typeof gtag === 'function') {
+				// @ts-ignore
+				gtag('event', 'click', {
+					event_category: 'Volunteer Sign-up',
+					event_label: 'Hybrida Fest 2024 Volunteers',
+					value: 1
+				});
+			}
+		});
+
 		gsap.registerPlugin(TextPlugin);
 		let mm = gsap.matchMedia();
 		// Animation date for device <601px
@@ -52,7 +65,7 @@
 		</div>
 		<ul class="f f-j-c-space-between f-w-wrap m-0 p-0 none">
 			<li>
-				<a href="https://tally.so/r/wALRR0" target="_blank">
+				<a class="volunteer-link" href="https://tally.so/r/wALRR0" target="_blank">
 					<ElevenOnHover text="VOLUNTEERS" />
 				</a>
 			</li>

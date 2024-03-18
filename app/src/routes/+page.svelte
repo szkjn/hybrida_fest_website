@@ -112,6 +112,19 @@
 				});
 			}
 		});
+
+		const volunteerLink = document.querySelector('.volunteer-link');
+		volunteerLink?.addEventListener('click', (event) => {
+			// @ts-ignore
+			if (typeof gtag === 'function') {
+				// @ts-ignore
+				gtag('event', 'click', {
+					event_category: 'Volunteer Sign-up',
+					event_label: 'Hybrida Fest 2024 Volunteers',
+					value: 1
+				});
+			}
+		});
 	});
 
 	const thumb_exp_art = [
@@ -280,7 +293,7 @@
 			target="_blank"><ElevenOnHover text="ticket" /></a
 		>.<br />
 		Become a
-		<a class="link" href="https://tally.so/r/wALRR0" target="_blank"
+		<a class="link volunteer-link" href="https://tally.so/r/wALRR0" target="_blank"
 			><ElevenOnHover text="volunteer" /></a
 		>.
 		<br />
