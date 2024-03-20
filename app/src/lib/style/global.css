@@ -26,6 +26,11 @@ body {
 	}
 }
 
+::selection {
+	background-color: #3f3;
+	background-color: #9a01df;
+	color: #fff;
+}
 
 a, a:visited {
 	color: var(--font-color-1);
@@ -50,6 +55,14 @@ span {
 	text-decoration: line-through;
 }
 
+
+.selectDisable {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
 
 
 /* utilities */
