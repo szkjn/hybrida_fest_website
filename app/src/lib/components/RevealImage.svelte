@@ -73,7 +73,7 @@
 		left: 50%;
 		transform: translate(-50%, -50%);
 		pointer-events: none;
-		transition: opacity 0.2s ease;
+		/* transition: opacity 0.2s ease; */
 		z-index: 1000;
 	}
 	span {

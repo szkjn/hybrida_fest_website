@@ -95,6 +95,7 @@
 	import thumb_friends_07 from '$lib/assets/photos/360p/friends_07.jpg';
 
 	import RevealImage from '$lib/components/RevealImage.svelte';
+	import RevealMap from '$lib/components/RevealMap.svelte';
 	import ElevenOnHover from '$lib/components/ElevenOnHover.svelte';
 	import { onMount } from 'svelte';
 
@@ -274,7 +275,22 @@
 	<p class="m-0">
 		<br />
 		Ca. 3 hrs from
-		<RevealImage keyword="Gothenburg, Stockholm & Oslo" imageUrls={[map]} />
+		<a
+			class="link"
+			href="https://www.google.com/maps/dir/Gothenburg,+Sweden/%C3%84lvsbacka,+655+98+Molkom,+Sweden/@58.7908772,10.6409764,7.48z/data=!4m14!4m13!1m5!1m1!1s0x464f8e67966c073f:0x4019078290e7c40!2m2!1d11.97456!2d57.70887!1m5!1m1!1s0x465ccd80bf13f827:0xfb754ea59f89a496!2m2!1d13.691556!2d59.737922!3e0?entry=ttu"
+			target="_blank"><ElevenOnHover text="Gothenburg" /></a
+		>,
+		<a
+			class="link"
+			href="https://www.google.com/maps/dir/Stockholm,+Sweden/%C3%84lvsbacka,+655+98+Molkom,+Sweden/@59.4671703,14.4299706,7.48z/data=!4m14!4m13!1m5!1m1!1s0x465f763119640bcb:0xa80d27d3679d7766!2m2!1d18.0685808!2d59.3293235!1m5!1m1!1s0x465ccd80bf13f827:0xfb754ea59f89a496!2m2!1d13.691556!2d59.737922!3e0?entry=ttu"
+			target="_blank"><ElevenOnHover text="Stockholm" /></a
+		>
+		&
+		<a
+			class="link"
+			href="https://www.google.com/maps/dir/Oslo,+Norway/%C3%84lvsbacka,+655+98+Molkom,+Sweden/@59.7464423,10.9247112,8z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x46416e61f267f039:0x7e92605fd3231e9a!2m2!1d10.7522454!2d59.9138688!1m5!1m1!1s0x465ccd80bf13f827:0xfb754ea59f89a496!2m2!1d13.691556!2d59.737922!3e0?entry=ttu"
+			target="_blank"><ElevenOnHover text="Oslo" /></a
+		>
 		in Värmland. Come and create Hybrida Fest 2024 with us !
 		<br />
 		<br />
