@@ -59,7 +59,7 @@
 {#if imageVisible}
 	<!-- svelte-ignore a11y-img-redundant-alt -->
 	<img
-		class="hover-image"
+		class="hover-image selectDisable"
 		src={imageUrls[currentImageIndex]}
 		alt="Hover Image"
 		style={imageStyle}
@@ -81,6 +81,7 @@
 		font-optical-sizing: auto;
 		font-weight: 200;
 		font-style: italic;
+		line-height: var(--font-line-heignt);
 	}
 
 	span:hover {

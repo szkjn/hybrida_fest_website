@@ -95,7 +95,6 @@
 	import thumb_friends_07 from '$lib/assets/photos/360p/friends_07.jpg';
 
 	import RevealImage from '$lib/components/RevealImage.svelte';
-	import RevealMap from '$lib/components/RevealMap.svelte';
 	import ElevenOnHover from '$lib/components/ElevenOnHover.svelte';
 	import { onMount } from 'svelte';
 
@@ -238,7 +237,11 @@
 	</h2>
 </section>
 <section>
-	<img class="photo-w100" alt="friendly moment between festival-goers" src={home_01} />
+	<img
+		class="photo-w100 selectDisable"
+		alt="friendly moment between festival-goers"
+		src={home_01}
+	/>
 </section>
 <section>
 	<p class="m-0">
@@ -321,8 +324,7 @@
 
 <style>
 	h2,
-	p,
-	span {
+	p {
 		display: inline-block;
 		line-height: var(--font-line-heignt);
 		text-align: justify;
