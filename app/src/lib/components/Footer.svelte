@@ -7,6 +7,10 @@
 </footer>
 
 <style>
+	footer {
+		color: white;
+		mix-blend-mode: difference;
+	}
 	p {
 		font-family: var(--font-secondary);
 		font-size: var(--font-size-5);
