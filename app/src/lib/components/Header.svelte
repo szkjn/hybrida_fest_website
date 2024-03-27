@@ -6,6 +6,8 @@
 	import DropMenu from '$lib/components/menu/Drop.svelte';
 	import ElevenOnHover from '$lib/components/ElevenOnHover.svelte';
 
+	import Moon_1 from '$lib/assets/svg/moon_1.svg';
+
 	onMount(() => {
 		const ticketLink = document.querySelector('.ticket-link');
 		// @ts-ignore
@@ -49,44 +51,41 @@
 </script>
 
 <header>
-	<nav class="f f-a-items-start f-j-c-space-between">
-		<div>
-			<a class="f f-a-items-center" href="/">
-				<div class="f hybrida">
-					<h1 class="m-0">
-						HYBRIDA <span class="fest">FEST</span>&nbsp;<span class="none">2024&nbsp;</span>
-					</h1>
-					<h1 class="m-0"><span>>&nbsp;</span><span class="date">JUNE 27—29</span></h1>
+	<nav class="f f-j-c-space-between">
+		<div class="">
+			<a class="f f-a-items-start" href="/">
+				<div class="f f-a-items-center title">
+					<h1 class="m-0 title">HYBRIDA FEST 2024 JUNE 27—29</h1>
 				</div>
 			</a>
 		</div>
 		<div class="display">
 			<ButtonMenu bind:toggle />
 		</div>
-		<ul class="f f-j-c-space-between f-w-wrap m-0 p-0 none">
-			<li>
-				<a class="volunteer-link" href="https://tally.so/r/wALRR0" target="_blank">
-					<ElevenOnHover text="VOLUNTEERS" />
-				</a>
-			</li>
-			<li aria-current="false">
-				<a href="https://www.instagram.com/hybrida.space/" target="_blank">
-					<ElevenOnHover text="INSTAGRAM" />
-				</a>
-			</li>
-			<li>
-				<a
-					class="ticket-link"
-					href="https://billetto.se/e/hybrida-fest-2024-biljetter-958997"
-					target="_blank"
-				>
-					<ElevenOnHover text="TICKETS" />
-				</a>
-			</li>
-			<li>
-				<a class="deactivated"> PROGRAM </a>
-			</li>
-		</ul>
+		<div class="">
+			<ul class="f f-d-column m-0 p-0 none">
+				<li class="f f-a-self-end">
+					<a class="volunteer-link" href="https://tally.so/r/wALRR0" target="_blank">
+						VOLUNTEERS
+					</a>
+				</li>
+				<li class="f f-a-self-end">
+					<a href="https://www.instagram.com/hybrida.space/" target="_blank"> INSTAGRAM </a>
+				</li>
+				<li class="f f-a-self-end">
+					<a
+						class="ticket-link"
+						href="https://billetto.se/e/hybrida-fest-2024-biljetter-958997"
+						target="_blank"
+					>
+						TICKETS
+					</a>
+				</li>
+				<li class="f f-a-self-end">
+					<a class="deactivated"> PROGRAM </a>
+				</li>
+			</ul>
+		</div>
 	</nav>
 </header>
 {#if toggle}
@@ -99,7 +98,13 @@
 		top: 13px;
 		z-index: 1000;
 		width: 100%;
-		mix-blend-mode: difference;
+		/* mix-blend-mode: difference; */
+	}
+	.title {
+		text-shadow: 0 0 10px #4444d8;
+		font-family: var(--font-title);
+		line-height: 8.5rem;
+		font-size: var(--font-size-title);
 	}
 	@media screen and (max-width: 430px) {
 		header {
@@ -107,17 +112,13 @@
 		}
 	}
 	header a {
-		color: #fff;
+		color: var(--font-color-1);
 	}
 	ul {
 		height: 33px;
-		width: 237px;
 		list-style: none;
 	}
-	li:nth-child(1) > a {
-		display: block;
-		width: 92px;
-	}
+
 	a,
 	span,
 	h1 {

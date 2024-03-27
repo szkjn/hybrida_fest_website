@@ -1,13 +1,23 @@
+@font-face {
+	font-family: 'ExcessiveFont';
+	src: url('../assets/typeface/Excessive-ExtraCondensed.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+
 :root {
+	--font-title: 'ExcessiveFont', sans-serif;
 	--font-primary: 'Vazirmatn', sans-serif;
 	--font-secondary: 'Azeret Mono', monospace;
-	--font-color-1: #000;
-	--font-size-1: clamp(16px, 7vw, 100px);
+	--font-color-1: #4444d8;
+	--font-color-2: #bab825;
+	--font-size-title: 160px;
+	--font-size-1: clamp(16px, 7vw, 50px);
 	--font-size-2: 18px;
 	--font-size-3: 14px;
-	--font-size-4: clamp(16px, 6vw, 90px);
+	--font-size-4: clamp(16px, 6vw, 45px);
 	--font-size-5: 10px;
-	--font-line-heignt: clamp(16px, 8vw, 100px);
+	--font-line-heignt: clamp(16px, 8vw, 60px);
 }
 
 body {
@@ -27,9 +37,10 @@ body {
 }
 
 ::selection {
-	background-color: #3f3;
-	background-color: #9a01df;
-	color: #fff;
+	background-color: #f00;
+	/* background-color: #9a01df; */
+	/* background-color: #4444d8; */
+	/* color: #f00; */
 }
 
 a, a:visited {
@@ -38,12 +49,14 @@ a, a:visited {
 }
 
 a:hover {
-	color:#000;
+	color:#fff;
 	text-decoration: underline;
+	background-color: #f00;
 }
 
 span {
 	font-family: var(--font-secondary);
+	/* font-family: var(--font-primary); */
 	font-weight: 300;
 }
 
@@ -103,6 +116,10 @@ span {
 	align-self: flex-start;
 }
 
+.f-a-self-end {
+	align-self: flex-end;
+}
+
 .f-w-wrap {
 	flex-wrap: wrap;
 }
@@ -149,9 +166,9 @@ span {
 }
 
 .debug-red {
-	border: 1px solid red;
+	border: 4px solid red;
 }
 
 .debug-green {
-	border: 1px solid green;
+	border: 4px solid green;
 }

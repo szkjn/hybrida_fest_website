@@ -5,24 +5,24 @@
 
 	onMount(() => {
 		const link = document.querySelectorAll(`.${text} span`);
-		console.warn(link)
+		console.warn(link);
 		const updateText = (spans: NodeListOf<Element>, i: number) => {
-            if (i >= 2) {
-                spans[i-2].textContent = '1';
-                spans[i-1].textContent = '1';
-            }
-            spans[i].textContent = ':';
-            if (i < spans.length-2) {
-                spans[i+1].textContent = '1';
-                spans[i+2].textContent = '1'; 
-            }
-        }
-		
+			if (i >= 2) {
+				spans[i - 2].textContent = '1';
+				spans[i - 1].textContent = '1';
+			}
+			spans[i].textContent = ':';
+			if (i < spans.length - 2) {
+				spans[i + 1].textContent = '1';
+				spans[i + 2].textContent = '1';
+			}
+		};
+
 		link.forEach((span, index) => {
 			// @ts-ignore
 			span.setAttribute('data-original-text', span.textContent);
 			span.addEventListener('mouseenter', () => {
-				console.warn(span)
+				console.warn(span);
 				updateText(link, index);
 			});
 			span.addEventListener('mouseleave', () => {

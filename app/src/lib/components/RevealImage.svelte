@@ -77,14 +77,16 @@
 		z-index: 1000;
 	}
 	span {
+		/* text-decoration: underline; */
 		font-size: var(--font-size-4);
 		font-optical-sizing: auto;
-		font-weight: 200;
+		/* font-weight: 200; */
 		font-style: italic;
 		line-height: var(--font-line-heignt);
 	}
 
 	span:hover {
 		color: #3f3;
+		color: #f00;
 	}
 </style>

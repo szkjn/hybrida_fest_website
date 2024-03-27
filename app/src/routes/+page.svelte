@@ -228,7 +228,7 @@
 <section>
 	<h2 class="m-0">
 		<!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
-		Hybrida Fest is an intimate
+		We are an intimate
 		<RevealImage keyword="experimental arts x music" imageUrls={thumb_exp_art} />
 		festival in the midst of the Swedish
 		<RevealImage keyword="forests" imageUrls={thumb_nature} />.
