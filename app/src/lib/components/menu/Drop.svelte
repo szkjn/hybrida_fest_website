@@ -6,7 +6,8 @@
 	export const links: { [key: string]: string } = {
 		VOLUNTEERS: 'https://tally.so/r/wALRR0',
 		TICKETS: 'https://billetto.se/ticket_buyer/offers/b4343cf1-0461-4587-86e9-cfd327ca1304',
-		INSTAGRAM: 'https://www.instagram.com/hybrida.space/'
+		INSTAGRAM: 'https://www.instagram.com/hybrida.space/',
+		INFO: 'https://drive.google.com/file/d/1ydwjus_PyGMprUSLW1CvkZTNT2Di3yx1/view?usp=sharing'
 	};
 	const onClickItem = () => (toggle = false);
 	export let toggle: Boolean;
