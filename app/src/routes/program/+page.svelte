@@ -1,5 +1,6 @@
 <script>
 	import RevealImage from '$lib/components/RevealImage.svelte';
+	import Artist from '$lib/components/Artist.svelte';
 
 	import dj_seduce from '$lib/assets/photos/360p/dj_seduce.jpg';
 	import dip_shim from '$lib/assets/photos/360p/dip_shim.jpg';
@@ -10,6 +11,8 @@
 	import toma_kami from '$lib/assets/photos/360p/toma_kami.jpg';
 	import tomasz_skibicki from '$lib/assets/photos/360p/tomasz_skibicki.jpg';
 
+	import artists from '$lib/assets/data/artists';
+
 	const thumb_dj_seduce = [dj_seduce];
 	const thumb_dip_shim = [dip_shim];
 	const thumb_dj_selfhelp = [dj_selfhelp];
@@ -18,50 +21,95 @@
 	const thumb_sstrom = [sstrom];
 	const thumb_toma_kami = [toma_kami];
 	const thumb_tomasz_skibicki = [tomasz_skibicki];
+
+	const arrImg = [
+		thumb_sstrom,
+		thumb_dj_seduce,
+		thumb_tomasz_skibicki,
+		thumb_dip_shim,
+		thumb_migle_vycinaite,
+		thumb_marius_bo,
+		thumb_dj_selfhelp,
+		thumb_toma_kami
+	];
 </script>
 
 <section>
 	<div>
 		<h1>PROGRAM</h1>
 		<p>
-			<RevealImage keyword="Toma Kami" imageUrls={thumb_toma_kami} resp_behavior={'pgm_page'} /><sup
-				>DJSET</sup
-			>
-			<RevealImage keyword="DJ Seduce" imageUrls={thumb_dj_seduce} resp_behavior={'pgm_page'} /><sup
-				>DJSET</sup
-			>
-			<RevealImage
-				keyword="Sstrom (SHXCXCHCXSH)"
-				imageUrls={thumb_sstrom}
-				resp_behavior={'pgm_page'}
-			/><sup>LIVE SET</sup>
-			<RevealImage
-				keyword="DJ Selfhelp"
-				imageUrls={thumb_dj_selfhelp}
-				resp_behavior={'pgm_page'}
-			/><sup>DJSET</sup>
-			<RevealImage keyword="Dip Shim" imageUrls={thumb_dip_shim} resp_behavior={'pgm_page'} /><sup
-				>DJSET</sup
-			>
-			<RevealImage
-				keyword="Tomasz Skibicki"
-				imageUrls={thumb_tomasz_skibicki}
-				resp_behavior={'pgm_page'}
-			/><sup>RESIDENCY ARTIST</sup>
-			<RevealImage
-				keyword="Miglė Vyčinaitė"
-				imageUrls={thumb_migle_vycinaite}
-				resp_behavior={'pgm_page'}
-			/><sup>RESIDENCY ARTIST</sup>
+			<a href="#toma_kami">
+				<RevealImage
+					keyword="Toma Kami"
+					imageUrls={thumb_toma_kami}
+					resp_behavior={'pgm_page'}
+				/><sup>DJSET</sup>
+			</a>
+			<a href="#dj_seduce">
+				<RevealImage
+					keyword="DJ Seduce"
+					imageUrls={thumb_dj_seduce}
+					resp_behavior={'pgm_page'}
+				/><sup>DJSET</sup>
+			</a>
+			<a href="#sstrom">
+				<RevealImage
+					keyword="Sstrom (SHXCXCHCXSH)"
+					imageUrls={thumb_sstrom}
+					resp_behavior={'pgm_page'}
+				/><sup>LIVE SET</sup>
+			</a>
+			<a href="#dj_selfhelp">
+				<RevealImage
+					keyword="DJ Selfhelp"
+					imageUrls={thumb_dj_selfhelp}
+					resp_behavior={'pgm_page'}
+				/><sup>DJSET</sup>
+			</a>
+			<a href="#dip_shim">
+				<RevealImage keyword="Dip Shim" imageUrls={thumb_dip_shim} resp_behavior={'pgm_page'} /><sup
+					>DJSET</sup
+				>
+			</a>
+			<a href="#tomasz_skibicki">
+				<RevealImage
+					keyword="Tomasz Skibicki"
+					imageUrls={thumb_tomasz_skibicki}
+					resp_behavior={'pgm_page'}
+				/><sup>RESIDENCY ARTIST</sup>
+			</a>
+			<a href="#migle_vycinaite">
+				<RevealImage
+					keyword="Miglė Vyčinaitė"
+					imageUrls={thumb_migle_vycinaite}
+					resp_behavior={'pgm_page'}
+				/><sup>RESIDENCY ARTIST</sup>
+			</a>
+			<a href="#marius_bo">
+				<RevealImage
+					keyword="Marius Bø"
+					imageUrls={thumb_marius_bo}
+					resp_behavior={'pgm_page'}
+				/><sup>DJSET</sup>
+			</a>
 		</p>
 		<span>+ MORE ARTISTS TO BE ANNOUNCED</span>
 	</div>
+</section>
+<section>
+	{#each artists as artist, index}
+		<Artist {artist} img={arrImg[index]}></Artist>
+	{/each}
 </section>
 
 <style>
 	/* section {
 		background-color: #4545d9;
 	} */
+	a,
+	a:hover {
+		text-decoration: none;
+	}
 	div {
 		display: flex;
 		justify-content: center;
