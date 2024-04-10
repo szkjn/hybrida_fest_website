@@ -84,7 +84,13 @@
 				</a>
 			</li>
 			<li>
-				<a class="deactivated"> PROGRAM </a>
+				<a
+					class=""
+					href="https://drive.google.com/file/d/1KFQbde9Ze98zoeL3LUdw7ki7GB7Jh_1S/view?usp=sharing"
+					target="_blank"
+				>
+					<ElevenOnHover text="INFO" />
+				</a>
 			</li>
 		</ul>
 	</nav>
