@@ -1,9 +1,9 @@
 <script lang="ts">
 	import { onMount, onDestroy } from 'svelte';
-	import gsap from 'gsap';
 
 	export let keyword: string;
 	export let imageUrls: string[]; // Array of image URLs
+	export let resp_behavior: string = '';
 
 	let imageVisible = false;
 	let currentImageIndex = 0;
@@ -53,8 +53,11 @@
 
 <!-- svelte-ignore a11y-no-static-element-interactions -->
 <!-- svelte-ignore a11y-mouse-events-have-key-events -->
-<span bind:this={keywordRef} on:mouseover={startSlideshow} on:mouseout={stopSlideshow}
-	>{keyword}</span
+<span
+	bind:this={keywordRef}
+	on:mouseover={startSlideshow}
+	on:mouseout={stopSlideshow}
+	class={resp_behavior === 'pgm_page' ? 'media' : ''}>{keyword}</span
 >
 {#if imageVisible}
 	<!-- svelte-ignore a11y-img-redundant-alt -->
@@ -77,14 +80,28 @@
 		z-index: 1000;
 	}
 	span {
-		font-size: var(--font-size-4);
+		/* font-size: 40px; */
+		font-size: var(--font-primary);
 		font-optical-sizing: auto;
 		font-weight: 200;
 		font-style: italic;
-		line-height: var(--font-line-heignt);
+		/* line-height: var(--font-line-heignt); */
+		cursor: default;
 	}
 
 	span:hover {
 		color: #3f3;
+	}
+
+	.media {
+		font-size: 60px;
+		line-height: 3rem;
+	}
+
+	@media screen and (max-width: 900px) {
+		.media {
+			font-size: 40px;
+			line-height: 2rem;
+		}
 	}
 </style>

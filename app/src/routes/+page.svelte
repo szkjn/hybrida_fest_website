@@ -1,4 +1,7 @@
 <script>
+	// import { page } from 'svelte/store';
+	import { onMount } from 'svelte';
+
 	import home_01 from '$lib/assets/photos/1280p/home_01.jpg';
 	import home_02 from '$lib/assets/photos/1280p/home_02.jpg';
 	import home_03 from '$lib/assets/photos/1280p/home_03.jpg';
@@ -96,7 +99,6 @@
 
 	import RevealImage from '$lib/components/RevealImage.svelte';
 	import ElevenOnHover from '$lib/components/ElevenOnHover.svelte';
-	import { onMount } from 'svelte';
 
 	onMount(() => {
 		const ticketLink = document.querySelector('.ticket-link');
