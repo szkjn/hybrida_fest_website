@@ -66,7 +66,7 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		/* text-align: center; */
+		text-align: center;
 		flex-wrap: wrap;
 		/* color: #fe9055; */
 		gap: 2rem;
@@ -74,7 +74,7 @@
 	h1 {
 		font-family: var(--font-secondary);
 		font-weight: 500;
-		font-size: 60px;
+		font-size: 30px;
 		margin: 0;
 		text-decoration: underline;
 	}
@@ -94,10 +94,11 @@
 		font-weight: 500;
 		font-size: 30px;
 		text-decoration: line-through;
+		padding-bottom: 2rem;
 	}
 	@media screen and (max-width: 900px) {
 		h1 {
-			font-size: 40px;
+			font-size: 25px;
 		}
 		span {
 			font-size: 25px;
