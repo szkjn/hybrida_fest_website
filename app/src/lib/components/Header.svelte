@@ -86,7 +86,7 @@
 			<li>
 				<a
 					class=""
-					href="https://drive.google.com/file/d/1KFQbde9Ze98zoeL3LUdw7ki7GB7Jh_1S/view?usp=sharing"
+					href="https://drive.google.com/file/d/1ydwjus_PyGMprUSLW1CvkZTNT2Di3yx1/view?usp=sharing"
 					target="_blank"
 				>
 					<ElevenOnHover text="INFO" />
