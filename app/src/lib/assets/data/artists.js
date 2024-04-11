@@ -6,7 +6,7 @@ const artists = [
         "Website or relevant representation": "https://soundcloud.com/toma-kami",
         "Instagram": "https://www.instagram.com/toma_kami/",
         "imgPath": "toma_kami.jpg",
-        "bio": "In recent years Toma Kami has been shaping an eclectic yet recognisable sound with several outings on Bristol's Livity Sound as well as his own imprint mb studio, with the latter being a home to his Speed Oddity releases, also soon to become a party series in 2024 with a first residency at Helsinki’s Post Bar. A specialisation in rhythmic variety partly informed by his dynamic DJ sets, that have become well known synonyms for wild rides through the likes of heavy bass, dancehall, techno, jungle, electro, rap, and any other style that will match his expression of specifically physical and unusual energy on the dance floor. An approach that has seen him tour the likes of USA and Asia, as well as world renowned clubs like De School and Berghain, and regular slots at festivals like Dekmantel. Through his label mb studio, Toma continues to push his own sound and vision as well as fresh music from exciting new producers from the burgeoning French scene and beyond. ",
+        "bio": "\"In recent years Toma Kami has been shaping an eclectic yet recognisable sound with several outings on Bristol's Livity Sound as well as his own imprint mb studio...",
         "project": ""
     },
     {
