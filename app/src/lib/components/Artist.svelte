@@ -8,13 +8,12 @@
 	onMount(() => {});
 </script>
 
-<div class="mainDiv">
+<div class="container">
 	<img src={img} id={artist.slug} />
 	<div class="info">
 		<div class="f f-j-c-space-between f-d-column">
 			<h2>{artist['alias']}</h2>
 			<h3>{artist['category']}</h3>
-			{'$lib/assets/photos/360p/' + artist.index}
 		</div>
 		<hr />
 		<div>
@@ -42,12 +41,12 @@
 	.info {
 		margin: 20px;
 	} */
-	.mainDiv {
+	.container {
 		display: flex;
 		margin-top: 1rem;
 	}
 	img {
-		width: 33%;
+		/* width: 33%; */
 	}
 	.info {
 		margin-left: 1rem;

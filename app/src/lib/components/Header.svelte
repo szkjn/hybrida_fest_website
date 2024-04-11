@@ -63,7 +63,24 @@
 		<div class="display">
 			<ButtonMenu bind:toggle />
 		</div>
-		<ul class="f f-j-c-space-between f-w-wrap m-0 p-0 none">
+		<ul class="f f-d-column  m-0 p-0 none">
+			<li>
+				<a
+					class="program"
+					href="/program"
+				>
+					<ElevenOnHover text="PROGRAM" />
+				</a>
+			</li>
+			<li>
+				<a
+					class=""
+					href="https://drive.google.com/file/d/1ydwjus_PyGMprUSLW1CvkZTNT2Di3yx1/view?usp=sharing"
+					target="_blank"
+				>
+					<ElevenOnHover text="INFO" />
+				</a>
+			</li>
 			<li>
 				<a class="volunteer-link" href="https://tally.so/r/wALRR0" target="_blank">
 					<ElevenOnHover text="VOLUNTEERS" />
@@ -81,15 +98,6 @@
 					target="_blank"
 				>
 					<ElevenOnHover text="TICKETS" />
-				</a>
-			</li>
-			<li>
-				<a
-					class=""
-					href="https://drive.google.com/file/d/1ydwjus_PyGMprUSLW1CvkZTNT2Di3yx1/view?usp=sharing"
-					target="_blank"
-				>
-					<ElevenOnHover text="INFO" />
 				</a>
 			</li>
 		</ul>
@@ -116,9 +124,9 @@
 		color: #fff;
 	}
 	ul {
-		height: 33px;
-		width: 237px;
-		list-style: none;
+		/* height: 33px;
+		width: 237px; */
+		/* list-style: none; */
 	}
 	li:nth-child(1) > a {
 		display: block;

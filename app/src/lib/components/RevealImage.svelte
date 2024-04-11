@@ -81,12 +81,13 @@
 	}
 	span {
 		/* font-size: 40px; */
-		font-size: var(--font-primary);
+		font-size: var(--font-size-4);
 		font-optical-sizing: auto;
 		font-weight: 200;
 		font-style: italic;
 		/* line-height: var(--font-line-heignt); */
 		cursor: default;
+
 	}
 
 	span:hover {
