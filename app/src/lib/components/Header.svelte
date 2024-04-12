@@ -63,41 +63,39 @@
 		<div class="display">
 			<ButtonMenu bind:toggle />
 		</div>
-		<ul class="f f-d-column  m-0 p-0 none">
+		<ul class="f f-d-column m-0 p-0 none">
 			<li>
-				<a
-					class="program"
-					href="/program"
-				>
-					<ElevenOnHover text="PROGRAM" />
+				<a class="link" href="/program">
+					<ElevenOnHover text="PROGRAM" /><span class="arrow">↗</span>
+				</a>
+			</li>
+
+			<li>
+				<a class="link" href="https://tally.so/r/wALRR0" target="_blank">
+					<ElevenOnHover text="VOLUNTEERS" /><span class="arrow">↗</span>
 				</a>
 			</li>
 			<li>
 				<a
-					class=""
-					href="https://drive.google.com/file/d/1ydwjus_PyGMprUSLW1CvkZTNT2Di3yx1/view?usp=sharing"
-					target="_blank"
-				>
-					<ElevenOnHover text="INFO" />
-				</a>
-			</li>
-			<li>
-				<a class="volunteer-link" href="https://tally.so/r/wALRR0" target="_blank">
-					<ElevenOnHover text="VOLUNTEERS" />
-				</a>
-			</li>
-			<li aria-current="false">
-				<a href="https://www.instagram.com/hybrida.space/" target="_blank">
-					<ElevenOnHover text="INSTAGRAM" />
-				</a>
-			</li>
-			<li>
-				<a
-					class="ticket-link"
+					class="link"
 					href="https://billetto.se/e/hybrida-fest-2024-biljetter-958997"
 					target="_blank"
 				>
-					<ElevenOnHover text="TICKETS" />
+					<ElevenOnHover text="TICKETS" /><span class="arrow">↗</span>
+				</a>
+			</li>
+			<li>
+				<a
+					class="link"
+					href="https://drive.google.com/file/d/1ydwjus_PyGMprUSLW1CvkZTNT2Di3yx1/view?usp=sharing"
+					target="_blank"
+				>
+					<ElevenOnHover text="INFO" /><span class="arrow">↗</span>
+				</a>
+			</li>
+			<li aria-current="false">
+				<a class="link" href="https://www.instagram.com/hybrida.space/" target="_blank">
+					<ElevenOnHover text="INSTAGRAM" /><span class="arrow">↗</span>
 				</a>
 			</li>
 		</ul>
@@ -128,10 +126,6 @@
 		width: 237px; */
 		/* list-style: none; */
 	}
-	li:nth-child(1) > a {
-		display: block;
-		width: 92px;
-	}
 	a,
 	span,
 	h1 {
@@ -142,9 +136,16 @@
 	span {
 		font-weight: 300;
 	}
+	.arrow {
+		padding-left: 0.5rem;
+	}
 	a {
 		font-weight: 300;
 		text-decoration: none;
+	}
+
+	.link {
+		display: flex;
 	}
 	@media screen and (max-width: 600px) {
 		nav > div > a {

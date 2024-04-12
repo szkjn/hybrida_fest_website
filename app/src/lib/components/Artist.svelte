@@ -21,6 +21,13 @@
 				{artist['bio']}
 			</p>
 		</div>
+		<div class="project">
+			{#if artist['project']}
+				<p>
+					"{artist['project']}"
+				</p>
+			{/if}
+		</div>
 		<div class="f">
 			{#if artist['Instagram']}
 				<a target="_blank" href={artist['Instagram']}
@@ -67,6 +74,10 @@
 	}
 	a {
 		margin-right: 10px;
+	}
+
+	.project {
+		font-style: italic;
 	}
 
 	@media screen and (max-width: 600px) {

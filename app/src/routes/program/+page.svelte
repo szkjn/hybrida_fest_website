@@ -23,14 +23,14 @@
 	const thumb_tomasz_skibicki = [tomasz_skibicki];
 
 	const arrImg = [
-		thumb_sstrom,
+		thumb_toma_kami,
 		thumb_dj_seduce,
-		thumb_tomasz_skibicki,
+		thumb_sstrom,
 		thumb_dip_shim,
-		thumb_migle_vycinaite,
-		thumb_marius_bo,
 		thumb_dj_selfhelp,
-		thumb_toma_kami
+		thumb_tomasz_skibicki,
+		thumb_migle_vycinaite,
+		thumb_marius_bo
 	];
 </script>
 
@@ -59,17 +59,17 @@
 					resp_behavior={'pgm_page'}
 				/><sup>LIVE SET</sup>
 			</a>
+			<a href="#dip_shim">
+				<RevealImage keyword="Dip Shim" imageUrls={thumb_dip_shim} resp_behavior={'pgm_page'} /><sup
+					>DJSET</sup
+				>
+			</a>
 			<a href="#dj_selfhelp">
 				<RevealImage
 					keyword="DJ Selfhelp"
 					imageUrls={thumb_dj_selfhelp}
 					resp_behavior={'pgm_page'}
 				/><sup>DJSET</sup>
-			</a>
-			<a href="#dip_shim">
-				<RevealImage keyword="Dip Shim" imageUrls={thumb_dip_shim} resp_behavior={'pgm_page'} /><sup
-					>DJSET</sup
-				>
 			</a>
 			<a href="#tomasz_skibicki">
 				<RevealImage
