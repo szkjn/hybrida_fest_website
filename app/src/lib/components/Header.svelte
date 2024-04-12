@@ -69,10 +69,13 @@
 					<span class="arrow">•</span><ElevenOnHover text="PROGRAM" />
 				</a>
 			</li>
-
 			<li>
-				<a class="link" href="https://tally.so/r/wALRR0" target="_blank">
-					<span class="arrow">•</span><ElevenOnHover text="VOLUNTEERS" />
+				<a
+					class="link"
+					href="https://drive.google.com/file/d/1ydwjus_PyGMprUSLW1CvkZTNT2Di3yx1/view?usp=sharing"
+					target="_blank"
+				>
+					<span class="arrow">•</span><ElevenOnHover text="INFO" />
 				</a>
 			</li>
 			<li>
@@ -85,12 +88,8 @@
 				</a>
 			</li>
 			<li>
-				<a
-					class="link"
-					href="https://drive.google.com/file/d/1ydwjus_PyGMprUSLW1CvkZTNT2Di3yx1/view?usp=sharing"
-					target="_blank"
-				>
-					<span class="arrow">•</span><ElevenOnHover text="INFO" />
+				<a class="link" href="https://tally.so/r/wALRR0" target="_blank">
+					<span class="arrow">•</span><ElevenOnHover text="VOLUNTEERS" />
 				</a>
 			</li>
 			<li aria-current="false">

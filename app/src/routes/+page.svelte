@@ -307,6 +307,14 @@
 <section>
 	<p>
 		June 27—29 <br />
+		Discover the
+		<a class="link" href="/program"><ElevenOnHover text="program" /></a>.<br />
+		Get more
+		<a
+			class="link"
+			href="https://drive.google.com/file/d/1ydwjus_PyGMprUSLW1CvkZTNT2Di3yx1/view?usp=sharing"
+			><ElevenOnHover text="info" /></a
+		>.<br />
 		Buy a
 		<a
 			class="link ticket-link"
