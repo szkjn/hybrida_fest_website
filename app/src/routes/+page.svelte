@@ -313,7 +313,7 @@
 		<a
 			class="link"
 			href="https://drive.google.com/file/d/1ydwjus_PyGMprUSLW1CvkZTNT2Di3yx1/view?usp=sharing"
-			><ElevenOnHover text="info" /></a
+			target="_blank"><ElevenOnHover text="info" /></a
 		>.<br />
 		Buy a
 		<a
