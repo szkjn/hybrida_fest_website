@@ -20,6 +20,7 @@
 
 	// Function to start the slideshow
 	function startSlideshow() {
+		console.warn(window.screen.width)
 		imageVisible = true;
 		cycleImages(); // Start by showing the first image immediately
 		intervalId = setInterval(cycleImages, 800); // Change image every 0.5 seconds
@@ -55,7 +56,7 @@
 <span
 	style="color: {$page.route.id === '/program' ? '#fe9055' : '#000000'}"
 	bind:this={keywordRef}
-	on:mouseover={startSlideshow}
+	on:mouseover={ window.screen.width > 1024 || $page.route.id !== '/program' ? startSlideshow : null}
 	on:mouseout={stopSlideshow}
 	on:mouseover={(e)=> e.target.style.color = '#3f3'}
 	on:mouseout={(e)=> e.target.style.color = $page.route.id === '/program' ? '#fe9055' : '#000000'}
