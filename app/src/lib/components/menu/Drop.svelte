@@ -57,7 +57,7 @@
 				class="link f f-j-c-space-center f-a-items-center"
 				href={value}
 				role="menu"
-				target="_blank"
+				target={key === "PROGRAM" ? "_self" : "_blank"}
 				aria-labelledby="menubutton"
 				on:click={onClickItem}
 			>

@@ -4,6 +4,7 @@
 
 	export let artist: any;
 	export let img: [string];
+	import { page } from '$app/stores';
 
 	onMount(() => {});
 </script>
@@ -30,12 +31,14 @@
 		</div>
 		<div class="f">
 			{#if artist['Instagram']}
-				<a target="_blank" href={artist['Instagram']}
+				<a target="_blank" href={artist['Instagram']} 
+					style="text-decoration-color: {$page.route.id === '/program' ? '#fe9055' : '#ffffff'}"
 					><ElevenOnHover text="INSTAGRAM"></ElevenOnHover></a
 				>
 			{/if}
 			{#if artist['Website or relevant representation']}
 				<a target="_blank" href={artist['Website or relevant representation']}
+					style="text-decoration-color: {$page.route.id === '/program' ? '#fe9055' : '#ffffff'}"
 					><ElevenOnHover text="WEBSITE"></ElevenOnHover></a
 				>
 			{/if}

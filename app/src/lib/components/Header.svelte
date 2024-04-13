@@ -66,7 +66,7 @@
 		<ul class="f f-d-column m-0 p-0 none">
 			<li>
 				<a class="link" href="/program">
-					<span class="arrow">•</span><ElevenOnHover text="PROGRAM" />
+					<span class="arrow"></span><ElevenOnHover isHeader={true} text="PROGRAM" />
 				</a>
 			</li>
 			<li>
@@ -75,7 +75,7 @@
 					href="https://drive.google.com/file/d/1ydwjus_PyGMprUSLW1CvkZTNT2Di3yx1/view?usp=sharing"
 					target="_blank"
 				>
-					<span class="arrow">•</span><ElevenOnHover text="INFO" />
+					<span class="arrow"></span><ElevenOnHover isHeader={true} text="INFO" />
 				</a>
 			</li>
 			<li>
@@ -84,17 +84,17 @@
 					href="https://billetto.se/e/hybrida-fest-2024-biljetter-958997"
 					target="_blank"
 				>
-					<span class="arrow">•</span><ElevenOnHover text="TICKETS" />
+					<span class="arrow"></span><ElevenOnHover isHeader={true} text="TICKETS" />
 				</a>
 			</li>
 			<li>
 				<a class="link" href="https://tally.so/r/wALRR0" target="_blank">
-					<span class="arrow">•</span><ElevenOnHover text="VOLUNTEERS" />
+					<span class="arrow"></span><ElevenOnHover isHeader={true} text="VOLUNTEERS" />
 				</a>
 			</li>
 			<li aria-current="false">
 				<a class="link" href="https://www.instagram.com/hybrida.space/" target="_blank">
-					<span class="arrow">•</span><ElevenOnHover text="INSTAGRAM" />
+					<span class="arrow"></span><ElevenOnHover isHeader={true} text="INSTAGRAM" />
 				</a>
 			</li>
 		</ul>
@@ -124,6 +124,7 @@
 		/* height: 33px;
 		width: 237px; */
 		/* list-style: none; */
+		/* list-style-type: none; */
 	}
 	a,
 	span,

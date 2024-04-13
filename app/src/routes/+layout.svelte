@@ -2,6 +2,17 @@
 	import Header from '$lib/components/Header.svelte';
 	import Footer from '$lib/components/Footer.svelte';
 	import '$lib/style/global.css';
+	import { page } from '$app/stores';
+	import { onMount } from 'svelte';
+
+	let mounted = false;
+    onMount(() => {
+        mounted = true;
+    });
+
+	$: {
+		if(mounted) document.body.style.background = $page.route.id === '/program' ? '#4545d9' : '#ffffff';
+	}
 </script>
 
 <svelte:head>

@@ -106,6 +106,9 @@
 	/* section {
 		background-color: #4545d9;
 	} */
+	section, a, div, h1, p, sup, span {
+		color: #fe9055
+	}
 	a,
 	a:hover {
 		text-decoration: none;

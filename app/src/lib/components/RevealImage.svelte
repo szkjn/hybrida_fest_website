@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { onMount, onDestroy } from 'svelte';
+	import { page } from '$app/stores';
 
 	export let keyword: string;
 	export let imageUrls: string[]; // Array of image URLs
@@ -44,8 +45,6 @@
 		img.src = imageUrl;
 	}
 
-	onMount(() => {});
-
 	onDestroy(() => {
 		clearInterval(intervalId); // Clear the interval when the component is destroyed
 	});
@@ -54,9 +53,12 @@
 <!-- svelte-ignore a11y-no-static-element-interactions -->
 <!-- svelte-ignore a11y-mouse-events-have-key-events -->
 <span
+	style="color: {$page.route.id === '/program' ? '#fe9055' : '#000000'}"
 	bind:this={keywordRef}
 	on:mouseover={startSlideshow}
 	on:mouseout={stopSlideshow}
+	on:mouseover={(e)=> e.target.style.color = '#3f3'}
+	on:mouseout={(e)=> e.target.style.color = $page.route.id === '/program' ? '#fe9055' : '#000000'}
 	class={resp_behavior === 'pgm_page' ? 'media' : ''}>{keyword}</span
 >
 {#if imageVisible}
@@ -102,6 +104,13 @@
 	@media screen and (max-width: 900px) {
 		.media {
 			font-size: 40px;
+			line-height: 2rem;
+		}
+	}
+
+	@media screen and (max-width: 340px) {
+		.media {
+			font-size: 25px;
 			line-height: 2rem;
 		}
 	}
