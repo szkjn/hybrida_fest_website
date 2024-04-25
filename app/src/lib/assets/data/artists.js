@@ -80,6 +80,56 @@ const artists = [
         "bio": "Marius Bø is one of the co-founders of the Oslo-based collective Ute. A Oslo-based record label and event series spawned out of hosting gatherings, deep in the Norwegian forest. His sets can be seen as a concoction of psychedelic atmospherics, generating dynamic tensions and sublime releases that work both the body and mind.",
         "project": "I am super excited to join the intimate gathering, play as well as listening to great music in amazing surroundings. "
     },
+    {
+        "alias": "Mikkel Høgh Kaldal",
+        "slug": "mikkel_hogh_kaldal",
+        "category": "Residency artist",
+        "Website or relevant representation": "http://mikkelkaldal.com",
+        "Instagram": "https://instagram.com/mikkelkaldal",
+        "imgPath": "mikkel_hogh_kaldal.jpg",
+        "bio": "Mikkel H. Kaldal works with questions such as the representation of the self, the inception of memories and the juxtaposition between reality and fiction. Taking normative, everyday experiences as a departure point, he breaks down, recreates and re-materializes objects, images, and texts to produce new narratives that may hint at fiction or reality, but without necessarily revealing their origins.",
+        "project": "I’m looking forward to be at Hybrida working on new works and getting inspired by the surroundings and people there to get some new ideas and views onto my practice."
+    },
+    {
+        "alias": "Vox Supreme",
+        "slug": "vox_supreme",
+        "category": "DJ set",
+        "Website or relevant representation": "http://www.traumgarten.world",
+        "Instagram": "https://instagram.com/alsofromthisplanet",
+        "imgPath": "vox_supreme.jpg",
+        "bio": "As resident of the now-defunct Amsterdam festival Strange Sounds From Beyond, this promising Dutch artist is never quite satisfied with simply churning out dance floor fillers, preferring to blur the boundaries between genres and toy with the expectations of the audience and his own.",
+        "project": "I would like to try and play with extreme opposites, find common grounds and make them match."
+    },
+    {
+        "alias": "Sonia Witwitzka",
+        "slug": "sonia_witwitzka",
+        "category": "Residency artist",
+        "Website or relevant representation": "",
+        "Instagram": "https://www.instagram.com/wwwitwitzka",
+        "imgPath": "sonia_witwitzka.jpg",
+        "bio": "Sonia works with performance, text, sculpture and design - on dis/connection, vulnerability, belonging, alienation and new perspectives. Born in Sweden by Polish parents, growing up in an artistic home in Stockholm and Gothenburg. Studying several art and design courses and holding a BA in fashion design from Gerrit Rietveld Academie in Amsterdam.",
+        "project": "Invited to co-organize and coordinate, I’m excited to contribute to Hybrida 2024. Looking forward to the context, to connect and participate in the residency, experimenting with new projects."
+    },
+    {
+        "alias": "Sebastian Burger",
+        "slug": "sebastian_burger",
+        "category": "Residency artist",
+        "Website or relevant representation": "http://www.sebastianburger.de",
+        "Instagram": "https://www.instagram.com/burger.sebastian",
+        "imgPath": "sebastian_burger.jpg",
+        "bio": "Sebastian Burger (*1980, lives and works in Leipzig and Berlin) earned his Meisterschueler (MFA) from the Academy of Visual Arts in Leipzig, Germany, in 2012. Burger has been invited to participate in numerous national and international exhibition projects in commercial and institutional contexts. This includes solo and group exhibitions in New York, Shanghai, Hong Kong, Paris, London, Milan, Naples, Copenhagen, Stockholm, and Berlin. Currently, Burger is working on several exhibitions scheduled to open throughout 2024 and a public commission in The Hague, Netherlands.",
+        "project": "Burger is creating works that seem to look back at their observers, drawing them in with delicate textures and gradients but, at the same moment, almost repulsing them through the harshness of shapes, forms, or colors. His paintings are sediments of meaning derived from countless references, which may seem surreal or illogical initially but generate meaning through an intuitive approach."
+    },
+    {
+        "alias": "Egregore",
+        "slug": "egregore",
+        "category": "DJ set",
+        "Website or relevant representation": "https://soundcloud.com/egr3g0re",
+        "Instagram": "https://www.instagram.com/egr3gore/",
+        "imgPath": "egregore.jpg",
+        "bio": "Born near Paris and graduated from audio-visual art education in Amsterdam, Egregore is currently based in Berlin. He runs Terenor Records, curates events across Europe and as an artist, Egregore merges techno, psy and trance into music productions and dynamic dj-sets.",
+        "project": "I look forward to reuniting with the surrounding nature and sharing music in this beautiful environment"
+    }
 ];
 
 export default artists;
