@@ -11,6 +11,13 @@
 	import toma_kami from '$lib/assets/photos/360p/toma_kami.jpg';
 	import tomasz_skibicki from '$lib/assets/photos/360p/tomasz_skibicki.jpg';
 
+	import mikkel_hogh_kaldal from '$lib/assets/photos/360p/mikkel_hogh_kaldal.jpg';
+	import vox_supreme from '$lib/assets/photos/360p/vox_supreme.jpg';
+	import sonia_witwitzka from '$lib/assets/photos/360p/sonia_witwitzka.jpg';
+	import sebastian_burger from '$lib/assets/photos/360p/sebastian_burger.png';
+	import egregore from '$lib/assets/photos/360p/egregore.jpg';
+	import joanna_party from '$lib/assets/photos/360p/joanna_party.jpg';
+
 	import artists from '$lib/assets/data/artists';
 
 	const thumb_dj_seduce = [dj_seduce];
@@ -21,6 +28,12 @@
 	const thumb_sstrom = [sstrom];
 	const thumb_toma_kami = [toma_kami];
 	const thumb_tomasz_skibicki = [tomasz_skibicki];
+	const thumb_mikkel_hogh_kaldal = [mikkel_hogh_kaldal];
+	const thumb_vox_supreme = [vox_supreme];
+	const thumb_sonia_witwitzka = [sonia_witwitzka];
+	const thumb_sebastian_burger = [sebastian_burger];
+	const thumb_egregore = [egregore];
+	const thumb_joanna_party = [joanna_party];
 
 	const arrImg = [
 		thumb_toma_kami,
@@ -30,7 +43,13 @@
 		thumb_dj_selfhelp,
 		thumb_tomasz_skibicki,
 		thumb_migle_vycinaite,
-		thumb_marius_bo
+		thumb_marius_bo,
+		thumb_mikkel_hogh_kaldal,
+		thumb_vox_supreme,
+		thumb_sonia_witwitzka,
+		thumb_sebastian_burger,
+		thumb_egregore,
+		thumb_joanna_party
 	];
 </script>
 
@@ -92,6 +111,54 @@
 					resp_behavior={'pgm_page'}
 				/><sup>DJSET</sup>
 			</a>
+
+
+
+
+
+
+			<a href="#mikkel_hogh_kaldal">
+				<RevealImage
+					keyword="Mikkel Høgh Kaldal"
+					imageUrls={thumb_mikkel_hogh_kaldal}
+					resp_behavior={'pgm_page'}
+				/><sup>RESIDENCY ARTIST</sup>
+			</a>
+			<a href="#vox_supreme">
+				<RevealImage
+					keyword="Vox Supreme"
+					imageUrls={thumb_vox_supreme}
+					resp_behavior={'pgm_page'}
+				/><sup>DJSET</sup>
+			</a>
+			<a href="#sonia_witwitzka">
+				<RevealImage
+					keyword="Sonia Witwitzka"
+					imageUrls={thumb_sonia_witwitzka}
+					resp_behavior={'pgm_page'}
+				/><sup>RESIDENCY ARTIST</sup>
+			</a>
+			<a href="#sebastian_burger">
+				<RevealImage
+					keyword="Sebastian Burger"
+					imageUrls={thumb_sebastian_burger}
+					resp_behavior={'pgm_page'}
+				/><sup>RESIDENCY ARTIST</sup>
+			</a>
+			<a href="#egregore">
+				<RevealImage
+					keyword="Egregore"
+					imageUrls={thumb_egregore}
+					resp_behavior={'pgm_page'}
+				/><sup>DJSET</sup>
+			</a>
+			<a href="#joanna_party">
+				<RevealImage
+					keyword="Joanna Party"
+					imageUrls={thumb_joanna_party}
+					resp_behavior={'pgm_page'}
+				/><sup>DJSET</sup>
+			</a>
 		</p>
 		<span>+ MORE ARTISTS TO BE ANNOUNCED</span>
 	</div>
@@ -144,7 +211,7 @@
 		font-family: var(--font-secondary);
 		font-weight: 500;
 		font-size: 30px;
-		text-decoration: line-through;
+		/* text-decoration: line-through; */
 		padding-bottom: 2rem;
 	}
 	@media screen and (max-width: 900px) {

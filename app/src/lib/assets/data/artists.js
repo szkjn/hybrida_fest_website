@@ -129,6 +129,16 @@ const artists = [
         "imgPath": "egregore.jpg",
         "bio": "Born near Paris and graduated from audio-visual art education in Amsterdam, Egregore is currently based in Berlin. He runs Terenor Records, curates events across Europe and as an artist, Egregore merges techno, psy and trance into music productions and dynamic dj-sets.",
         "project": "I look forward to reuniting with the surrounding nature and sharing music in this beautiful environment"
+    },
+    {
+        "alias": "Joanna Party",
+        "slug": "joanna_party",
+        "category": "DJ Set",
+        "Website or relevant representation": "",
+        "Instagram": "https://www.instagram.com/joannaparty/",
+        "imgPath": "joanna_party.jpg",
+        "bio": "JOANNA PARTY – her name says it all: ‘you wanna party?’. The Swedish/Brazilian DJ and visual artist consistently lives up to her cheeky invitation by delivering eclectic sets that will have you sweating. Drawing from her heritage and years in the UK scene, her taste is a melting pot of influences, freely blending stompy breakbeats and deep wubby basslines with bouncy baile funk, techno/IDM, tech house gems, and all things hot & spicy in between.",
+        "project": "Eager to bring high-energy, diverse music sets to Hybrida, creating unforgettable nights filled with dance and celebration."
     }
 ];
 
