@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { onMount, onDestroy } from 'svelte';
+	import { page } from '$app/stores';
 
 	export let keyword: string;
 	export let imageUrls: string[]; // Array of image URLs
@@ -19,6 +20,7 @@
 
 	// Function to start the slideshow
 	function startSlideshow() {
+		console.warn(window.screen.width)
 		imageVisible = true;
 		cycleImages(); // Start by showing the first image immediately
 		intervalId = setInterval(cycleImages, 800); // Change image every 0.5 seconds
@@ -44,8 +46,6 @@
 		img.src = imageUrl;
 	}
 
-	onMount(() => {});
-
 	onDestroy(() => {
 		clearInterval(intervalId); // Clear the interval when the component is destroyed
 	});
@@ -54,9 +54,12 @@
 <!-- svelte-ignore a11y-no-static-element-interactions -->
 <!-- svelte-ignore a11y-mouse-events-have-key-events -->
 <span
+	style="color: {$page.route.id === '/program' ? '#fe9055' : '#000000'}"
 	bind:this={keywordRef}
-	on:mouseover={startSlideshow}
+	on:mouseover={ window.screen.width > 1024 || $page.route.id !== '/program' ? startSlideshow : null}
 	on:mouseout={stopSlideshow}
+	on:mouseover={(e)=> e.target.style.color = '#3f3'}
+	on:mouseout={(e)=> e.target.style.color = $page.route.id === '/program' ? '#fe9055' : '#000000'}
 	class={resp_behavior === 'pgm_page' ? 'media' : ''}>{keyword}</span
 >
 {#if imageVisible}
@@ -102,6 +105,13 @@
 	@media screen and (max-width: 900px) {
 		.media {
 			font-size: 40px;
+			line-height: 2rem;
+		}
+	}
+
+	@media screen and (max-width: 340px) {
+		.media {
+			font-size: 25px;
 			line-height: 2rem;
 		}
 	}
