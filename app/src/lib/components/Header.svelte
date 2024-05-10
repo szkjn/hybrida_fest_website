@@ -81,6 +81,15 @@
 			<li>
 				<a
 					class="link"
+					href="https://drive.google.com/drive/u/0/folders/18URrJiXK3R-T1Oj2r5CrjiV3GWfEekbw"
+					target="_blank"
+				>
+					<span class="arrow"></span><ElevenOnHover isHeader={true} text="PRESSKIT" />
+				</a>
+			</li>
+			<li>
+				<a
+					class="link"
 					href="https://billetto.se/e/hybrida-fest-2024-biljetter-958997"
 					target="_blank"
 				>

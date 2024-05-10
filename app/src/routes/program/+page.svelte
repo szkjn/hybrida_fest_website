@@ -58,7 +58,6 @@
 <section>
 	<div>
 		<h1>PROGRAM</h1>
-		<EasterEgg />
 		<p>
 			<a href="#toma_kami">
 				<RevealImage
@@ -76,7 +75,7 @@
 			</a>
 			<a href="#sstrom">
 				<RevealImage
-					keyword="Sstrom (SHXCXCHCXSH)"
+					keyword="SSTROM (SHXCXCHCXSH)"
 					imageUrls={thumb_sstrom}
 					resp_behavior={'pgm_page'}
 				/><sup>LIVE SET</sup>

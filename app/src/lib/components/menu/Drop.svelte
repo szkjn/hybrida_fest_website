@@ -6,6 +6,7 @@
 	export const links: { [key: string]: string } = {
 		PROGRAM: '/program',
 		INFO: 'https://drive.google.com/file/d/1ydwjus_PyGMprUSLW1CvkZTNT2Di3yx1/view?usp=sharing',
+		PRESSKIT: 'https://drive.google.com/drive/u/0/folders/18URrJiXK3R-T1Oj2r5CrjiV3GWfEekbw',
 		TICKETS: 'https://billetto.se/ticket_buyer/offers/b4343cf1-0461-4587-86e9-cfd327ca1304',
 		VOLUNTEERS: 'https://tally.so/r/wALRR0',
 		INSTAGRAM: 'https://www.instagram.com/hybrida.space/'
@@ -57,7 +58,7 @@
 				class="link f f-j-c-space-center f-a-items-center"
 				href={value}
 				role="menu"
-				target={key === "PROGRAM" ? "_self" : "_blank"}
+				target={key === 'PROGRAM' ? '_self' : '_blank'}
 				aria-labelledby="menubutton"
 				on:click={onClickItem}
 			>

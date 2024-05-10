@@ -7,6 +7,7 @@
 	 */
 	let easterEgg;
 	let showPopup = false;
+	let copySuccess = '';
 
 	function randomizePosition() {
 		const maxX = window.innerWidth / 2;
@@ -50,6 +51,18 @@
 			'_blank'
 		);
 	}
+
+	function copyToClipboard() {
+		navigator.clipboard.writeText('11111111').then(
+			() => {
+				copySuccess = 'COPIED!';
+				setTimeout(() => (copySuccess = ''), 2000); // Reset message after 2 seconds
+			},
+			() => {
+				copySuccess = 'Failed to copy!';
+			}
+		);
+	}
 </script>
 
 <!-- Render the Easter egg at a random position, managed by GSAP -->
@@ -68,11 +81,12 @@
             </pre>
 			<p>
 				<strong>CONGRATULATIONS!</strong> You're aligned with the magic numbers !<br />
-				Get one full festival ticket for the price of: <strong>111 SEK</strong>
+				Get one full festival ticket for the price of: <strong>1111 SEK</strong>
 			</p>
 			<p>
 				<strong>BE QUICK!</strong> First come, first served :)<br />
-				<u>CHECK OUT CODE :</u> <strong>11111111</strong>
+				CHECK OUT CODE : <strong><u on:click={copyToClipboard}>11111111</u></strong>
+				<small>{copySuccess}</small>
 			</p>
 			<button on:click={openNewTab}>Get the offer</button>
 			<button on:click={closePopup}>Cancel</button>
@@ -123,18 +137,29 @@
 	button {
 		background-color: rgb(69, 69, 217);
 		color: #fe9055;
-		margin-top: 20px;
-		padding: 10px 20px;
+		margin-top: 10px;
+		padding: 8px 16px;
 		font-size: 16px;
 		cursor: pointer;
-		border-radius: 2px;
+		border-radius: 3px;
+		border: 2px solid rgb(69, 69, 217);
+		font-weight: 700;
 	}
 	button:hover {
 		color: rgb(69, 69, 217);
 		background-color: #fe9055;
+		border: 2px solid rgb(69, 69, 217);
 	}
 	pre {
 		white-space: pre-wrap; /* Respect whitespace */
 		word-wrap: break-word; /* Break lines */
+	}
+	u {
+		cursor: pointer;
+		text-decoration: underline;
+	}
+	small {
+		color: green;
+		font-weight: bold;
 	}
 </style>
