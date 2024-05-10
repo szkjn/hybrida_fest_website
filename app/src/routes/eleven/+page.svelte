@@ -2,12 +2,10 @@
 	import Liquid from '$lib/components/Liquid.svelte';
 </script>
 
-<Liquid/>
+<Liquid />
 
 <section class="f f-j-c-center f-a-items-center">
-	<h1 class="m-0">
-		11:11
-	</h1>
+	<h1 class="m-0">11:11</h1>
 </section>
 
 <style>
