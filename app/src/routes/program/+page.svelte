@@ -17,6 +17,7 @@
 	import sebastian_burger from '$lib/assets/photos/360p/sebastian_burger.png';
 	import egregore from '$lib/assets/photos/360p/egregore.jpg';
 	import joanna_party from '$lib/assets/photos/360p/joanna_party.jpg';
+	import jun_suzuki from '$lib/assets/photos/360p/jun_suzuki.jpg';
 
 	import artists from '$lib/assets/data/artists';
 
@@ -36,6 +37,7 @@
 	const thumb_sebastian_burger = [sebastian_burger];
 	const thumb_egregore = [egregore];
 	const thumb_joanna_party = [joanna_party];
+	const thumb_jun_suzuki = [jun_suzuki];
 
 	const arrImg = [
 		thumb_toma_kami,
@@ -51,7 +53,8 @@
 		thumb_sonia_witwitzka,
 		thumb_sebastian_burger,
 		thumb_egregore,
-		thumb_joanna_party
+		thumb_joanna_party,
+		thumb_jun_suzuki
 	];
 </script>
 
@@ -153,6 +156,13 @@
 					imageUrls={thumb_joanna_party}
 					resp_behavior={'pgm_page'}
 				/><sup>DJSET</sup>
+			</a>
+			<a href="#jun_suzuki">
+				<RevealImage
+					keyword="Jun Suzuki"
+					imageUrls={thumb_jun_suzuki}
+					resp_behavior={'pgm_page'}
+				/><sup>LIVE PERFORMANCE</sup>
 			</a>
 		</p>
 		<span>+ MORE ARTISTS TO BE ANNOUNCED</span>
