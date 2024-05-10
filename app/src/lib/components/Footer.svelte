@@ -72,6 +72,9 @@
 		color: white;
 	}
 	@media screen and (max-width: 600px) {
+		.sponsor-title {
+			display: none;
+		}
 		.logos {
 			flex-direction: column;
 			gap: 1rem;
