@@ -20,6 +20,8 @@
 
 	import artists from '$lib/assets/data/artists';
 
+	import EasterEgg from '$lib/components/EasterEgg.svelte';
+
 	const thumb_dj_seduce = [dj_seduce];
 	const thumb_dip_shim = [dip_shim];
 	const thumb_dj_selfhelp = [dj_selfhelp];
@@ -73,7 +75,7 @@
 			</a>
 			<a href="#sstrom">
 				<RevealImage
-					keyword="Sstrom (SHXCXCHCXSH)"
+					keyword="SSTROM (SHXCXCHCXSH)"
 					imageUrls={thumb_sstrom}
 					resp_behavior={'pgm_page'}
 				/><sup>LIVE SET</sup>
@@ -111,12 +113,6 @@
 					resp_behavior={'pgm_page'}
 				/><sup>DJSET</sup>
 			</a>
-
-
-
-
-
-
 			<a href="#mikkel_hogh_kaldal">
 				<RevealImage
 					keyword="Mikkel Høgh Kaldal"
@@ -146,11 +142,9 @@
 				/><sup>RESIDENCY ARTIST</sup>
 			</a>
 			<a href="#egregore">
-				<RevealImage
-					keyword="Egregore"
-					imageUrls={thumb_egregore}
-					resp_behavior={'pgm_page'}
-				/><sup>DJSET</sup>
+				<RevealImage keyword="Egregore" imageUrls={thumb_egregore} resp_behavior={'pgm_page'} /><sup
+					>DJSET</sup
+				>
 			</a>
 			<a href="#joanna_party">
 				<RevealImage
@@ -173,8 +167,14 @@
 	/* section {
 		background-color: #4545d9;
 	} */
-	section, a, div, h1, p, sup, span {
-		color: #fe9055
+	section,
+	a,
+	div,
+	h1,
+	p,
+	sup,
+	span {
+		color: #fe9055;
 	}
 	a,
 	a:hover {

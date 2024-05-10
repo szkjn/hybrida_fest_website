@@ -1,25 +1,62 @@
 <script lang="ts">
+	import logos_logo from '$lib/assets/png/logos.png';
+	import karlstads_logo from '$lib/assets/png/ks.png';
+	import sac_logo from '$lib/assets/png/sac.gif';
+	import varmland_logo from '$lib/assets/png/rv.png';
 </script>
 
 <footer class="f f-j-c-space-between m-0 m-b-2">
-	<p>WITH SUPPORT FROM IOGOS</p>
-	<p>@2024 HYBRIDA FEST | DESIGN BY J&J | All RIGHTS RESERVED</p>
+	<div class="top-footer">
+		<u>WITH SUPPORT FROM:</u>
+		<img src={logos_logo} alt="" width="200" id="test" />
+		<img src={karlstads_logo} alt="" width="80" />
+		<img src={sac_logo} alt="" width="150" />
+		<img src={varmland_logo} alt="" width="150" />
+	</div>
+	<div class="low-footer">
+		<p>HOME PAGE PICTURES BY OLOF EKMAN</p>
+		<p>GRAPHIC DESIGN BY BIN KOH</p>
+		<br />
+		<p>WEBDESIGN BY J&J</p>
+		<p>©2024 HYBRIDA FEST</p>
+		<p>ALL RIGHTS RESERVED</p>
+	</div>
 </footer>
 
 <style>
 	footer {
 		color: white;
 		mix-blend-mode: difference;
+		display: flex;
+		flex-direction: column;
 	}
-	p {
+	.top-footer {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		border-top: 1px solid white;
+		margin: 2rem 0;
+		padding-top: 1rem;
+	}
+	.low-footer {
+		display: flex;
+		flex-direction: column;
+	}
+	.low-footer > p {
+		margin: auto;
+	}
+	p,
+	u {
 		font-family: var(--font-secondary);
 		font-size: var(--font-size-5);
 	}
 	@media screen and (max-width: 600px) {
-		footer {
+		.top-footer {
 			flex-direction: column;
+			gap: 1rem;
 		}
-		p {
+		p,
+		u {
 			margin: 1px 0 1px 0;
 		}
 	}
