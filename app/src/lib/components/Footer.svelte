@@ -23,7 +23,7 @@
 		<p>HOME PAGE PICTURES -> OLOF EKMAN</p>
 		<p>GRAPHIC DESIGN -> BIN KOH</p>
 		<p>
-			RESIDENCY -> <a href="www.hybrida.space">www.hybrida.space</a>
+			RESIDENCY -> <a href="https://www.hybrida.space" target="_blank">www.hybrida.space</a>
 		</p>
 		<br />
 		<p>WEBDESIGN -> J&J</p>

@@ -139,6 +139,16 @@ const artists = [
         "imgPath": "joanna_party.jpg",
         "bio": "JOANNA PARTY – her name says it all: ‘you wanna party?’. The Swedish/Brazilian DJ and visual artist consistently lives up to her cheeky invitation by delivering eclectic sets that will have you sweating. Drawing from her heritage and years in the UK scene, her taste is a melting pot of influences, freely blending stompy breakbeats and deep wubby basslines with bouncy baile funk, techno/IDM, tech house gems, and all things hot & spicy in between.",
         "project": "Eager to bring high-energy, diverse music sets to Hybrida, creating unforgettable nights filled with dance and celebration."
+    },
+    {
+        "alias": "Jun Suzuki",
+        "slug": "jun_suzuki",
+        "category": "Live performance",
+        "Website or relevant representation": "https://vimeo.com/942291398?share=copy",
+        "Instagram": "https://www.instagram.com/einleit/",
+        "imgPath": "joanna_party.jpg",
+        "bio": "JOANNA PARTY – her name says it all: ‘you wanna party?’. The Swedish/Brazilian DJ and visual artist consistently lives up to her cheeky invitation by delivering eclectic sets that will have you sweating. Drawing from her heritage and years in the UK scene, her taste is a melting pot of influences, freely blending stompy breakbeats and deep wubby basslines with bouncy baile funk, techno/IDM, tech house gems, and all things hot & spicy in between.",
+        "project": "Eager to bring high-energy, diverse music sets to Hybrida, creating unforgettable nights filled with dance and celebration."
     }
 ];
 
