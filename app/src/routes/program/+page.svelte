@@ -17,7 +17,7 @@
 	import sebastian_burger from '$lib/assets/photos/360p/sebastian_burger.png';
 	import egregore from '$lib/assets/photos/360p/egregore.jpg';
 	import joanna_party from '$lib/assets/photos/360p/joanna_party.jpg';
-	import jun_suzuki from '$lib/assets/photos/360p/jun_suzuki.jpg';
+	import jun_suzuki from '$lib/assets/photos/360p/jun_suzuki.png';
 
 	import artists from '$lib/assets/data/artists';
 

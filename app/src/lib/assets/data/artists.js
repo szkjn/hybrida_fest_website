@@ -146,7 +146,7 @@ const artists = [
         "category": "Live performance",
         "Website or relevant representation": "",
         "Instagram": "https://www.instagram.com/einleit/",
-        "imgPath": "joanna_party.jpg",
+        "imgPath": "jun_suzuki.jpg",
         "bio": "Based between Marseille and Berlin, Jun Suzuki is an equilibrist in search of imbalance. From his years as an opera singer to his exploration of generative AI tools, each of his new projects is an excuse for cross-media experimentation. On stage, he blends tape loops, granular samples, AI clones, and stretched mp3s, all in the service of a narrative about his fragmented-mutating Japanese origins.",
         "project": "Looking forward to connect with people, get lost in the forest and discover adventurous music !"
     }
