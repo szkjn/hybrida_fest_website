@@ -85,7 +85,7 @@
 			</p>
 			<p>
 				<strong>BE QUICK!</strong> First come, first served :)<br />
-				CHECK OUT CODE : <strong><u on:click={copyToClipboard}>11111111</u></strong>
+				CHECK OUT CODE : <strong><u on:click={copyToClipboard}>1234135</u></strong>
 				<small>{copySuccess}</small>
 			</p>
 			<button on:click={openNewTab}>Get the offer</button>
