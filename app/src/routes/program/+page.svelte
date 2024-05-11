@@ -1,6 +1,8 @@
 <script>
 	import RevealImage from '$lib/components/RevealImage.svelte';
 	import Artist from '$lib/components/Artist.svelte';
+	import ElevenOnHover from '$lib/components/ElevenOnHover.svelte';
+	import EasterEgg from '$lib/components/EasterEgg.svelte';
 
 	import dj_seduce from '$lib/assets/photos/360p/dj_seduce.jpg';
 	import dip_shim from '$lib/assets/photos/360p/dip_shim.jpg';
@@ -20,8 +22,6 @@
 	import jun_suzuki from '$lib/assets/photos/360p/jun_suzuki.png';
 
 	import artists from '$lib/assets/data/artists';
-
-	import EasterEgg from '$lib/components/EasterEgg.svelte';
 
 	const thumb_dj_seduce = [dj_seduce];
 	const thumb_dip_shim = [dip_shim];
@@ -172,6 +172,7 @@
 	{#each artists as artist, index}
 		<Artist {artist} img={arrImg[index]}></Artist>
 	{/each}
+	<div><a href="#"><ElevenOnHover text="↑↑TOP↑↑"></ElevenOnHover></a></div>
 </section>
 
 <style>

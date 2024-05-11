@@ -32,13 +32,17 @@
 		<img class="img-600less" src={img} />
 		<div class="link f">
 			{#if artist['Instagram']}
-				<a target="_blank" href={artist['Instagram']} 
+				<a
+					target="_blank"
+					href={artist['Instagram']}
 					style="text-decoration-color: {$page.route.id === '/program' ? '#fe9055' : '#ffffff'}"
 					><ElevenOnHover text="INSTAGRAM"></ElevenOnHover></a
 				>
 			{/if}
 			{#if artist['Website or relevant representation']}
-				<a target="_blank" href={artist['Website or relevant representation']}
+				<a
+					target="_blank"
+					href={artist['Website or relevant representation']}
 					style="text-decoration-color: {$page.route.id === '/program' ? '#fe9055' : '#ffffff'}"
 					><ElevenOnHover text="WEBSITE"></ElevenOnHover></a
 				>
@@ -82,13 +86,13 @@
 		font-style: italic;
 	}
 	hr {
-  		margin-left: 0;
-  		margin-right: 0;
+		margin-left: 0;
+		margin-right: 0;
 	}
 
 	@media screen and (max-width: 1127px) {
-	/* @media screen and (max-width: 600px) { */
-		.img-600more{
+		/* @media screen and (max-width: 600px) { */
+		.img-600more {
 			display: none;
 		}
 		.img-600less {
@@ -100,13 +104,13 @@
 		.info {
 			margin: 0 0 30px 0;
 		}
-		.link{
+		.link {
 			align-self: center;
 		}
 	}
 	@media screen and (max-width: 1127px) {
-	/* @media screen and (max-width: 600px) { */
-		.img-600more{
+		/* @media screen and (max-width: 600px) { */
+		.img-600more {
 			display: none;
 		}
 		.img-600less {
@@ -118,7 +122,7 @@
 		.info {
 			margin: 0 0 30px 0;
 		}
-		.link{
+		.link {
 			align-self: center;
 		}
 	}
