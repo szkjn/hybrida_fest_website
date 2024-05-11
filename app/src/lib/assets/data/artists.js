@@ -143,7 +143,7 @@ const artists = [
     {
         "alias": "Jun Suzuki",
         "slug": "jun_suzuki",
-        "category": "Live performance",
+        "category": "Vocal performance",
         "Website or relevant representation": "",
         "Instagram": "https://www.instagram.com/einleit/",
         "imgPath": "jun_suzuki.jpg",

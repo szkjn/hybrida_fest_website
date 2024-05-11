@@ -61,7 +61,7 @@
 <section>
 	<div>
 		<h1>PROGRAM</h1>
-		<!-- <EasterEgg /> -->
+		<EasterEgg />
 		<p>
 			<a href="#toma_kami">
 				<RevealImage
@@ -162,7 +162,7 @@
 					keyword="Jun Suzuki"
 					imageUrls={thumb_jun_suzuki}
 					resp_behavior={'pgm_page'}
-				/><sup>LIVE PERFORMANCE</sup>
+				/><sup>VOCAL PERFORMANCE</sup>
 			</a>
 		</p>
 		<span>+ MORE ARTISTS TO BE ANNOUNCED</span>
