@@ -61,7 +61,7 @@
 <section>
 	<div>
 		<h1>PROGRAM</h1>
-		<!-- <EasterEgg /> -->
+		<EasterEgg />
 		<p>
 			<a href="#toma_kami">
 				<RevealImage

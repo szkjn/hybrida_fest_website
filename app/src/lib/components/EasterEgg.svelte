@@ -53,7 +53,7 @@
 	}
 
 	function copyToClipboard() {
-		navigator.clipboard.writeText('1234135').then(
+		navigator.clipboard.writeText('0872634').then(
 			() => {
 				copySuccess = 'COPIED!';
 				setTimeout(() => (copySuccess = ''), 2000); // Reset message after 2 seconds
@@ -85,8 +85,12 @@
 			</p>
 			<p>
 				<strong>BE QUICK!</strong> First come, first served :)<br />
-				CHECK OUT CODE : <strong><u on:click={copyToClipboard}>1234135</u></strong>
+				CHECK OUT CODE : <strong><u on:click={copyToClipboard}>0872634</u></strong>
 				<small>{copySuccess}</small>
+			</p>
+			<p>
+				Add the code by clicking <strong>"Ange kampanjkod"</strong> <br />
+				at the top of the ticket page.
 			</p>
 			<button on:click={openNewTab}>Get the offer</button>
 			<button on:click={closePopup}>Cancel</button>
