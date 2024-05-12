@@ -91,7 +91,7 @@
 				<small>{copySuccess}</small>
 			</p>
 			<p>
-				Add the code by clicking <strong>"Ange kampanjkod"</strong> <br />
+				Add the code by clicking "Ange kampanjkod" <br />
 				at the top of the ticket page.
 			</p>
 			<button on:click={openNewTab}>Get the offer</button>
