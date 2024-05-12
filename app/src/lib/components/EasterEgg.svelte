@@ -66,6 +66,7 @@
 </script>
 
 <!-- Render the Easter egg at a random position, managed by GSAP -->
+<!-- svelte-ignore a11y-click-events-have-key-events -->
 <div bind:this={easterEgg} class="easter-egg" on:click={handleClick}>11:11</div>
 
 {#if showPopup}
@@ -85,6 +86,7 @@
 			</p>
 			<p>
 				<strong>BE QUICK!</strong> First come, first served :)<br />
+				<!-- svelte-ignore a11y-click-events-have-key-events -->
 				CHECK OUT CODE : <strong><u on:click={copyToClipboard}>0872634</u></strong>
 				<small>{copySuccess}</small>
 			</p>
