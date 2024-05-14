@@ -81,6 +81,16 @@ const artists = [
         "project": "I am super excited to join the intimate gathering, play as well as listening to great music in amazing surroundings. "
     },
     {
+        "alias": "Little Floating Oracles",
+        "slug": "little_floating_oracles",
+        "category": "Live performance",
+        "Website or relevant representation": "https://www.iamatomi.com",
+        "Instagram": "https://www.instagram.com/iamatomi",
+        "imgPath": "little_floating_oracles.png",
+        "bio": "After the release of the well-acclaimed ATŌMI new album entitled “Little Floating Oracles” on Lady Blunt Records and the nomination as one of the 2022 best live performance by ADAF Greece, the artist announces the new audio visual live show, a visceral and emotional journey: sound design, music concrete, ambient techno and cinematic soundscapes morphing with embriogenesis and cosmic aesthetics, thanks to the visual contribution of the Turin based, 3D and visual artist Akasha (Riccardo Franco-Loiri).",
+        "project": ""
+    },
+    {
         "alias": "Mikkel Høgh Kaldal",
         "slug": "mikkel_hogh_kaldal",
         "category": "Residency artist",
@@ -111,16 +121,6 @@ const artists = [
         "project": "Invited to co-organize and coordinate, I’m excited to contribute to Hybrida 2024. Looking forward to the context, to connect and participate in the residency, experimenting with new projects."
     },
     {
-        "alias": "Sebastian Burger",
-        "slug": "sebastian_burger",
-        "category": "Residency artist",
-        "Website or relevant representation": "http://www.sebastianburger.de",
-        "Instagram": "https://www.instagram.com/burger.sebastian",
-        "imgPath": "sebastian_burger.jpg",
-        "bio": "Sebastian Burger (*1980, lives and works in Leipzig and Berlin) earned his Meisterschueler (MFA) from the Academy of Visual Arts in Leipzig, Germany, in 2012. Burger has been invited to participate in numerous national and international exhibition projects in commercial and institutional contexts. This includes solo and group exhibitions in New York, Shanghai, Hong Kong, Paris, London, Milan, Naples, Copenhagen, Stockholm, and Berlin. Currently, Burger is working on several exhibitions scheduled to open throughout 2024 and a public commission in The Hague, Netherlands.",
-        "project": "Burger is creating works that seem to look back at their observers, drawing them in with delicate textures and gradients but, at the same moment, almost repulsing them through the harshness of shapes, forms, or colors. His paintings are sediments of meaning derived from countless references, which may seem surreal or illogical initially but generate meaning through an intuitive approach."
-    },
-    {
         "alias": "Egregore",
         "slug": "egregore",
         "category": "DJ set",
@@ -129,6 +129,16 @@ const artists = [
         "imgPath": "egregore.jpg",
         "bio": "Born near Paris and graduated from audio-visual art education in Amsterdam, Egregore is currently based in Berlin. He runs Terenor Records, curates events across Europe and as an artist, Egregore merges techno, psy and trance into music productions and dynamic dj-sets.",
         "project": "I look forward to reuniting with the surrounding nature and sharing music in this beautiful environment"
+    },
+    {
+        "alias": "Sebastian Burger",
+        "slug": "sebastian_burger",
+        "category": "Residency artist",
+        "Website or relevant representation": "http://www.sebastianburger.de",
+        "Instagram": "https://www.instagram.com/burger.sebastian",
+        "imgPath": "sebastian_burger.jpg",
+        "bio": "Sebastian Burger (*1980, lives and works in Leipzig and Berlin) earned his Meisterschueler (MFA) from the Academy of Visual Arts in Leipzig, Germany, in 2012. Burger has been invited to participate in numerous national and international exhibition projects in commercial and institutional contexts. This includes solo and group exhibitions in New York, Shanghai, Hong Kong, Paris, London, Milan, Naples, Copenhagen, Stockholm, and Berlin. Currently, Burger is working on several exhibitions scheduled to open throughout 2024 and a public commission in The Hague, Netherlands.",
+        "project": "Burger is creating works that seem to look back at their observers, drawing them in with delicate textures and gradients but, at the same moment, almost repulsing them through the harshness of shapes, forms, or colors. His paintings are sediments of meaning derived from countless references, which may seem surreal or illogical initially but generate meaning through an intuitive approach."
     },
     {
         "alias": "Joanna Party",
@@ -146,7 +156,7 @@ const artists = [
         "category": "Vocal performance",
         "Website or relevant representation": "",
         "Instagram": "https://www.instagram.com/einleit/",
-        "imgPath": "jun_suzuki.jpg",
+        "imgPath": "jun_suzuki.png",
         "bio": "Based between Marseille and Berlin, Jun Suzuki is an equilibrist in search of imbalance. From his years as an opera singer to his exploration of generative AI tools, each of his new projects is an excuse for cross-media experimentation. On stage, he blends tape loops, granular samples, AI clones, and stretched mp3s, all in the service of a narrative about his fragmented-mutating Japanese origins.",
         "project": "Looking forward to connect with people, get lost in the forest and discover adventurous music !"
     }

@@ -20,17 +20,19 @@
 	import egregore from '$lib/assets/photos/360p/egregore.jpg';
 	import joanna_party from '$lib/assets/photos/360p/joanna_party.jpg';
 	import jun_suzuki from '$lib/assets/photos/360p/jun_suzuki.png';
+	import little_floating_oracles from '$lib/assets/photos/360p/little_floating_oracles.png';
 
 	import artists from '$lib/assets/data/artists';
 
+	const thumb_toma_kami = [toma_kami];
 	const thumb_dj_seduce = [dj_seduce];
+	const thumb_sstrom = [sstrom];
 	const thumb_dip_shim = [dip_shim];
 	const thumb_dj_selfhelp = [dj_selfhelp];
-	const thumb_marius_bo = [marius_bo];
-	const thumb_migle_vycinaite = [migle_vycinaite];
-	const thumb_sstrom = [sstrom];
-	const thumb_toma_kami = [toma_kami];
 	const thumb_tomasz_skibicki = [tomasz_skibicki];
+	const thumb_migle_vycinaite = [migle_vycinaite];
+	const thumb_marius_bo = [marius_bo];
+	const thumb_little_floating_oracles = [little_floating_oracles];
 	const thumb_mikkel_hogh_kaldal = [mikkel_hogh_kaldal];
 	const thumb_vox_supreme = [vox_supreme];
 	const thumb_sonia_witwitzka = [sonia_witwitzka];
@@ -48,11 +50,12 @@
 		thumb_tomasz_skibicki,
 		thumb_migle_vycinaite,
 		thumb_marius_bo,
+		thumb_little_floating_oracles,
 		thumb_mikkel_hogh_kaldal,
 		thumb_vox_supreme,
 		thumb_sonia_witwitzka,
-		thumb_sebastian_burger,
 		thumb_egregore,
+		thumb_sebastian_burger,
 		thumb_joanna_party,
 		thumb_jun_suzuki
 	];
@@ -116,6 +119,13 @@
 					imageUrls={thumb_marius_bo}
 					resp_behavior={'pgm_page'}
 				/><sup>DJSET</sup>
+			</a>
+			<a href="#little_floating_oracles">
+				<RevealImage
+					keyword="Little Floating Oracles"
+					imageUrls={thumb_little_floating_oracles}
+					resp_behavior={'pgm_page'}
+				/><sup>LIVE PERFORMANCE</sup>
 			</a>
 			<a href="#mikkel_hogh_kaldal">
 				<RevealImage
