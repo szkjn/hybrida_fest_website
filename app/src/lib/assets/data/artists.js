@@ -101,7 +101,7 @@ const artists = [
         "project": "I’m looking forward to be at Hybrida working on new works and getting inspired by the surroundings and people there to get some new ideas and views onto my practice."
     },
     {
-        "alias": "Vox Supreme",
+        "alias": "Vox supreme",
         "slug": "vox_supreme",
         "category": "DJ set",
         "Website or relevant representation": "http://www.traumgarten.world",

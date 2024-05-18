@@ -136,7 +136,7 @@
 			</a>
 			<a href="#vox_supreme">
 				<RevealImage
-					keyword="Vox Supreme"
+					keyword="Vox supreme"
 					imageUrls={thumb_vox_supreme}
 					resp_behavior={'pgm_page'}
 				/><sup>DJSET</sup>
