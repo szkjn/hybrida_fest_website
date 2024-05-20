@@ -53,7 +53,7 @@
 	}
 
 	function copyToClipboard() {
-		navigator.clipboard.writeText('09842').then(
+		navigator.clipboard.writeText('314521').then(
 			() => {
 				copySuccess = 'COPIED!';
 				setTimeout(() => (copySuccess = ''), 2000); // Reset message after 2 seconds
@@ -87,7 +87,7 @@
 			<p>
 				<strong>BE QUICK!</strong> First come, first served :)<br />
 				<!-- svelte-ignore a11y-click-events-have-key-events -->
-				CHECK OUT CODE : <strong><u on:click={copyToClipboard}>09842</u></strong>
+				CHECK OUT CODE : <strong><u on:click={copyToClipboard}>314521</u></strong>
 				<small>{copySuccess}</small>
 			</p>
 			<p>
