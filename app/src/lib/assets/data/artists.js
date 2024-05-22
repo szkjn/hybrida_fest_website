@@ -59,7 +59,16 @@ const artists = [
         "bio": "Over the last years, Tomasz Skibicki have been developing  a workflow that is at once research-based and materially dedicated. In this framework, he produce installations, sculptures and films.",
         "project": "I will be working on a installation featuring a sculptural arrangement complemented by an audio piece during his artist residency."
     },
-
+    {
+        "alias": "J. Nordström",
+        "slug": "j_nordstrom",
+        "category": "DJ set",
+        "Website or relevant representation": "https://soundcloud.com/j-nordstrom",
+        "Instagram": "https://www.instagram.com/j.nords",
+        "imgPath": "j_nordstrom.png",
+        "bio": "With almost 15 years behind him as a DJ, J. Nordström has managed to do a lot. From broadcasting local radio, co-founding Värmland's largest collective for electronic music, organizing countless events, starting Söön Radio which will soon be up to 100 shows, running an independent company with a focus on UK music, to co-starting a new festival with a focus on electronic music this summer. Expect to hear some UK Garage during his set.",
+        "project": "Looking forward to meeting great people and enjoying the nature."
+    },
     {
         "alias": "Miglė Vyčinaitė",
         "slug": "migle_vycinaite",

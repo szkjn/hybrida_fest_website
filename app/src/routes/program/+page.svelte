@@ -12,7 +12,7 @@
 	import sstrom from '$lib/assets/photos/360p/sstrom.jpg';
 	import toma_kami from '$lib/assets/photos/360p/toma_kami.jpg';
 	import tomasz_skibicki from '$lib/assets/photos/360p/tomasz_skibicki.jpg';
-
+	import j_nordstrom from '$lib/assets/photos/360p/j_nordstrom.png';
 	import mikkel_hogh_kaldal from '$lib/assets/photos/360p/mikkel_hogh_kaldal.jpg';
 	import vox_supreme from '$lib/assets/photos/360p/vox_supreme.jpg';
 	import sonia_witwitzka from '$lib/assets/photos/360p/sonia_witwitzka.jpg';
@@ -30,6 +30,7 @@
 	const thumb_dip_shim = [dip_shim];
 	const thumb_dj_selfhelp = [dj_selfhelp];
 	const thumb_tomasz_skibicki = [tomasz_skibicki];
+	const thumb_j_nordstrom = [j_nordstrom];
 	const thumb_migle_vycinaite = [migle_vycinaite];
 	const thumb_marius_bo = [marius_bo];
 	const thumb_little_floating_oracles = [little_floating_oracles];
@@ -48,6 +49,7 @@
 		thumb_dip_shim,
 		thumb_dj_selfhelp,
 		thumb_tomasz_skibicki,
+		thumb_j_nordstrom,
 		thumb_migle_vycinaite,
 		thumb_marius_bo,
 		thumb_little_floating_oracles,
@@ -105,6 +107,13 @@
 					imageUrls={thumb_tomasz_skibicki}
 					resp_behavior={'pgm_page'}
 				/><sup>RESIDENCY ARTIST</sup>
+			</a>
+			<a href="#j_nordstrom">
+				<RevealImage
+					keyword="J. Nordström"
+					imageUrls={thumb_j_nordstrom}
+					resp_behavior={'pgm_page'}
+				/><sup>DJSET</sup>
 			</a>
 			<a href="#migle_vycinaite">
 				<RevealImage
