@@ -39,6 +39,14 @@
 					><ElevenOnHover text="INSTAGRAM"></ElevenOnHover></a
 				>
 			{/if}
+			{#if artist['Instagram_2']}
+				<a
+					target="_blank"
+					href={artist['Instagram_2']}
+					style="text-decoration-color: {$page.route.id === '/program' ? '#fe9055' : '#ffffff'}"
+					><ElevenOnHover text="INSTAGRAM"></ElevenOnHover></a
+				>
+			{/if}
 			{#if artist['Website or relevant representation']}
 				<a
 					target="_blank"

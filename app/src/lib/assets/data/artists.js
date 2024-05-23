@@ -150,6 +150,17 @@ const artists = [
         "project": "Burger is creating works that seem to look back at their observers, drawing them in with delicate textures and gradients but, at the same moment, almost repulsing them through the harshness of shapes, forms, or colors. His paintings are sediments of meaning derived from countless references, which may seem surreal or illogical initially but generate meaning through an intuitive approach."
     },
     {
+        "alias": "Samira Ariadad & DJ Kugg",
+        "slug": "sa_dk",
+        "category": "DJ Set",
+        "Website or relevant representation": "https://on.soundcloud.com/pMBsNMaLPZDHu1C37",
+        "Instagram": "https://www.instagram.com/DjSamiraAri",
+        "Instagram_2": "https://www.instagram.com/dj_kugg",
+        "imgPath": "sa_dk.png",
+        "bio": "Disco fan Samira Ariadad & junglist Kugg are eclectic DJs who have been organising raves and parties together in various groups the past ten years in Malmö and Stockholm. They prefer good old fashioned DIY-culture and free parties. They recently bought a little house in Älvsbacka and are quickly embeding themsleves in the community in the village. ",
+        "project": "At hybrida, they will present us paradise house: an italohouse/balearic set bringing a warm wave of bliss and joy."
+    },
+    {
         "alias": "Joanna Party",
         "slug": "joanna_party",
         "category": "DJ Set",

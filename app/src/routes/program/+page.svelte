@@ -4,23 +4,24 @@
 	import ElevenOnHover from '$lib/components/ElevenOnHover.svelte';
 	import EasterEgg from '$lib/components/EasterEgg.svelte';
 
+	import toma_kami from '$lib/assets/photos/360p/toma_kami.jpg';
 	import dj_seduce from '$lib/assets/photos/360p/dj_seduce.jpg';
+	import sstrom from '$lib/assets/photos/360p/sstrom.jpg';
 	import dip_shim from '$lib/assets/photos/360p/dip_shim.jpg';
 	import dj_selfhelp from '$lib/assets/photos/360p/dj_selfhelp.jpg';
-	import marius_bo from '$lib/assets/photos/360p/marius_bo.jpg';
-	import migle_vycinaite from '$lib/assets/photos/360p/migle_vycinaite.jpg';
-	import sstrom from '$lib/assets/photos/360p/sstrom.jpg';
-	import toma_kami from '$lib/assets/photos/360p/toma_kami.jpg';
 	import tomasz_skibicki from '$lib/assets/photos/360p/tomasz_skibicki.jpg';
 	import j_nordstrom from '$lib/assets/photos/360p/j_nordstrom.png';
+	import migle_vycinaite from '$lib/assets/photos/360p/migle_vycinaite.jpg';
+	import marius_bo from '$lib/assets/photos/360p/marius_bo.jpg';
+	import little_floating_oracles from '$lib/assets/photos/360p/little_floating_oracles.png';
 	import mikkel_hogh_kaldal from '$lib/assets/photos/360p/mikkel_hogh_kaldal.jpg';
 	import vox_supreme from '$lib/assets/photos/360p/vox_supreme.jpg';
 	import sonia_witwitzka from '$lib/assets/photos/360p/sonia_witwitzka.jpg';
-	import sebastian_burger from '$lib/assets/photos/360p/sebastian_burger.png';
 	import egregore from '$lib/assets/photos/360p/egregore.jpg';
+	import sebastian_burger from '$lib/assets/photos/360p/sebastian_burger.png';
+	import sa_dk from '$lib/assets/photos/360p/sa_dk.png';
 	import joanna_party from '$lib/assets/photos/360p/joanna_party.jpg';
 	import jun_suzuki from '$lib/assets/photos/360p/jun_suzuki.png';
-	import little_floating_oracles from '$lib/assets/photos/360p/little_floating_oracles.png';
 
 	import artists from '$lib/assets/data/artists';
 
@@ -37,8 +38,9 @@
 	const thumb_mikkel_hogh_kaldal = [mikkel_hogh_kaldal];
 	const thumb_vox_supreme = [vox_supreme];
 	const thumb_sonia_witwitzka = [sonia_witwitzka];
-	const thumb_sebastian_burger = [sebastian_burger];
 	const thumb_egregore = [egregore];
+	const thumb_sebastian_burger = [sebastian_burger];
+	const thumb_sa_dk = [sa_dk];
 	const thumb_joanna_party = [joanna_party];
 	const thumb_jun_suzuki = [jun_suzuki];
 
@@ -58,6 +60,7 @@
 		thumb_sonia_witwitzka,
 		thumb_egregore,
 		thumb_sebastian_burger,
+		thumb_sa_dk,
 		thumb_joanna_party,
 		thumb_jun_suzuki
 	];
@@ -157,6 +160,11 @@
 					resp_behavior={'pgm_page'}
 				/><sup>RESIDENCY ARTIST</sup>
 			</a>
+			<a href="#egregore">
+				<RevealImage keyword="Egregore" imageUrls={thumb_egregore} resp_behavior={'pgm_page'} /><sup
+					>DJSET</sup
+				>
+			</a>
 			<a href="#sebastian_burger">
 				<RevealImage
 					keyword="Sebastian Burger"
@@ -164,10 +172,12 @@
 					resp_behavior={'pgm_page'}
 				/><sup>RESIDENCY ARTIST</sup>
 			</a>
-			<a href="#egregore">
-				<RevealImage keyword="Egregore" imageUrls={thumb_egregore} resp_behavior={'pgm_page'} /><sup
-					>DJSET</sup
-				>
+			<a href="#sa_dk">
+				<RevealImage
+					keyword="Samira Ariadad & DJ Kugg"
+					imageUrls={thumb_sa_dk}
+					resp_behavior={'pgm_page'}
+				/><sup>DJSET</sup>
 			</a>
 			<a href="#joanna_party">
 				<RevealImage
