@@ -55,6 +55,14 @@
 					><ElevenOnHover text="WEBSITE"></ElevenOnHover></a
 				>
 			{/if}
+			{#if artist['Website_2']}
+				<a
+					target="_blank"
+					href={artist['Website_2']}
+					style="text-decoration-color: {$page.route.id === '/program' ? '#fe9055' : '#ffffff'}"
+					><ElevenOnHover text="WEBSITE"></ElevenOnHover></a
+				>
+			{/if}
 		</div>
 	</div>
 </div>

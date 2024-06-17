@@ -2,7 +2,7 @@
 	import RevealImage from '$lib/components/RevealImage.svelte';
 	import Artist from '$lib/components/Artist.svelte';
 	import ElevenOnHover from '$lib/components/ElevenOnHover.svelte';
-	import EasterEgg from '$lib/components/EasterEgg.svelte';
+	// import EasterEgg from '$lib/components/EasterEgg.svelte';
 
 	import toma_kami from '$lib/assets/photos/360p/toma_kami.jpg';
 	import dj_seduce from '$lib/assets/photos/360p/dj_seduce.jpg';
@@ -18,6 +18,10 @@
 	import vox_supreme from '$lib/assets/photos/360p/vox_supreme.jpg';
 	import sonia_witwitzka from '$lib/assets/photos/360p/sonia_witwitzka.jpg';
 	import egregore from '$lib/assets/photos/360p/egregore.jpg';
+	import aaro_murphy from '$lib/assets/photos/360p/aaro_murphy.png';
+	import tadan from '$lib/assets/photos/360p/tadan.png';
+	import jacob_dwyer from '$lib/assets/photos/360p/jacob_dwyer.png';
+	import kg_le from '$lib/assets/photos/360p/kg_le.png';
 	import sebastian_burger from '$lib/assets/photos/360p/sebastian_burger.png';
 	import sa_dk from '$lib/assets/photos/360p/sa_dk.png';
 	import joanna_party from '$lib/assets/photos/360p/joanna_party.jpg';
@@ -39,6 +43,10 @@
 	const thumb_vox_supreme = [vox_supreme];
 	const thumb_sonia_witwitzka = [sonia_witwitzka];
 	const thumb_egregore = [egregore];
+	const thumb_aaro_murphy = [aaro_murphy];
+	const thumb_tadan = [tadan];
+	const thumb_jacob_dwyer = [jacob_dwyer];
+	const thumb_kg_le = [kg_le];
 	const thumb_sebastian_burger = [sebastian_burger];
 	const thumb_sa_dk = [sa_dk];
 	const thumb_joanna_party = [joanna_party];
@@ -59,6 +67,10 @@
 		thumb_vox_supreme,
 		thumb_sonia_witwitzka,
 		thumb_egregore,
+		thumb_aaro_murphy,
+		thumb_tadan,
+		thumb_jacob_dwyer,
+		thumb_kg_le,
 		thumb_sebastian_burger,
 		thumb_sa_dk,
 		thumb_joanna_party,
@@ -164,6 +176,32 @@
 				<RevealImage keyword="Egregore" imageUrls={thumb_egregore} resp_behavior={'pgm_page'} /><sup
 					>DJSET</sup
 				>
+			</a>
+			<a href="#aaro_murphy">
+				<RevealImage
+					keyword="Aaro Murphy"
+					imageUrls={thumb_aaro_murphy}
+					resp_behavior={'pgm_page'}
+				/><sup>FEATURED WORK</sup>
+			</a>
+			<a href="#tadan">
+				<RevealImage keyword="Tadan" imageUrls={thumb_tadan} resp_behavior={'pgm_page'} /><sup
+					>DJSET</sup
+				>
+			</a>
+			<a href="#jacob_dwyer">
+				<RevealImage
+					keyword="Jacob Dwyer"
+					imageUrls={thumb_jacob_dwyer}
+					resp_behavior={'pgm_page'}
+				/><sup>READING PERFORMANCE</sup>
+			</a>
+			<a href="#kg_le">
+				<RevealImage
+					keyword="Klara & Leen"
+					imageUrls={thumb_kg_le}
+					resp_behavior={'pgm_page'}
+				/><sup>FEATURED WORK & WORKSHOP</sup>
 			</a>
 			<a href="#sebastian_burger">
 				<RevealImage

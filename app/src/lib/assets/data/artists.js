@@ -140,6 +140,47 @@ const artists = [
         "project": "I look forward to reuniting with the surrounding nature and sharing music in this beautiful environment"
     },
     {
+        "alias": "Aaro Murphy",
+        "slug": "aaro_murphy",
+        "category": "Featured work",
+        "Website or relevant representation": "https://www.aaromurphy.com",
+        "Instagram": "https://www.instagram.com/aaroamurphy/",
+        "imgPath": "aaro_murphy.png",
+        "bio": "Aaro Murphy (1991, FIN) is a Finnish visual artist based in Amsterdam. Working across video, sound and sculpture Murphy creates time-based installations that question boundaries between the organic and synthetic. His works explore wider themes of climate, urbanisation, the body and technology through personal writing, scientific research and cross disciplinary collaborations.",
+        "project": "Fickle (Gritty) Memory, is a speculative video and sound work exploring the relationship between aroma sensors (e-noses), the body and urban landscape."
+    },
+    {
+        "alias": "Tadan",
+        "slug": "tadan",
+        "category": "DJ set",
+        "Website or relevant representation": "https://soundcloud.com/tadan127",
+        "Instagram": "https://www.instagram.com/tadasmajeris/",
+        "imgPath": "tadan.png",
+        "bio": "Tadan - Lithuania's beacon of new techno/trance, already performed in Berghain and other European clubs. Continuing to develop his identity as a producer, he has gifted the world with several releases. While living in London, founded 'area127' label, which has released three vinyl records and a number of digital compilations. 'area127' is also a series of parties and an art platform for creatives.",
+        "project": ""
+    },
+    {
+        "alias": "Jacob Dwyer",
+        "slug": "jacob_dwyer",
+        "category": "Reading performance",
+        "Website or relevant representation": "http://www.jacobdwyer.com/",
+        "Instagram": "https://www.instagram.com/jacobdwyer106/",
+        "imgPath": "jacob_dwyer.png",
+        "bio": "Jacob Dwyer is an artist based in Amsterdam. Using moving-image, audio and writing, his work often centres around personal encounters that could equally be seen as fables or heresy.",
+        "project": "In Tom's House we listen to the diaristic meanderings of a man who’s entered the empty house of an old friend whom he hasn't seen for fifteen years. As he wanders around, making cups of tea, rearranging CD collections and zoning in on the minutiae of domestic space, he ruminates on ideas of emotional intimacy, friendship and deceit."
+    },
+    {
+        "alias": "Klara & Leen",
+        "slug": "kg_le",
+        "category": "Featured work & workshop",
+        "Website or relevant representation": "https://klaragranstrand.com/",
+        "Website_2": "https://centre-of-nowhere.com/",
+        "Instagram": "https://www.instagram.com/klaragranstrand/",
+        "imgPath": "kg_le.png",
+        "bio": "Klara Granstrand is an artist and designer who playfully explores materials through their physical properties, contexts and the physical laws of nature and energy. With a strong belief in the value of play, Leen Ekman is curious about the artistic process and has curated, facilitated, and hosted artist talks and workshops in a range of forms.",
+        "project": "At Hybrida Klara will create a sculptural drawing in the forest that will be the frame for a collaborative interaction initiated the two of them, where everyone is invited to participate. All will be revealed in the forest!"
+    },
+    {
         "alias": "Sebastian Burger",
         "slug": "sebastian_burger",
         "category": "Residency artist",
