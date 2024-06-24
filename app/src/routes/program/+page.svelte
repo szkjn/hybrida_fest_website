@@ -232,7 +232,13 @@
 				/><sup>VOCAL PERFORMANCE</sup>
 			</a>
 		</p>
-		<span>+ MORE ARTISTS TO BE ANNOUNCED</span>
+		<div>
+			<a
+				href="https://drive.google.com/file/d/1SrZ0lsWJbxIRLpmdbYJV3wnEqKMtxKb8/view"
+				target="_blank"
+				class="timetable"><ElevenOnHover text="TIMETABLE"></ElevenOnHover></a
+			>
+		</div>
 	</div>
 </section>
 <section>
@@ -303,5 +309,9 @@
 		sup {
 			font-size: 14px;
 		}
+	}
+
+	.timetable {
+		font-size: 2rem;
 	}
 </style>
