@@ -1,5 +1,33 @@
+@font-face {
+	font-family: 'Poppins';
+	src: url('$lib/fonts/Poppins-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Poppins';
+	src: url('$lib/fonts/Poppins-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Poppins';
+	src: url('$lib/fonts/Poppins-SemiBold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Poppins';
+	src: url('$lib/fonts/Poppins-Bold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}
+
 :root {
-	--font-primary: 'Vazirmatn', sans-serif;
+	--font-primary: 'Poppins Light', sans-serif;
 	--font-secondary: 'Azeret Mono', monospace;
 	--font-color-1: #000;
 	--font-size-1: clamp(16px, 7vw, 100px);
@@ -11,8 +39,7 @@
 }
 
 body {
-	height: auto;
-	padding: 13px 20px;
+	height: 100vh;
 	margin: 0 auto;
 	color: var(--font-color-1);
 	background-color: #fff;
@@ -27,9 +54,7 @@ body {
 }
 
 ::selection {
-	background-color: #3f3;
-	background-color: #9a01df;
-	background-color: #fe9055;
+	background-color: #6d8cb2;
 	color: #fff;
 }
 
@@ -41,11 +66,6 @@ a, a:visited {
 a:hover {
 	color:#000;
 	text-decoration: underline;
-}
-
-span {
-	font-family: var(--font-secondary);
-	font-weight: 300;
 }
 
 .deactivated {
