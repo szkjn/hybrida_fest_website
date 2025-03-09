@@ -5,17 +5,17 @@
 	import title_banner from '$lib/assets/png/hybrida_banner_v1.png';
 	import img_1 from '$lib/assets/photos/720p/img1.jpg';
 	import img_2 from '$lib/assets/photos/720p/img2.jpg';
-	import img_3 from '$lib/assets/photos/720p/img3.jpg';
+	import img_3 from '$lib/assets/photos/360p/img3.jpg';
 	import img_4 from '$lib/assets/photos/720p/img4.jpg';
 	import img_5 from '$lib/assets/photos/720p/img5.jpg';
-	import img_6 from '$lib/assets/photos/720p/img6.jpg';
-	import img_7 from '$lib/assets/photos/720p/img7.jpg';
+	import img_6 from '$lib/assets/photos/360p/img6.jpg';
+	import img_7 from '$lib/assets/photos/360p/img7.jpg';
 	import img_8 from '$lib/assets/photos/720p/img8.jpg';
-	import img_9 from '$lib/assets/photos/720p/img9.jpg';
-	import img_10 from '$lib/assets/photos/720p/img10.jpg';
+	import img_9 from '$lib/assets/photos/360p/img9.jpg';
+	import img_10 from '$lib/assets/photos/360p/img10.jpg';
 	import img_11 from '$lib/assets/photos/720p/img11.jpg';
 	import img_12 from '$lib/assets/photos/720p/img12.jpg';
-	import img_13 from '$lib/assets/photos/720p/img13.jpg';
+	import img_13 from '$lib/assets/photos/360p/img13.jpg';
 	import img_14 from '$lib/assets/photos/720p/img14.jpg';
 
 	let gradientPosition = 50;
