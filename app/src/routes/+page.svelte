@@ -9,11 +9,34 @@
 	import img_4 from '$lib/assets/photos/720p/img4.jpg';
 	import img_5 from '$lib/assets/photos/720p/img5.jpg';
 	import img_6 from '$lib/assets/photos/720p/img6.jpg';
+	import img_7 from '$lib/assets/photos/720p/img7.jpg';
+	import img_8 from '$lib/assets/photos/720p/img8.jpg';
+	import img_9 from '$lib/assets/photos/720p/img9.jpg';
+	import img_10 from '$lib/assets/photos/720p/img10.jpg';
+	import img_11 from '$lib/assets/photos/720p/img11.jpg';
+	import img_12 from '$lib/assets/photos/720p/img12.jpg';
+	import img_13 from '$lib/assets/photos/720p/img13.jpg';
+	import img_14 from '$lib/assets/photos/720p/img14.jpg';
 
 	let gradientPosition = 50;
 	let currentImg = img_1;
 
-	const images = [img_1, img_2, img_3, img_4, img_5, img_6];
+	const images = [
+		img_1,
+		img_2,
+		img_3,
+		img_4,
+		img_5,
+		img_6,
+		img_7,
+		img_8,
+		img_9,
+		img_10,
+		img_11,
+		img_12,
+		img_13,
+		img_14
+	];
 
 	const updateGradientAndImage = (event) => {
 		const mouseY = event.clientY;
@@ -53,12 +76,13 @@
 				hours from Gothenburg Stockholm & Oslo.
 			</p>
 			<br />
-			<p>↗ Discover the <a href="">program</a></p>
+			<p>More info soon :)</p>
+			<!-- <p>↗ Discover the <a href="">program</a></p>
 			<p>↗ Get more <a href="">info</a></p>
 			<p>↗ Our <a href="">Presskit</a></p>
 			<p>↗ Buy a <a href="">ticket</a></p>
 			<p>↗ Become a <a href="">volunteer</a></p>
-			<p>↗ <a href="">Apply to our artist residency</a></p>
+			<p>↗ <a href="">Apply to our artist residency</a></p> -->
 		</div>
 	</section>
 
@@ -157,6 +181,7 @@
 	.svg,
 	.img {
 		width: 90%;
+		max-height: 60vh;
 		height: auto;
 		object-fit: contain;
 	}
