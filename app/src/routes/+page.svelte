@@ -1,6 +1,7 @@
 <script>
 	import { onMount } from 'svelte';
 	import logo_1 from '$lib/assets/svg/square_logo_1.svg';
+	import logo_2 from '$lib/assets/svg/square_logo_2.svg';
 	import title_banner from '$lib/assets/png/hybrida_banner_v1.png';
 	import img_1 from '$lib/assets/photos/720p/img1.jpg';
 	import img_2 from '$lib/assets/photos/720p/img2.jpg';
@@ -45,6 +46,19 @@
 		</div>
 		<div class="banner-btm">
 			<img class="svg" src={title_banner} alt="" />
+		</div>
+		<div class="banner-txt">
+			<p class="bold">
+				Älvsbacka, where the festival takes place, is located in Värmland in western Sweden, ca. 3
+				hours from Gothenburg Stockholm & Oslo.
+			</p>
+			<br />
+			<p>↗ Discover the <a href="">program</a></p>
+			<p>↗ Get more <a href="">info</a></p>
+			<p>↗ Our <a href="">Presskit</a></p>
+			<p>↗ Buy a <a href="">ticket</a></p>
+			<p>↗ Become a <a href="">volunteer</a></p>
+			<p>↗ <a href="">Apply to our artist residency</a></p>
 		</div>
 	</section>
 
@@ -97,6 +111,7 @@
 		height: 100vh;
 		justify-content: space-around;
 		align-items: center;
+		font-family: 'Poppins', sans-serif;
 	}
 	p {
 		margin: 0;
@@ -127,6 +142,17 @@
 		justify-content: center;
 		align-items: center;
 	}
+	.banner-txt {
+		font-size: 0.7rem;
+		line-height: 0.8rem;
+		text-align: justify;
+		display: flex;
+		flex-direction: column;
+		padding: 1.6rem 0.7rem;
+	}
+	.bold {
+		font-weight: 600;
+	}
 
 	.svg,
 	.img {
@@ -152,8 +178,8 @@
 		justify-content: center;
 		align-items: start;
 		width: 100%;
-		font-family: 'Poppins', sans-serif;
-		font-weight: 560;
+
+		font-weight: 500;
 		font-size: 0.7rem;
 		text-align: justify;
 	}
