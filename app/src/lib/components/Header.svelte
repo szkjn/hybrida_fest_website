@@ -4,7 +4,6 @@
 	import { onMount } from 'svelte';
 	import ButtonMenu from '$lib/components/menu/Button.svelte';
 	import DropMenu from '$lib/components/menu/Drop.svelte';
-	import ElevenOnHover from '$lib/components/ElevenOnHover.svelte';
 
 	onMount(() => {
 		const ticketLink = document.querySelector('.ticket-link');
@@ -66,7 +65,7 @@
 		<ul class="f f-d-column m-0 p-0 none">
 			<li>
 				<a class="link" href="/program">
-					<span class="arrow"></span><ElevenOnHover isHeader={true} text="PROGRAM" />
+					<span class="arrow"></span>PROGRAM
 				</a>
 			</li>
 			<li>
@@ -75,7 +74,7 @@
 					href="https://drive.google.com/file/d/1ydwjus_PyGMprUSLW1CvkZTNT2Di3yx1/view?usp=sharing"
 					target="_blank"
 				>
-					<span class="arrow"></span><ElevenOnHover isHeader={true} text="INFO" />
+					<span class="arrow"></span>INFO
 				</a>
 			</li>
 			<li>
@@ -84,7 +83,7 @@
 					href="https://drive.google.com/drive/u/0/folders/18URrJiXK3R-T1Oj2r5CrjiV3GWfEekbw"
 					target="_blank"
 				>
-					<span class="arrow"></span><ElevenOnHover isHeader={true} text="PRESSKIT" />
+					<span class="arrow"></span>PRESSKIT
 				</a>
 			</li>
 			<li>
@@ -93,17 +92,17 @@
 					href="https://billetto.se/e/hybrida-fest-2024-biljetter-958997"
 					target="_blank"
 				>
-					<span class="arrow"></span><ElevenOnHover isHeader={true} text="TICKETS" />
+					<span class="arrow"></span>TICKETS
 				</a>
 			</li>
 			<li>
 				<a class="link" href="https://tally.so/r/wALRR0" target="_blank">
-					<span class="arrow"></span><ElevenOnHover isHeader={true} text="VOLUNTEERS" />
+					<span class="arrow"></span>VOLUNTEERS
 				</a>
 			</li>
 			<li aria-current="false">
 				<a class="link" href="https://www.instagram.com/hybrida.space/" target="_blank">
-					<span class="arrow"></span><ElevenOnHover isHeader={true} text="INSTAGRAM" />
+					<span class="arrow"></span>INSTAGRAM
 				</a>
 			</li>
 		</ul>
