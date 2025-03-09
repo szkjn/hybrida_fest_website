@@ -105,7 +105,7 @@
 		display: flex;
 		flex-direction: column;
 		width: 20vw;
-		max-width: 300px;
+		max-width: 280px;
 		height: 100%;
 		flex-shrink: 0;
 		align-items: center;
