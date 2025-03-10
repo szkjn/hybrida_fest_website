@@ -53,10 +53,4 @@
 		height: 100%;
 		/* margin-top: 10px; */
 	}
-
-	@media screen and (max-width: 600px) {
-		main {
-			padding-top: 13px;
-		}
-	}
 </style>

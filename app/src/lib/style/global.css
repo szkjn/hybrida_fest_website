@@ -42,16 +42,11 @@ body {
 	height: 100vh;
 	margin: 0 auto;
 	color: var(--font-color-1);
-	background-color: #fff;
+	/* background-color: #fff; */
 	overflow-x: hidden;
 	scrollbar-width:none;
 	box-sizing: border-box
 	/* max-width: 1200px; */
-}
-@media screen and (max-width: 430px) {
-	body {
-		padding: 4px 4px;
-	}
 }
 
 ::selection {

@@ -258,4 +258,64 @@
 	.call-to-action:hover {
 		height: 3rem;
 	}
+
+	@media (max-width: 900px) {
+		.main-section {
+			gap: 2rem;
+		}
+		.banner {
+			min-width: 180px;
+		}
+		.right-section {
+			max-width: 400px;
+		}
+	}
+
+	@media (max-width: 700px) {
+		.banner {
+			min-width: 150px;
+		}
+		.right-section {
+			max-width: 350px;
+		}
+	}
+
+	@media (max-width: 550px) {
+		main {
+			height: 150vh;
+			background: linear-gradient(
+				to bottom,
+				#e22c1c 0%,
+				#6d8cb2 var(--gradientPosition, 50%),
+				#b4baaf 100%
+			);
+		}
+		.main-section {
+			padding-top: 2rem;
+			flex-wrap: wrap;
+		}
+		.banner {
+			background: transparent;
+			/* max-width: 85vw; */
+			width: 85vw;
+			height: 50vh;
+		}
+		.right-section {
+			max-width: 85vw;
+		}
+		.columns {
+			flex-direction: column;
+		}
+
+		.columns p {
+			width: 100%;
+		}
+
+		.call-to-action {
+			position: absolute;
+		}
+		.call-to-action:hover {
+			height: 1.5rem;
+		}
+	}
 </style>
