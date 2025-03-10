@@ -298,7 +298,7 @@
 			background: transparent;
 			/* max-width: 85vw; */
 			width: 85vw;
-			height: 50vh;
+			height: 70vh;
 		}
 		.right-section {
 			max-width: 85vw;
