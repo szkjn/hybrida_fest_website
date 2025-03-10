@@ -45,6 +45,7 @@ body {
 	background-color: #fff;
 	overflow-x: hidden;
 	scrollbar-width:none;
+	box-sizing: border-box
 	/* max-width: 1200px; */
 }
 @media screen and (max-width: 430px) {
