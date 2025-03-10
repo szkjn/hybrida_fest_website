@@ -18,9 +18,7 @@
 	import img_13 from '$lib/assets/photos/720p/13.jpg';
 	import img_14 from '$lib/assets/photos/720p/14.jpg';
 	import img_15 from '$lib/assets/photos/720p/15.jpg';
-	import img_16 from '$lib/assets/photos/720p/16.jpg';
 	import img_17 from '$lib/assets/photos/720p/17.jpg';
-	import img_18 from '$lib/assets/photos/720p/18.jpg';
 	import img_19 from '$lib/assets/photos/720p/19.jpg';
 
 	let gradientPosition = 50;
@@ -42,9 +40,7 @@
 		img_13,
 		img_14,
 		img_15,
-		img_16,
 		img_17,
-		img_18,
 		img_19
 	];
 
