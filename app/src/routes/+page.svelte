@@ -101,7 +101,8 @@
 		</section>
 
 		<section class="right-section">
-			<img class="img" src={currentImg} alt="2024 edition festival documentation" />
+			<img class="img_main" src={currentImg} alt="2024 edition festival documentation" />
+			<img id="img_mobile" src={img_6} alt="Mobile Image" />
 			<div class="text-section">
 				<div class="header">
 					<p>
@@ -216,6 +217,9 @@
 		width: 100%;
 		object-fit: contain;
 	}
+	#img_mobile {
+		display: none;
+	}
 	.text-section {
 		display: flex;
 		flex-direction: column;
@@ -280,6 +284,13 @@
 		.right-section {
 			max-width: 400px;
 		}
+		.img_main {
+			display: none;
+		}
+		#img_mobile {
+			display: block;
+			width: 100%;
+		}
 	}
 
 	@media (max-width: 700px) {
@@ -293,7 +304,7 @@
 
 	@media (max-width: 550px) {
 		main {
-			height: 150vh;
+			height: 160vh;
 			background: linear-gradient(
 				to bottom,
 				#e22c1c 0%,
@@ -309,7 +320,7 @@
 			background: transparent;
 			/* max-width: 85vw; */
 			width: 85vw;
-			height: 70vh;
+			height: 60vh;
 		}
 		.right-section {
 			max-width: 85vw;
