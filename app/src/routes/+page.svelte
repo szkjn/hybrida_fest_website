@@ -25,12 +25,12 @@
 	let currentImg = img_1;
 
 	const images = [
+		img_6,
 		img_1,
 		img_2,
 		img_3,
 		img_4,
 		img_5,
-		img_6,
 		img_7,
 		img_8,
 		img_9,
@@ -92,6 +92,9 @@
 				</p>
 				<p class="bold">
 					↗ Become a <a href="https://tally.so/r/mVDZgj" target="_blank">volunteer</a>
+				</p>
+				<p class="bold">
+					↗ Sign up to our <a href="http://eepurl.com/h1DowX" target="_blank">newsletter</a>
 				</p>
 				<!-- <p>↗ <a href="">Apply to our artist residency</a></p> -->
 			</div>
@@ -245,14 +248,26 @@
 		justify-content: center;
 		align-items: center;
 		width: 100%;
-		height: 1.5rem;
+		height: 3rem;
 		text-align: center;
 		font-size: 0.9rem;
 		background: #6d8cb2;
 		transition: height 0.3s ease-in-out;
+		animation: blink 1s infinite;
 	}
+
 	.call-to-action:hover {
-		height: 3rem;
+		animation: blink 0.2s infinite;
+	}
+
+	@keyframes blink {
+		0%,
+		100% {
+			background-color: #6d8cb2;
+		}
+		50% {
+			background-color: white;
+		}
 	}
 
 	@media (max-width: 900px) {
@@ -311,7 +326,7 @@
 			position: absolute;
 		}
 		.call-to-action:hover {
-			height: 1.5rem;
+			height: 3rem;
 		}
 	}
 </style>
