@@ -88,13 +88,13 @@
 				<!-- <p>↗ Get more <a href="">info</a></p> -->
 				<!-- <p>↗ Our <a href="">Presskit</a></p> -->
 				<p class="bold">
-					↗ Buy a <a href="https://ra.co/events/2121283" target="_blank">ticket</a>
+					> Buy a <a href="https://ra.co/events/2121283" target="_blank">ticket</a>
 				</p>
 				<p class="bold">
-					↗ Become a <a href="https://tally.so/r/mVDZgj" target="_blank">volunteer</a>
+					> Become a <a href="https://tally.so/r/mVDZgj" target="_blank">volunteer</a>
 				</p>
 				<p class="bold">
-					↗ Sign up to our <a href="http://eepurl.com/h1DowX" target="_blank">newsletter</a>
+					> Sign up to our <a href="http://eepurl.com/h1DowX" target="_blank">newsletter</a>
 				</p>
 				<!-- <p>↗ <a href="">Apply to our artist residency</a></p> -->
 			</div>
@@ -279,10 +279,14 @@
 			gap: 2rem;
 		}
 		.banner {
+			padding-top: 3rem;
 			min-width: 180px;
 		}
 		.right-section {
 			max-width: 400px;
+		}
+		.text-section {
+			padding-top: 2rem;
 		}
 		.img_main {
 			display: none;
