@@ -312,7 +312,7 @@
 
 	@media (max-width: 550px) {
 		main {
-			height: 180vh;
+			height: 200vh;
 			background: linear-gradient(
 				to bottom,
 				#e22c1c 0%,
@@ -328,7 +328,7 @@
 			background: transparent;
 			/* max-width: 85vw; */
 			width: 85vw;
-			height: 70vh;
+			height: 75vh;
 		}
 		.right-section {
 			max-width: 85vw;
