@@ -8,7 +8,7 @@
 	import img_3 from '$lib/assets/photos/720p/3.jpg';
 	import img_4 from '$lib/assets/photos/720p/4.jpg';
 	import img_5 from '$lib/assets/photos/720p/5.jpg';
-	import img_6 from '$lib/assets/photos/720p/6.jpg';
+	import img_first from '$lib/assets/photos/720p/first.jpg';
 	import img_7 from '$lib/assets/photos/720p/7.jpg';
 	import img_8 from '$lib/assets/photos/720p/8.jpg';
 	import img_9 from '$lib/assets/photos/720p/9.jpg';
@@ -25,7 +25,7 @@
 	let currentImg = img_1;
 
 	const images = [
-		img_6,
+		img_first,
 		img_1,
 		img_2,
 		img_3,
@@ -102,7 +102,7 @@
 
 		<section class="right-section">
 			<img class="img_main" src={currentImg} alt="2024 edition festival documentation" />
-			<img id="img_mobile" src={img_6} alt="Mobile Image" />
+			<img id="img_mobile" src={img_first} alt="2024 edition festival documentation" />
 			<div class="text-section">
 				<div class="header">
 					<p>
@@ -114,31 +114,29 @@
 					<p>
 						It combines a festival program featuring live performances, workshops, a full dance
 						floor experience, and a visual art exhibition produced during our on-site art residency.
-
 						<br />
 						<br />
-
-						Our festival takes place during the long days around midsummer, in and around old
-						buildings of a former iron works a short walk from a beautiful lake and surrounded by
-						fair forests.
+						Our festival takes place during the long days around midsummer, in and around old buildings
+						of a former iron works a short walk from a beautiful lake and surrounded by fair forests.
 					</p>
-
 					<p>
 						Next to this year's exciting line-up, there will be breakfast, lunch & dinner served in
 						our dining hall (all cooked by our brilliant kitchen team), sauna, trail hikes,
 						exhibition viewings, and a LARP amongst other things included in the program.
-
 						<br />
 						<br />
-
-						We can’t wait to welcome you back and meet everyone joining for the first time this
-						year!
+						We can’t wait to welcome you back and meet everyone joining for the first time this year!
 					</p>
 				</div>
 			</div>
 		</section>
 	</div>
 	<section class="call-to-action">
+		<a href="https://ra.co/events/2121283" target="_blank"
+			><p class="action-text bold">Get your early bird ticket</p>
+		</a>
+	</section>
+	<section class="call-to-action-bis">
 		<a href="https://ra.co/events/2121283" target="_blank"
 			><p class="action-text bold">Get your early bird ticket</p>
 		</a>
@@ -247,7 +245,8 @@
 		width: 50%;
 	}
 
-	.call-to-action {
+	.call-to-action,
+	.call-to-action-bis {
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -260,7 +259,12 @@
 		animation: blink 1s infinite;
 	}
 
-	.call-to-action:hover {
+	.call-to-action-bis {
+		display: none;
+	}
+
+	.call-to-action:hover,
+	.call-to-action-bis:hover {
 		animation: blink 0.2s infinite;
 	}
 
@@ -308,7 +312,7 @@
 
 	@media (max-width: 550px) {
 		main {
-			height: 160vh;
+			height: 180vh;
 			background: linear-gradient(
 				to bottom,
 				#e22c1c 0%,
@@ -324,7 +328,7 @@
 			background: transparent;
 			/* max-width: 85vw; */
 			width: 85vw;
-			height: 60vh;
+			height: 70vh;
 		}
 		.right-section {
 			max-width: 85vw;
@@ -340,8 +344,8 @@
 		.call-to-action {
 			position: absolute;
 		}
-		.call-to-action:hover {
-			height: 3rem;
+		.call-to-action-bis {
+			display: flex;
 		}
 	}
 </style>
